@@ -3,8 +3,8 @@
 
 Analizirala bom pasemske mačke. 
 Podatke bom vzela iz sledečih spletnih strani:
-* https://www.petfinder.com/cat-breeds/abyssinian/
-* https://wamiz.co.uk/cat/breeds/462/chartreux
+* https://www.petfinder.com/cat-breeds/
+* https://wamiz.co.uk/cat/breeds
 
 Iz prve spletne strani bom vzela vrednosti 1-5, kako dobro kategorija opisuje mačjo osebnost:
 * igrivost
