@@ -1,15 +1,17 @@
+import csv
 import os
 import requests
 import re
 #from BeautifulSoup import BeautifulSoup
 
 #spletne strani iz katerih bomo jemali podatke
-glavni_url_1 = "https://www.petfinder.com/cat-breeds/?page=" #do page 7
-glavni_url_2 = "https://wamiz.co.uk/cat/breeds"
+glavni_url = "https://wamiz.co.uk/cat/breeds"
+pomozni_url = "https://wamiz.co.uk"
 #mapa, v katero bomo shranili podatke
 directory = "zajeti_podatki"
+directory2 = "pasme"
 # ime datoteke v katero bomo shranili glavno stran
-filename = "pasme_mack_"
+filename = "pasme_mack"
 # ime CSV datoteke v katero bomo shranili podatke
 csv_filename = "pasme_mack"
 
@@ -37,41 +39,69 @@ def download_url_to_string(url):
     print("Težava pri vsebini strani")
     return None
 
-def save_string_to_file(text, directory, filename, i):
+def save_string_to_file(text, directory, filename):
     """Funkcija zapiše vrednost parametra "text" v novo ustvarjeno datoteko
     locirano v "directory"/"filename", ali povozi obstoječo. V primeru, da je
     niz "directory" prazen datoteko ustvari v trenutni mapi.
     """
-    filename = filename + str(i)
     os.makedirs(directory, exist_ok=True)
     path = os.path.join(directory, filename)
     with open(path, 'w', encoding='utf-8') as file_out:
         file_out.write(text)
     return None
 
+def save_frontpage(page, directory, filename):
+    """Funkcija shrani vsebino spletne strani na naslovu "page" v datoteko
+    "directory"/"filename"."""
 
-def url_from_file(filename):
-    """Funkcija vrne seznam vseh internetnih povezav do posamezne pasme"""
-    pattern = re.compile('<a href=(.*?) class="contentCard-wrap">', re.DOTALL)
-    return re.findall(pattern, filename)
+    html = download_url_to_string(page)
+    if html: #če je vsaj nekaj(ni None)
+        save_string_to_file(html, directory, filename)
+        return True
+
+    raise NotImplementedError()
+
+def read_file_to_string(directory, filename):
+    """Funkcija vrne celotno vsebino datoteke "directory"/"filename" kot 
+    niz"""
+    with open(os.path.join(directory, filename), encoding="utf-8") as f:
+        return f.read()
+
+##########################################################################################################################
+# Poiščemo spletne strani za posamezno mačko
+#############################################################################################################################
+
+#želimo poiskati linke do pasem
+def link_from_file(page_content):
+    """Funkcija poišče povezave do posamezne vrste."""
+
+    pattern = re.compile('<a href="([^"]*)" class="listView-item-title--homepageBreed">')
+    result = re.findall(pattern, page_content)
+    return result
+
+
+def get_cats_files(links, directory):
+    """Funkciija za vsako pasmo shrani spletno stran pasme in jo poimenuje
+     kot vrsta pasme"""
     
+    for url in links:
+        ime = re.compile('\d/(.*)', re.DOTALL)
+        ime = re.search(ime, url).group(1)
+        url = pomozni_url + url
+        save_frontpage(url, directory, ime)
+        html_data = read_file_to_string(directory, ime)
 
 
-def data_from_first_url(url, directory, filename):
-    for i in range(1, 8):
-        url = url + str(i)
-        print(url)
-        text = download_url_to_string(url)
-        save_string_to_file(text, directory, filename, i)
-        url = url[:-1]
-        filename = filename + str(i)
-        print(filename)
-        links = url_from_file(filename)
-        print(links)
-        filename = filename[:-1]
-        
 
-data_from_first_url(glavni_url_1, directory, filename)
+def data_from_first_url(url, directory, directory2, filename):
+    save_frontpage(url, directory, filename)
+    html_data = read_file_to_string(directory, filename)
+    links = link_from_file(html_data)
+    get_cats_files(links, directory2)
+    return links
+
+
+
 
 
 
