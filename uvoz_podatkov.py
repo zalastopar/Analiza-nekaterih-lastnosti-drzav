@@ -115,6 +115,8 @@ def make_dict_from_list_of_tuples(list):
 
 #izbrskaj želene podatke in jih uredi v slovar
 def get_data_from_file(directory, filename):
+    """Funkcija bo iz datoteke za pasmo pobrala potrebne podatke in jih spravila v slovar"""
+
     html_data = read_file_to_string(directory, filename)
 
     #želimo podatke iz kvadratka
@@ -142,6 +144,19 @@ def get_data_from_file(directory, filename):
 
     return dict_kv
 
+def list_of_cats(directory):
+    """Funkcija bo dobila slovar za vsako mačko in jih spravila v seznam"""
+
+    cat_list = []
+
+    for filename in os.listdir(directory):
+        dictionary = {}
+        dictionary["pasma"] = filename
+        dictionary.update(get_data_from_file(directory, filename))
+        cat_list += [dictionary]
+    return cat_list
+        
+
 
 
 def data_from_first_url(url, directory, directory2, filename):
@@ -154,6 +169,6 @@ def data_from_first_url(url, directory, directory2, filename):
 
 
 #data_from_first_url(glavni_url, directory, directory2, filename)
-print(get_data_from_file(directory2, "abyssinian-cat"))    
+print(list_of_cats(directory2))    
 
 
