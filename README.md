@@ -3,21 +3,18 @@
 
 Analizirala bom pasemske mačke. 
 Podatke bom vzela iz sledečih spletnih strani:
-* https://www.petfinder.com/cat-breeds/
 * https://wamiz.co.uk/cat/breeds
 
-Iz prve spletne strani bom vzela vrednosti 1-5, kako dobro kategorija opisuje mačjo osebnost:
+Zajela bom podatke o:
+* ceni
+* dolžina dlake
+* pričakovana življenska doba
 * igrivost
 * poteba po pozornosti
 * glasnost
 * inteligentnost
 * neodvisnost
 * naklonjenost do otrok
-
-Iz druge spletne strani bom zajela podatke o:
-* ceni
-* dolžina dlake
-* pričakovana življenska doba
 
 Delovne hipoteze:
 * Pasme, ki so bolj neodvisne, so manj igrive.
