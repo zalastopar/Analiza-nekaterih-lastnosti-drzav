@@ -2,6 +2,7 @@ import csv
 import os
 import requests
 import re
+from bs4 import BeautifulSoup
 #from BeautifulSoup import BeautifulSoup
 
 #spletne strani iz katerih bomo jemali podatke
@@ -89,7 +90,57 @@ def get_cats_files(links, directory):
         ime = re.search(ime, url).group(1)
         url = pomozni_url + url
         save_frontpage(url, directory, ime)
-        html_data = read_file_to_string(directory, ime)
+        #html_data = read_file_to_string(directory, ime)
+
+def how_many_points(tacke, lastnosti):
+    """Funkcija prevede število slikic tačk na točke 1 do 3, ki si jih mucek pri posamezni lastnosti zasluži."""
+
+    tacke = [tacke[x:x+3] for x in range(0, len(tacke),3)]
+    lastnosti_in_ocene = {}
+    for ocena in tacke:
+        lastnosti_in_ocene[lastnosti[0]]= ocena.count("yellow")
+        del lastnosti[0]
+        
+    return lastnosti_in_ocene
+
+def make_dict_from_list_of_tuples(list):
+    """Funkcija iz seznama tuplov naredi slovar"""
+
+    dictionary = {}
+    for el in list:
+        dictionary[el[0]] = el[1].split(", ")
+
+    return dictionary
+
+
+#izbrskaj želene podatke in jih uredi v slovar
+def get_data_from_file(directory, filename):
+    html_data = read_file_to_string(directory, filename)
+
+    #želimo podatke iz kvadratka
+    kvadratek = re.compile('<li class="breed-list-item">\s*([^"]*) :\s*<span>\s*(.*?)\s*</span>')
+    znacilnosti_iz_kvadratka = re.findall(kvadratek, html_data)
+    dict_kv = make_dict_from_list_of_tuples(znacilnosti_iz_kvadratka)
+
+    #želimo podatke iz dveh tabel
+    tabela = re.compile('<table class="breed-specification-table--detail">\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*</table>')
+    znacilnosti_iz_tabel = re.findall(tabela, html_data)
+    dict_tab = make_dict_from_list_of_tuples(znacilnosti_iz_tabel)
+
+    #želimo ocene lastnosti
+    #dobimo podatek ali je tačka rumena ali siva
+    tacke = re.compile('(yellow|grey)-paw')
+    tacke_ocene = re.findall(tacke, html_data)
+    #dobimo ven lastnosti, ki so ocenjene s tačkami
+    lastnosti = re.compile('<div class="breed-details-heading">\s*<h3 class="breed-heading-title">\s*(.*?)\s*</h3>')
+    seznam_lastnosti = re.findall(lastnosti, html_data)
+    dict_ocene = how_many_points(tacke_ocene, seznam_lastnosti)
+
+    #združimo slovarje
+    dict_kv.update(dict_tab)
+    dict_kv.update(dict_ocene)
+
+    return dict_kv
 
 
 
@@ -102,7 +153,7 @@ def data_from_first_url(url, directory, directory2, filename):
 
 
 
-
-
+#data_from_first_url(glavni_url, directory, directory2, filename)
+print(get_data_from_file(directory2, "abyssinian-cat"))    
 
 

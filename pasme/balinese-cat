@@ -2195,14 +2195,10 @@
             </h3>
 
                             <div class="wysiwyg p-0">
-                    <p>Balinese can develop the same illnesses as any other cats, such as oral diseases. Some other diseases may appear, including:<br />
-
-Hypertrophic cardiomyopathy - this results in the thickening of the heart muscle. This pathology causes heart failure that can result in arrhythmias or even pulmonary aedema. Screening can be done by means of an echocardiography examination, which is usually renewed annually. Treatment can be administered to improve the cat&rsquo;s quality of life.&nbsp;</p>
-
-
-
-<p>Progressive retinal atrophy - a disease that can cause blindness in Balinese. Screening tests exist.<br />
-
+                    <p>Balinese can develop the same illnesses as any other cats, such as oral diseases. Some other diseases may appear, including:<br />
+Hypertrophic cardiomyopathy - this results in the thickening of the heart muscle. This pathology causes heart failure that can result in arrhythmias or even pulmonary aedema. Screening can be done by means of an echocardiography examination, which is usually renewed annually. Treatment can be administered to improve the cat&rsquo;s quality of life.&nbsp;</p>
+
+<p>Progressive retinal atrophy - a disease that can cause blindness in Balinese. Screening tests exist.<br />
 Renal amyloidosis - an irreversible hereditary disease. This disease progresses quickly and clinical signs generally arise between the age of 1 and 5. They are similar symptoms to those of severe renal failure. There is no screening test to date as the gene(s) that cause the disease have not yet been identified. Nevertheless, vigilance on the part of the breeders has caused this disease to remain rare.</p>
                 </div>
             
@@ -2212,8 +2208,7 @@ Renal amyloidosis - an irreversible hereditary disease. This disease progresses 
             </h3>
 
             <div class="wysiwyg p-0">
-                <p>Balinese have on average 4 kittens per litter.&nbsp;<br />
-
+                <p>Balinese have on average 4 kittens per litter.&nbsp;<br />
 Cross breeding is permitted with Siamese, Mandarin, Orientals and other Balinese.</p>
             </div>
             </div>
@@ -2440,7 +2435,7 @@ Cross breeding is permitted with Siamese, Mandarin, Orientals and other Balinese
                 and rights that I have on my personal data
             </p>
         </div>
-    <hx:include src="/_fragment?_hash=dLaN5P87aGfe0xgdDhXkFqnv0lSHJkHw03sF8VXkKok%3D&amp;_path=tokenId%3Doptin_form%26name%3Doptin_form%255B_token%255D%26_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CSystem%255CForm%255CToken"><input type="hidden" name="optin_form[_token]" value="f7EbH-CJMnPOXPiGEc7zhmbYRldr7dyDdMcwcvcjs4U" />
+    <hx:include src="/_fragment?_hash=dLaN5P87aGfe0xgdDhXkFqnv0lSHJkHw03sF8VXkKok%3D&amp;_path=tokenId%3Doptin_form%26name%3Doptin_form%255B_token%255D%26_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CSystem%255CForm%255CToken"><input type="hidden" name="optin_form[_token]" value="tO3LEJatOUB9VfXfYNZ0NZU2qMoFanjHUbCNKDx5lGY" />
 </hx:include></form>
 
                     </div>
