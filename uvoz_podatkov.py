@@ -10,7 +10,7 @@ glavni_url = "https://wamiz.co.uk/cat/breeds"
 pomozni_url = "https://wamiz.co.uk"
 #mapa, v katero bomo shranili podatke
 directory = "zajeti_podatki"
-directory2 = "pasme"
+directory2 = "pasme_html"
 # ime datoteke v katero bomo shranili glavno stran
 filename = "pasme_mack"
 # ime CSV datoteke v katero bomo shranili podatke
@@ -80,6 +80,17 @@ def link_from_file(page_content):
     result = re.findall(pattern, page_content)
     return result
 
+#iz številskih podatkov, ki imajo okoli besedilo želimo samo število
+def izlusci_stevilo(dictionary):
+    """Funkcija iz vrednosti slovarja, ki so besedne in številske vzame samo številke"""
+
+    pattern = re.compile('\d+')
+    for key, value in dictionary.items():
+        for el in value:
+            stevilke = re.findall(pattern, el)
+            if len(stevilke) != 0:
+                dictionary[key] = stevilke
+    return dictionary
 
 def get_cats_files(links, directory):
     """Funkciija za vsako pasmo shrani spletno stran pasme in jo poimenuje
@@ -90,7 +101,7 @@ def get_cats_files(links, directory):
         ime = re.search(ime, url).group(1)
         url = pomozni_url + url
         save_frontpage(url, directory, ime)
-        #html_data = read_file_to_string(directory, ime)
+        html_data = read_file_to_string(directory, ime)
 
 def how_many_points(tacke, lastnosti):
     """Funkcija prevede število slikic tačk na točke 1 do 3, ki si jih mucek pri posamezni lastnosti zasluži."""
@@ -108,10 +119,13 @@ def make_dict_from_list_of_tuples(list):
 
     dictionary = {}
     for el in list:
-        dictionary[el[0]] = el[1].split(", ")
-
+        if len(el) > 2:
+            dictionary[el[0] + " " + el[1][-2:]] = el[1].split(", ")
+            dictionary[el[2] + " " + el[3][-2:]] = el[3].split(", ")
+        else: 
+            dictionary[el[0]] = el[1].split(", ")
+        
     return dictionary
-
 
 #izbrskaj želene podatke in jih uredi v slovar
 def get_data_from_file(directory, filename):
@@ -123,11 +137,13 @@ def get_data_from_file(directory, filename):
     kvadratek = re.compile('<li class="breed-list-item">\s*([^"]*) :\s*<span>\s*(.*?)\s*</span>')
     znacilnosti_iz_kvadratka = re.findall(kvadratek, html_data)
     dict_kv = make_dict_from_list_of_tuples(znacilnosti_iz_kvadratka)
+    dict_kv = izlusci_stevilo(dict_kv)
 
     #želimo podatke iz dveh tabel
     tabela = re.compile('<table class="breed-specification-table--detail">\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*</table>')
     znacilnosti_iz_tabel = re.findall(tabela, html_data)
     dict_tab = make_dict_from_list_of_tuples(znacilnosti_iz_tabel)
+    dict_tab = izlusci_stevilo(dict_tab)
 
     #želimo ocene lastnosti
     #dobimo podatek ali je tačka rumena ali siva
@@ -151,24 +167,44 @@ def list_of_cats(directory):
 
     for filename in os.listdir(directory):
         dictionary = {}
-        dictionary["pasma"] = filename
+        dictionary["Breed"] = filename
         dictionary.update(get_data_from_file(directory, filename))
         cat_list += [dictionary]
     return cat_list
-        
+
+
+##########################################################################################################################
+# Obdelane podatke shranimo v csv datoteko
+##########################################################################################################################
+
+#seznam slovarjev želimo shraniti kot csv
+def save_as_csv(filename, list):
+    filenames = [*list[0]]
+    filenames = [name.replace('Abyssinian Cat', 'Breed') for name in filenames]
+    print(filenames)
 
 
 
-def data_from_first_url(url, directory, directory2, filename):
+
+
+
+
+
+
+
+def data_from_first_url(url, directory, directory2, filename, csv_filename):
     save_frontpage(url, directory, filename)
     html_data = read_file_to_string(directory, filename)
     links = link_from_file(html_data)
     get_cats_files(links, directory2)
-    return links
+    lists = list_of_cats(directory2)
+    save_as_csv(csv_filename, lists)
 
 
 
-#data_from_first_url(glavni_url, directory, directory2, filename)
-print(list_of_cats(directory2))    
 
 
+data_from_first_url(glavni_url, directory, directory2, filename, csv_filename)
+#print(list_of_cats(directory2))    
+#print(get_data_from_file(directory2, "bengal"))
+#save_as_csv()
