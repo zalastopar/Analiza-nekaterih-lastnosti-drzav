@@ -178,15 +178,19 @@ def list_of_cats(directory):
 ##########################################################################################################################
 
 #seznam slovarjev želimo shraniti kot csv
-def save_as_csv(filename, list):
-    filenames = [*list[0]]
-    filenames = [name.replace('Abyssinian Cat', 'Breed') for name in filenames]
-    print(filenames)
+def save_as_csv(filename, lis):
+    colnames = [*lis[0]]
+    colnames = [col.replace('Abyssinian Cat', 'Breed') for col in colnames]
+    
+    with open(filename, 'w') as csvfile: 
+        writer = csv.DictWriter(csvfile, fieldnames = colnames) 
+        writer.writeheader() 
+        writer.writerows(lis) 
 
 
 
 
-
+#morš preimoenovat slovar ... tm kjer je pasma and dogs etc. dej breed povsod
 
 
 
