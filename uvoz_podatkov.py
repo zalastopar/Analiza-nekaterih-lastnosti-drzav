@@ -221,7 +221,7 @@ def main(redownload=True, reparse=True):
     #za vsako pasmo shranimo njeno spletno stran
     get_cats_files(links, directory2)
 
-    #potebne odatke pasem zberimo v slovar in spravimo slovarje v seznam
+    #potebne podatke pasem zberimo v slovar in spravimo slovarje v seznam
     lists = list_of_cats(directory2)
 
     #seznam slovarjev shranimo kot csv tabelo
