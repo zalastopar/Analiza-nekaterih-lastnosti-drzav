@@ -2,8 +2,7 @@ import csv
 import os
 import requests
 import re
-from bs4 import BeautifulSoup
-#from BeautifulSoup import BeautifulSoup
+
 
 #spletne strani iz katerih bomo jemali podatke
 glavni_url = "https://wamiz.co.uk/cat/breeds"
@@ -127,6 +126,15 @@ def make_dict_from_list_of_tuples(list):
         
     return dictionary
 
+def change_element_in_list(list):
+    """Funkcija vse napise pasem spremeni v 'breed'"""
+
+    pattern = re.compile('(.*) and the elderly', re.DOTALL)
+    breed = re.search(pattern, list[-3]).group(1)
+    new_list = [el.replace(breed, 'Breed') for el in list[10:15]]
+    new_list= list[0:10] + new_list + list[15:]
+    return new_list
+
 #izbrskaj želene podatke in jih uredi v slovar
 def get_data_from_file(directory, filename):
     """Funkcija bo iz datoteke za pasmo pobrala potrebne podatke in jih spravila v slovar"""
@@ -138,6 +146,7 @@ def get_data_from_file(directory, filename):
     znacilnosti_iz_kvadratka = re.findall(kvadratek, html_data)
     dict_kv = make_dict_from_list_of_tuples(znacilnosti_iz_kvadratka)
     dict_kv = izlusci_stevilo(dict_kv)
+
 
     #želimo podatke iz dveh tabel
     tabela = re.compile('<table class="breed-specification-table--detail">\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*</table>')
@@ -152,6 +161,11 @@ def get_data_from_file(directory, filename):
     #dobimo ven lastnosti, ki so ocenjene s tačkami
     lastnosti = re.compile('<div class="breed-details-heading">\s*<h3 class="breed-heading-title">\s*(.*?)\s*</h3>')
     seznam_lastnosti = re.findall(lastnosti, html_data)
+    #na spletni strani so eno lastnost od ene pasme napisali po italijansko, zato sem popravila na roke
+    if filename == "norwegian-forest-cat":
+        seznam_lastnosti[-3] = "Norwegian Forest cat and the elderly"
+        seznam_lastnosti[8] = "Tendency to run away"
+    seznam_lastnosti = change_element_in_list(seznam_lastnosti)
     dict_ocene = how_many_points(tacke_ocene, seznam_lastnosti)
 
     #združimo slovarje
@@ -178,37 +192,41 @@ def list_of_cats(directory):
 ##########################################################################################################################
 
 #seznam slovarjev želimo shraniti kot csv
-def save_as_csv(filename, lis):
-    colnames = [*lis[0]]
-    colnames = [col.replace('Abyssinian Cat', 'Breed') for col in colnames]
+def save_as_csv(filename, list):
+    colnames = [*list[0]]
     
     with open(filename, 'w') as csvfile: 
         writer = csv.DictWriter(csvfile, fieldnames = colnames) 
         writer.writeheader() 
-        writer.writerows(lis) 
+        writer.writerows(list) 
 
 
+############################################################################################################################
+# Izvedemo program
+############################################################################################################################
 
 
-#morš preimoenovat slovar ... tm kjer je pasma and dogs etc. dej breed povsod
+def main(redownload=True, reparse=True):
+    """Funkcija izvede celotno pridobivanje podatkov
+    1. shrani glavno spletno stran in poišče linke do posamezne pasme
+    2. shrani stran od vsake pasme
+    3. podatke, ki jih potrebujemo uredi v slovar
+    4. podatke shrani v csv tabelo"""
 
-
-
-
-
-def data_from_first_url(url, directory, directory2, filename, csv_filename):
-    save_frontpage(url, directory, filename)
+    #naložimo glavno spletno stran in poiščemo linke od pasem
+    save_frontpage(glavni_url, directory, filename)
     html_data = read_file_to_string(directory, filename)
     links = link_from_file(html_data)
+
+    #za vsako pasmo shranimo njeno spletno stran
     get_cats_files(links, directory2)
+
+    #potebne odatke pasem zberimo v slovar in spravimo slovarje v seznam
     lists = list_of_cats(directory2)
+
+    #seznam slovarjev shranimo kot csv tabelo
     save_as_csv(csv_filename, lists)
 
 
-
-
-
-data_from_first_url(glavni_url, directory, directory2, filename, csv_filename)
-#print(list_of_cats(directory2))    
-#print(get_data_from_file(directory2, "bengal"))
-#save_as_csv()
+if __name__ == '__main__':
+    main()

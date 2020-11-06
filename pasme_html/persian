@@ -32,13 +32,25 @@
                 <link rel="preload" href="/assets/webfonts/nunito-v9-latin_latin-ext-regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
                 <link rel="preload" href="/assets/webfonts/nunito-v9-latin_latin-ext-700.woff2" crossorigin="anonymous" as="font" type="font/woff2">
                 <link rel="preload" href="/assets/css/webfonts.8dfd65c6.css" as="style">
-                <link rel="preload" href="/assets/css/styles.next.8524f8c2.css" as="style">
-                <link rel="preload" href="/assets/css/styles.6fbc81ac.css" as="style">
+                <link rel="preload" href="/assets/css/styles.next.2917736a.css" as="style">
+                <link rel="preload" href="/assets/css/styles.f538e540.css" as="style">
                 <link href="/assets/css/webfonts.8dfd65c6.css" rel="stylesheet">
-                <link href="/assets/css/styles.6fbc81ac.css" rel="stylesheet">
-                <link href="/assets/css/styles.next.8524f8c2.css" rel="stylesheet">
+                <link href="/assets/css/styles.f538e540.css" rel="stylesheet">
+                <link href="/assets/css/styles.next.2917736a.css" rel="stylesheet">
             
-                            
+                        <link rel="preload"
+              href="https://wamiz.co.uk/media/cache/resolve/upload_original-size/navigation/main/5fa3cdb320640287458121.jpg"
+              as="image"
+              media="(min-width: 1024px)" />
+                <link rel="preload"
+              href="https://wamiz.co.uk/media/cache/resolve/upload_original-size/navigation/main/5fa3cde1027e5234050574.jpg"
+              as="image"
+              media="(min-width: 1024px)" />
+                    <link rel="preload"
+              href="https://wamiz.co.uk/media/cache/resolve/upload_original-size/navigation/main/5fa3cdf4b4e72297384849.jpg"
+              as="image"
+              media="(min-width: 1024px)" />
+    
 
             <script>dataLayer=[{"website":"wamiz.co.uk","animal":"cat","module":"animal","submodule":"breeds","page":"view","breed_id":453,"breed_slug":"persian"}]</script>
 
@@ -48,7 +60,7 @@
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                 })(window,document,'script','dataLayer','GTM-M87KXQ6');</script>
             
-            <script src="/assets/js/scripts.9444c532.js" defer></script>
+            <script src="/assets/js/scripts.04b324e5.js" defer></script>
                         <script type='text/javascript' id='optidigital-ad-init' async
                     config='{"adUnit": "/1252690/wamiz.co.uk/animal-cat", "pageTargeting":{"website":"wamiz.co.uk","animal":"cat","module":"animal","submodule":"breeds","page":"view","breed_id":453,"breed_slug":"persian"} }' src='//scripts.static-od.com/setup/?site=wamiz-co-uk'>
             </script>
@@ -89,7 +101,7 @@
             <script type="application/ld+json">[{"@context":"https://schema.org","@type":"WebPage","publisher":{"@context":"http://schema.org","@type":"Organization","url":"https://wamiz.co.uk","name":"Wamiz","logo":{"@type":"ImageObject","url":"https://static.wamiz.fr/images/logo/logo-50x40.png","height":40,"width":50}},"speakable":{"@context":"http://schema.org","@type":"SpeakableSpecification","cssSelector":"[data-seo*=\"speakable\"]"},"mainContentOfPage":{"cssSelector":"[data-seo*=\"main-content\"]"},"breadcrumb":{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://wamiz.co.uk/","name":"HOME"}},{"@type":"ListItem","position":2,"item":{"@id":"https://wamiz.co.uk/cat","name":"ALL ABOUT CATS"}},{"@type":"ListItem","position":3,"item":{"@id":"https://wamiz.co.uk/cat/breeds","name":"CAT BREEDS"}}]}}]</script>
         </head>
 
-                        <body class="nav-hidden trendingTopics--hidden hotTopics--hidden">
+                        <body class="trendingTopics--hidden hotTopics--hidden">
             <svg style="display:none" width="0" height="0" xmlns="http://www.w3.org/2000/svg"><symbol id="logo-wamiz" viewBox="0 0 1791.11 682.89" preserveAspectRatio="xMidYMid meet">
   <path d="M786.91 374.67v-4.78a30.41 30.41 0 0110.42-23.28 35.57 35.57 0 0124.89-9.56q15.63 0 26 9.26t10.41 22.57V623a33 33 0 01-10.87 25.18q-10.84 10.1-26.76 10.1-15.28 0-25.57-10t-10.29-24.83v-5.7q-21.31 24.54-37.72 32.53t-44 8q-58.74 0-98.17-45.93t-39.44-114.11q0-68.74 39.94-115t99-46.22q27.21 0 42.84 7.05t39.32 30.6zM714 404.19q-32.41 0-52.67 26t-20.25 68.67q0 42.13 19.67 68.09t52.1 26q34.14 0 53.25-24.81t19.1-69.83q0-43.28-19.1-68.66T714 404.19zm439.29-22q6.36-7.51 10.13-11.28a48.51 48.51 0 017.23-6.08 100.18 100.18 0 0135-20.55 130.65 130.65 0 0143.7-7.23q49.19 0 79.3 29.46t30.09 78v176.21a37.35 37.35 0 01-10.33 26.58 34 34 0 01-25.84 11 36.65 36.65 0 01-26.14-10.72q-11.21-10.74-11.19-27V452.92q0-22.6-15.42-38.57t-36.37-16q-24.43 0-41.6 16t-17.16 38.57v167.66a36.45 36.45 0 01-11 26.69q-11 11-27.21 11-14.46 0-24.88-11a37.16 37.16 0 01-10.42-26.57V453.84q0-22.51-15.92-39t-39.07-16.46q-22.57 0-39.36 16.21t-16.78 38.78v167.87a36.53 36.53 0 01-10.42 26 33.76 33.76 0 01-25.47 11 37.23 37.23 0 01-26.62-10.44q-11-10.43-11-26.67V368.94q0-13.33 11-22.61t26.62-9.28a32.42 32.42 0 0123.15 9.41 30.54 30.54 0 019.84 22.93v4.7l10.42-13.89q11-10.43 30.1-16.79a122 122 0 0138.78-6.36 124.41 124.41 0 0121.42 1.73A115.35 115.35 0 011111 346a90.52 90.52 0 0122 12.44q8.71 6.97 20.29 23.75zm256.98-119.81q0-18.51 12.93-31a43.56 43.56 0 0131.34-12.38q17.25 0 29.9 12.74t12.65 31.26q0 18.53-12.36 31a40.94 40.94 0 01-30.19 12.44A43.56 43.56 0 011423.2 294q-12.93-12.52-12.93-31.62zm80.45 358.34a37.35 37.35 0 01-10.33 26.58 34 34 0 01-25.84 11 37.35 37.35 0 01-37.33-37V374.61a37.35 37.35 0 0137.33-37q14.35 0 25.26 11a36.31 36.31 0 0110.91 26.57zM1636 586.51h118.65a37.38 37.38 0 0125.76 9.55q10.69 9.56 10.7 23.44a31.46 31.46 0 01-10.41 23.73q-10.42 9.85-26 9.84h-192.79q-31.85 0-31.83-28.36a26.22 26.22 0 012.31-10.13 70.07 70.07 0 014-8.39l139.49-198h-107.02a34.22 34.22 0 01-24.31-9.84q-10.42-9.84-10.42-23.15a30.93 30.93 0 0110.13-23.44 34.51 34.51 0 0124.6-9.55h181.74q11.57 0 16.78 1.44t10.42 9a27.89 27.89 0 015.21 16.21q0 9.86-6.36 19.1z" class="logo-wamiz-svg__path"/>
   <path d="M494.75 0q20.89 0 41.81 27.87Q518.44 648 452.93 648.05H439q-62.7 0-139.37-264.8l-48.77-97.55q-72.48 397.19-125.43 397.19-72 0-90.58-202.08Q0 276.42 0 181.17l41.8-13.93q48.8 0 48.79 243.89 19 118.44 34.84 118.45 20.9-76.64 34.84-125.42Q185.35 132.41 216 132.4l7-7q77.58 0 181.18 348.41l13.93 34.85H432L473.37 9.29Q459.9 0 494.75 0" class="logo-wamiz-svg__path--accent"/>
@@ -127,391 +139,736 @@
             
                                                 
 
-<header class="js-header">
-            <div class="header-content">
-        <a href="/" class="header-logo-wrapper"><svg class="logo-svg logo-wamiz"><use xlink:href="#logo-wamiz"></use></svg></a>
-        <div class="header-actions">
-                            <hx:include src="/_fragment?_hash=M%2FjUWCsZv%2FcswsA%2FLZ%2BM10N%2Bvw5GBjTDl1pa1r2VsX4%3D&amp;_path=_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CBlock%255CLayout%255CUserMenu"><a href="/login" class="header-actions-cta-login cta-login"><div class="d-flex d-md-none"><div class="avatar d-flex align-items-center justify-content-center square-1 avatar--outline"><div class="icon user-account-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 222 208"><path fill="currentColor" d="M111.17.69c31.73 0 57.22 25.48 57.22 56.69.055 9.5216-2.3 18.9024-6.846 27.2689-4.546 8.3665-11.135 15.4471-19.154 20.5811 21.118 6.259 39.904 18.645 53.978 35.589 14.074 16.943 22.803 37.683 25.082 59.591 1 9.36-16.65 9.88-17.69 1-4.71-46.77-44.71-82.66-92.59-82.66-22.9062-.035-45.0195 8.385-62.1017 23.646-17.0822 15.26-27.9314 36.289-30.4683 59.054-1 8.84-18.73 8.32-17.69-1 2.2924-21.981 11.0891-42.779 25.2651-59.734 14.1761-16.955 33.0872-29.297 54.3149-35.446-10.3135-6.6383-18.2017-16.4363-22.4853-27.9292-4.2837-11.493-4.7327-24.0636-1.28-35.8329 3.4527-11.7693 10.6216-22.1051 20.4352-29.4624C86.9736 4.6882 98.9047.70454 111.17.69zm0 17.68c-10.343 0-20.2632 4.1089-27.5772 11.4228C76.2789 37.1068 72.17 47.0266 72.17 57.37c0 21.84 17.16 39.53 39 39.53 5.192.0026 10.333-1.018 15.131-3.0037a39.50846 39.50846 0 0012.827-8.5685c3.671-3.6712 6.583-8.03 8.568-12.8272 1.986-4.7972 3.007-9.9387 3.004-15.1306 0-21.32-17.65-39-39.53-39z"/></svg></div></div></div><div class="d-none d-md-flex btn btn-primary btn-sm btn-rounded">Connect</div></a>
-</hx:include>
+<header class="websiteHeader js-header">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col websiteHeader-nav">
+                <div class="row align-items-center flex-nowrap">
+                    <div class="col-auto d-md-none">
+                        <button type="button" class="btn header-hamburger-container js-nav p-0">
+                            <span class="header-hamburger"></span>
+                        </button>
+                    </div>
+                    <div class="col-auto mx-auto mx-md-0">
+                        <a class="d-block" href="/">
+                                <svg class="logo-svg logo-wamiz">
+        <use xlink:href="#logo-wamiz"></use>
+    </svg>
 
-                        <button type="button" class="btn btn-link header-hamburger-container js-nav"><span class="header-hamburger"></span></button>
-        </div>
-    </div>
-        </header>
-
-                
-                                    
-<nav class="js-menu nav font-secondary">
-    <div class="nav-overlay js-nav">
-        <a href="/" class="nav-logo-wrapper"><svg class="logo-svg logo-wamiz logo-wamiz--white"><use xlink:href="#logo-wamiz-mono"></use></svg><span class="header-title-baseline">The Website for Pets</span></a>
-    </div>
+                        </a>
+                    </div>
+                    <div class="col-auto col-md">
+                        <div class="row align-items-center">
+                            
+<nav class="js-menu nav">
     <div class="nav-content">
-        <div class="nav-hamburger-container">
-            <div class="nav-hamburger--desktop js-nav">
-                <div class="header-hamburger"></div>
+                    <div class="nav-item nav-item--lvl1">
+                <div class="media">
+                                            
+    <noscript><img src="/assets/images/common/b1ef76d1-7d1d-4155-81d9-29fc768814f4.svg" class="nav-item-image mx-3" alt="DOG" /></noscript>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image mx-3" data-src="/assets/images/common/b1ef76d1-7d1d-4155-81d9-29fc768814f4.svg" alt="DOG"/>
+                                        <div class="media-body">
+                                                    <div class="media align-items-center" >
+                                <a href="/dog" class="media-body nav-link nav-link--lvl1">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">DOG</div>
+                                        <div class="nav-item-icon ml-2">
+                                            <i class="icss icss-caret-down"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <button type="button" class="btn nav-item-toggler p-4 js-toggle-item" data-level="0" data-category="b1ef76d1-7d1d-4155-81d9-29fc768814f4">
+                                    <i class="icss icss-plus-minus"></i>
+                                </button>
+                            </div>
+                                                            <div class="nav-expand" data-list="b1ef76d1-7d1d-4155-81d9-29fc768814f4" data-level="0">
+                                    <div class="nav-expand-inner">
+                                                                                    
+    <img
+        src="https://wamiz.co.uk/media/cache/resolve/upload_main-nav-image_400/navigation/main/5fa3cdb320640287458121.jpg"
+        class="d-none d-md-block align-self-start mr-4 flex-shrink-0"
+        alt=""
+        
+    />
+                                                                                <ul class="nav-list nav-list--5-col">
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/choosing">
+                                                                THE DOG FOR ME
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-0" data-category="6">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="6" data-level="0-0">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/getting-a-dog">
+                                                                            Getting a Dog
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/best-dogs">
+                                                                            Best Dogs
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/breeds">
+                                                                            Type of Breeds
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/sizes">
+                                                                            Dog by Size
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/hair-types">
+                                                                            Dog by Hair Type
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing/mixed-breeds">
+                                                                            Cross and Mixed Breeds
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/choosing">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/nutrition">
+                                                                NUTRITION
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-1" data-category="13">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="13" data-level="0-1">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/nutrition/eat">
+                                                                            Can my dog eat...?
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/nutrition/general">
+                                                                            General Nutrition
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/nutrition/puppy-food">
+                                                                            Puppy Food
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/nutrition/alternative-food">
+                                                                            Alternative Dog Food
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/nutrition">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/training">
+                                                                TRAINING
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-2" data-category="18">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="18" data-level="0-2">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/training/basic-training">
+                                                                            Basic Training
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/training/puppy">
+                                                                            Puppy Training
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/training/sports">
+                                                                            Dog Sports and Exercises
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/training/corrective">
+                                                                            Corrective Training
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/training">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/understanding">
+                                                                UNDERSTANDING YOUR DOG
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-3" data-category="23">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="23" data-level="0-3">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/understanding/body-language">
+                                                                            Body Language
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/understanding/communication">
+                                                                            Communication
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/understanding/personality">
+                                                                            Dog Personality
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/understanding">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/lifestyle">
+                                                                LIFESTYLE
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-4" data-category="27">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="27" data-level="0-4">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/lifestyle/products">
+                                                                            Products
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/lifestyle/facts-and-tips">
+                                                                            Dog Facts and Tips
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/lifestyle/grooming">
+                                                                            Grooming
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/lifestyle/travelling">
+                                                                            Travelling
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/lifestyle">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/dog/advice/health">
+                                                                HEALTH
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="0-5" data-category="32">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="32" data-level="0-5">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/diseases">
+                                                                            Diseases
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/treatments">
+                                                                            Treatments
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/symptoms">
+                                                                            Symptoms
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/home-remedies">
+                                                                            Home Remedies
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/tick-fleas">
+                                                                            Tick and Fleas
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/old-dogs">
+                                                                            Old Dogs
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/preventive-health">
+                                                                            Preventive Health
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/pregnancy">
+                                                                            Pregnancy
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health/hygiene">
+                                                                            Hygiene
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/dog/advice/health">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog/advice">
+                                                            SEE ALL ADVICE
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog/breeds">
+                                                            BREEDS
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog/tests/which-breed">
+                                                            DOG BREED SELECTOR
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog/names">
+                                                            DOG NAMES
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog">
+                                                            ALL ABOUT DOGS
+                                                        </a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
             </div>
-        </div>
-                                    <div class="nav-title js-toggle-item " data-level="0" data-category="b1ef76d1-7d1d-4155-81d9-29fc768814f4">
-                <div class="nav-item-image-container">
+                    <div class="nav-item nav-item--lvl1">
+                <div class="media">
                                             
-    <noscript><img src="/assets/images/common/b1ef76d1-7d1d-4155-81d9-29fc768814f4.svg" class="nav-item-image--big" alt="DOG" /></noscript>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image--big" data-src="/assets/images/common/b1ef76d1-7d1d-4155-81d9-29fc768814f4.svg" alt="DOG"/>
+    <noscript><img src="/assets/images/common/96929fe5-29cf-4898-b86a-3c9d5d89d6a9.svg" class="nav-item-image mx-3" alt="CAT" /></noscript>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image mx-3" data-src="/assets/images/common/96929fe5-29cf-4898-b86a-3c9d5d89d6a9.svg" alt="CAT"/>
+                                        <div class="media-body">
+                                                    <div class="media align-items-center" >
+                                <a href="/cat" class="media-body nav-link nav-link--lvl1">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">CAT</div>
+                                        <div class="nav-item-icon ml-2">
+                                            <i class="icss icss-caret-down"></i>
+                                        </div>
                                     </div>
-                                    <span class="nav-item-accordion--mainTitle">DOG</span>
-                                                    <i class="icss icss-caret-down"></i>
+                                </a>
+                                <button type="button" class="btn nav-item-toggler p-4 js-toggle-item" data-level="0" data-category="96929fe5-29cf-4898-b86a-3c9d5d89d6a9">
+                                    <i class="icss icss-plus-minus"></i>
+                                </button>
                             </div>
-                            <ul class="nav-list" data-list="b1ef76d1-7d1d-4155-81d9-29fc768814f4" data-level="0">
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-0" data-category="6">THE DOG FOR ME</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-0" data-category="6"></i>
-                                <ul class="nav-item-sublist" data-list="6" data-level="0-0">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/getting-a-dog" class="nav-item-link">Getting a Dog</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/best-dogs" class="nav-item-link">Best Dogs</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/breeds" class="nav-item-link">Type of Breeds</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/sizes" class="nav-item-link">Dog by Size</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/hair-types" class="nav-item-link">Dog by Hair Type</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing/mixed-breeds" class="nav-item-link">Cross and Mixed Breeds</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/choosing" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-1" data-category="13">NUTRITION</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-1" data-category="13"></i>
-                                <ul class="nav-item-sublist" data-list="13" data-level="0-1">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/nutrition/eat" class="nav-item-link">Can my dog eat...?</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/nutrition/general" class="nav-item-link">General Nutrition</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/nutrition/puppy-food" class="nav-item-link">Puppy Food</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/nutrition/alternative-food" class="nav-item-link">Alternative Dog Food</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/nutrition" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-2" data-category="18">TRAINING</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-2" data-category="18"></i>
-                                <ul class="nav-item-sublist" data-list="18" data-level="0-2">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/training/basic-training" class="nav-item-link">Basic Training</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/training/puppy" class="nav-item-link">Puppy Training</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/training/sports" class="nav-item-link">Dog Sports and Exercises</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/training/corrective" class="nav-item-link">Corrective Training</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/training" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-3" data-category="23">UNDERSTANDING YOUR DOG</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-3" data-category="23"></i>
-                                <ul class="nav-item-sublist" data-list="23" data-level="0-3">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/understanding/body-language" class="nav-item-link">Body Language</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/understanding/communication" class="nav-item-link">Communication</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/understanding/personality" class="nav-item-link">Dog Personality</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/understanding" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-4" data-category="27">LIFESTYLE</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-4" data-category="27"></i>
-                                <ul class="nav-item-sublist" data-list="27" data-level="0-4">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/lifestyle/products" class="nav-item-link">Products</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/lifestyle/facts-and-tips" class="nav-item-link">Dog Facts and Tips</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/lifestyle/grooming" class="nav-item-link">Grooming</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/lifestyle/travelling" class="nav-item-link">Travelling</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/lifestyle" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="0-5" data-category="32">HEALTH</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="0-5" data-category="32"></i>
-                                <ul class="nav-item-sublist" data-list="32" data-level="0-5">
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/diseases" class="nav-item-link">Diseases</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/treatments" class="nav-item-link">Treatments</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/symptoms" class="nav-item-link">Symptoms</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/home-remedies" class="nav-item-link">Home Remedies</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/tick-fleas" class="nav-item-link">Tick and Fleas</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/old-dogs" class="nav-item-link">Old Dogs</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/preventive-health" class="nav-item-link">Preventive Health</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/pregnancy" class="nav-item-link">Pregnancy</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health/hygiene" class="nav-item-link">Hygiene</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/dog/advice/health" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog/advice" class="nav-item-link">SEE ALL ADVICE</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog/breeds" class="nav-item-link">BREEDS</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog/tests/which-breed" class="nav-item-link">DOG BREED SELECTOR</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog/names" class="nav-item-link">DOG NAMES</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog" class="nav-item-link">ALL ABOUT DOGS</a>
-                                                    </li>
-                                    </ul>
-                                <div class="nav-title js-toggle-item " data-level="0" data-category="96929fe5-29cf-4898-b86a-3c9d5d89d6a9">
-                <div class="nav-item-image-container">
-                                            
-    <noscript><img src="/assets/images/common/96929fe5-29cf-4898-b86a-3c9d5d89d6a9.svg" class="nav-item-image--big" alt="CAT" /></noscript>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image--big" data-src="/assets/images/common/96929fe5-29cf-4898-b86a-3c9d5d89d6a9.svg" alt="CAT"/>
+                                                            <div class="nav-expand" data-list="96929fe5-29cf-4898-b86a-3c9d5d89d6a9" data-level="0">
+                                    <div class="nav-expand-inner">
+                                                                                    
+    <img
+        src="https://wamiz.co.uk/media/cache/resolve/upload_main-nav-image_400/navigation/main/5fa3cde1027e5234050574.jpg"
+        class="d-none d-md-block align-self-start mr-4 flex-shrink-0"
+        alt=""
+        
+    />
+                                                                                <ul class="nav-list nav-list--5-col">
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/cat/advice/choosing">
+                                                                CHOOSING THE RIGHT CAT
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="1-0" data-category="43">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="43" data-level="1-0">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/choosing/getting-a-cat">
+                                                                            Getting a Cat
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/choosing/best-cats">
+                                                                            Best Cats for...
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/choosing/size-hair-eyes">
+                                                                            Cat by Size / Hair / Eyes
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/choosing">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/cat/advice/nutrition">
+                                                                NUTRITION
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="1-1" data-category="47">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="47" data-level="1-1">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/nutrition/eat">
+                                                                            Can my cat eat...?
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/nutrition/cat-food">
+                                                                            Cat Food
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/nutrition/kitten-food">
+                                                                            Kitten Food
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/nutrition/alternative-food">
+                                                                            Alternative Cat Food
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/nutrition">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/cat/advice/training-understanding">
+                                                                TRAINING &amp; UNDERSTANDING
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="1-2" data-category="52">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="52" data-level="1-2">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding/basic-training">
+                                                                            Basic Training
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding/behaviour-issues">
+                                                                            Behaviour Issues
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding/body-language">
+                                                                            Body Language
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding/communication">
+                                                                            Communication
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding/kitten-training">
+                                                                            Kitten Training
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/training-understanding">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/cat/advice/lifestyle">
+                                                                LIFESTYLE
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="1-3" data-category="58">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="58" data-level="1-3">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/lifestyle/products">
+                                                                            Products
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/lifestyle/facts-and-tips">
+                                                                            Cat Facts and Tips
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/lifestyle/grooming">
+                                                                            Grooming
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/lifestyle/travelling">
+                                                                            Travelling
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/lifestyle">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <div class="media align-items-center">
+                                                            <a class="media-body nav-link nav-link--lvl2 nav-item-accordion py-3 py-md-0" href="/cat/advice/health">
+                                                                HEALTH
+                                                            </a>
+                                                            <button type="button" class="btn nav-item-toggler w-auto p-4 js-toggle-item" data-level="1-4" data-category="63">
+                                                                <i class="icss icss-plus-minus"></i>
+                                                            </button>
+                                                        </div>
+                                                        <div class="nav-expand" data-list="63" data-level="1-4">
+                                                            <ul class="nav-sublist mt-md-3" >
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/diseases">
+                                                                            Diseases
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/symptoms">
+                                                                            Symptoms
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/treatments">
+                                                                            Treatments
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/home-remedies">
+                                                                            Home Remedies
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/tick-fleas">
+                                                                            Tick and Fleas
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/old-cats">
+                                                                            Old Cats
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/preventive-health">
+                                                                            Preventive Health
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/pregnancy">
+                                                                            Pregnancy
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health/hygiene">
+                                                                            Hygiene
+                                                                        </a>
+                                                                    </li>
+                                                                                                                                    <li class="nav-item nav-item--lvl3">
+                                                                        <a class="nav-link" href="/cat/advice/health">
+                                                                            See all
+                                                                        </a>
+                                                                    </li>
+                                                                                                                            </ul>
+                                                        </div>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat/advice">
+                                                            SEE ALL ADVICE
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat/breeds">
+                                                            BREEDS
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat/names">
+                                                            CAT NAMES
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat">
+                                                            ALL ABOUT CATS
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat/tests/which-breed">
+                                                            Cat breed selector
+                                                        </a>
+                                                                                                    </li>
+                                                                                    </ul>
                                     </div>
-                                    <span class="nav-item-accordion--mainTitle">CAT</span>
-                                                    <i class="icss icss-caret-down"></i>
-                            </div>
-                            <ul class="nav-list" data-list="96929fe5-29cf-4898-b86a-3c9d5d89d6a9" data-level="0">
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="1-0" data-category="43">CHOOSING THE RIGHT CAT</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="1-0" data-category="43"></i>
-                                <ul class="nav-item-sublist" data-list="43" data-level="1-0">
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/choosing/getting-a-cat" class="nav-item-link">Getting a Cat</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/choosing/best-cats" class="nav-item-link">Best Cats for...</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/choosing/size-hair-eyes" class="nav-item-link">Cat by Size / Hair / Eyes</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/choosing" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="1-1" data-category="47">NUTRITION</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="1-1" data-category="47"></i>
-                                <ul class="nav-item-sublist" data-list="47" data-level="1-1">
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/nutrition/eat" class="nav-item-link">Can my cat eat...?</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/nutrition/cat-food" class="nav-item-link">Cat Food</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/nutrition/kitten-food" class="nav-item-link">Kitten Food</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/nutrition/alternative-food" class="nav-item-link">Alternative Cat Food</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/nutrition" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="1-2" data-category="52">TRAINING &amp; UNDERSTANDING</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="1-2" data-category="52"></i>
-                                <ul class="nav-item-sublist" data-list="52" data-level="1-2">
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding/basic-training" class="nav-item-link">Basic Training</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding/behaviour-issues" class="nav-item-link">Behaviour Issues</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding/body-language" class="nav-item-link">Body Language</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding/communication" class="nav-item-link">Communication</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding/kitten-training" class="nav-item-link">Kitten Training</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/training-understanding" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="1-3" data-category="58">LIFESTYLE</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="1-3" data-category="58"></i>
-                                <ul class="nav-item-sublist" data-list="58" data-level="1-3">
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/lifestyle/products" class="nav-item-link">Products</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/lifestyle/facts-and-tips" class="nav-item-link">Cat Facts and Tips</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/lifestyle/grooming" class="nav-item-link">Grooming</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/lifestyle/travelling" class="nav-item-link">Travelling</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/lifestyle" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <span class="nav-item-accordion js-toggle-item" data-level="1-4" data-category="63">HEALTH</span>
-                                <i class="icss icss-caret-down js-toggle-item" data-level="1-4" data-category="63"></i>
-                                <ul class="nav-item-sublist" data-list="63" data-level="1-4">
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/diseases" class="nav-item-link">Diseases</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/symptoms" class="nav-item-link">Symptoms</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/treatments" class="nav-item-link">Treatments</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/home-remedies" class="nav-item-link">Home Remedies</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/tick-fleas" class="nav-item-link">Tick and Fleas</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/old-cats" class="nav-item-link">Old Cats</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/preventive-health" class="nav-item-link">Preventive Health</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/pregnancy" class="nav-item-link">Pregnancy</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health/hygiene" class="nav-item-link">Hygiene</a>
-                                        </li>
-                                                                            <li class="nav-subitem">
-                                            <a href="/cat/advice/health" class="nav-item-link">See all</a>
-                                        </li>
-                                                                    </ul>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat/advice" class="nav-item-link">SEE ALL ADVICE</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat/breeds" class="nav-item-link">BREEDS</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat/names" class="nav-item-link">CAT NAMES</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat" class="nav-item-link">ALL ABOUT CATS</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat/tests/which-breed" class="nav-item-link">Cat breed selector</a>
-                                                    </li>
-                                    </ul>
-                                <div class="nav-title js-toggle-item nav-title--main" data-level="0" data-category="31774816-4b27-4ddf-a211-741f114635d7">
-                <div class="nav-item-image-container">
+                                </div>
+                                                                        </div>
+                </div>
+            </div>
+                    <div class="nav-item nav-item--lvl1">
+                <div class="media">
                                             
-    <noscript><img src="/assets/images/31774816-4b27-4ddf-a211-741f114635d7.svg" class="nav-item-image" alt="NEWS" /></noscript>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image" data-src="/assets/images/31774816-4b27-4ddf-a211-741f114635d7.svg" alt="NEWS"/>
-                                    </div>
-                                    <a href="/news" class="nav-item-link nav-item-link--mainTitle">NEWS</a>
+    <noscript><img src="/assets/images/31774816-4b27-4ddf-a211-741f114635d7.svg" class="nav-item-image mx-3" alt="NEWS" /></noscript>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image mx-3" data-src="/assets/images/31774816-4b27-4ddf-a211-741f114635d7.svg" alt="NEWS"/>
+                                        <div class="media-body">
+                                                    <a class="nav-link nav-link--lvl1" href="/news">
+                                NEWS
+                            </a>
                                             </div>
-                                <div class="nav-title js-toggle-item nav-title--main" data-level="0" data-category="d70a2eb4-7fe5-4222-93c8-7147e6a5eefa">
-                <div class="nav-item-image-container">
+                </div>
+            </div>
+                    <div class="nav-item nav-item--lvl1">
+                <div class="media">
                                             
-    <noscript><img src="/assets/images/d70a2eb4-7fe5-4222-93c8-7147e6a5eefa.svg" class="nav-item-image" alt="ADOPTION" /></noscript>
-    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image" data-src="/assets/images/d70a2eb4-7fe5-4222-93c8-7147e6a5eefa.svg" alt="ADOPTION"/>
+    <noscript><img src="/assets/images/d70a2eb4-7fe5-4222-93c8-7147e6a5eefa.svg" class="nav-item-image mx-3" alt="ADOPTION" /></noscript>
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload nav-item-image mx-3" data-src="/assets/images/d70a2eb4-7fe5-4222-93c8-7147e6a5eefa.svg" alt="ADOPTION"/>
+                                        <div class="media-body">
+                                                    <div class="media align-items-center" >
+                                <a href="/adoption" class="media-body nav-link nav-link--lvl1">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">ADOPTION</div>
+                                        <div class="nav-item-icon ml-2">
+                                            <i class="icss icss-caret-down"></i>
+                                        </div>
                                     </div>
-                                    <span class="nav-item-accordion--mainTitle">ADOPTION</span>
-                                                    <i class="icss icss-caret-down"></i>
+                                </a>
+                                <button type="button" class="btn nav-item-toggler p-4 js-toggle-item" data-level="0" data-category="d70a2eb4-7fe5-4222-93c8-7147e6a5eefa">
+                                    <i class="icss icss-plus-minus"></i>
+                                </button>
                             </div>
-                            <ul class="nav-list" data-list="d70a2eb4-7fe5-4222-93c8-7147e6a5eefa" data-level="0">
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/dog/adoption" class="nav-item-link">Adopt a dog</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/cat/adoption" class="nav-item-link">Adopt a cat</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/adoption" class="nav-item-link">All about Adoption</a>
-                                                    </li>
-                                            <li class="nav-item js-nav-item">
-                                                            <a href="/adoption/shelters" class="nav-item-link">Shelters</a>
-                                                    </li>
-                                    </ul>
-                        </div>
-</nav>
-
-    <div class="nav-footer font-secondary">
-        <p class="socialNetwork-title">Follow us</p>
-        <div class="socialNetwork-wrapper">
-            
+                                                            <div class="nav-expand" data-list="d70a2eb4-7fe5-4222-93c8-7147e6a5eefa" data-level="0">
+                                    <div class="nav-expand-inner">
+                                                                                    
+    <img
+        src="https://wamiz.co.uk/media/cache/resolve/upload_main-nav-image_400/navigation/main/5fa3cdf4b4e72297384849.jpg"
+        class="d-none d-md-block align-self-start mr-4 flex-shrink-0"
+        alt=""
+        
+    />
+                                                                                <ul class="nav-list ">
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/dog/adoption">
+                                                            Adopt a dog
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/cat/adoption">
+                                                            Adopt a cat
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/adoption">
+                                                            All about Adoption
+                                                        </a>
+                                                                                                    </li>
+                                                                                            <li class="nav-item nav-item--lvl2 js-nav-item">
+                                                                                                            <a class="nav-link nav-link--lvl2 py-3 py-md-0" href="/adoption/shelters">
+                                                            Shelters
+                                                        </a>
+                                                                                                    </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                                                                        </div>
+                </div>
+            </div>
+                            <div class="nav-footer">
+                <p class="socialNetwork-title">Follow us</p>
+                <div class="socialNetwork-wrapper stack-inline-2">
+                    
 <div class="stack-inline-2 justify-content-center">
             <a href="https://www.facebook.com/WamizUK/" class="socialNetwork socialNetwork--facebook btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/facebook.svg" class="socialNetwork-icon" alt="Facebook" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/facebook.svg" alt="Facebook" width="36" height="36"/></a>
                     <a href="https://www.instagram.com/wamiz_uk/" class="socialNetwork socialNetwork--instagram btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/instagram.svg" class="socialNetwork-icon" alt="Instagram" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/instagram.svg" alt="Instagram" width="36" height="36"/></a>
     </div>
 
+                </div>
+            </div>
+            </div>
+</nav>
+
+                                                            <div class="col-auto ml-md-auto font-secondary position-static">
+                                    <hx:include src="/_fragment?_hash=M%2FjUWCsZv%2FcswsA%2FLZ%2BM10N%2Bvw5GBjTDl1pa1r2VsX4%3D&amp;_path=_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CBlock%255CLayout%255CUserMenu"><a href="/login" class="header-actions-cta-login cta-login"><div class="d-flex d-md-none"><div class="avatar d-flex align-items-center justify-content-center square-1 avatar--outline"><div class="icon user-account-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 222 208"><path fill="currentColor" d="M111.17.69c31.73 0 57.22 25.48 57.22 56.69.055 9.5216-2.3 18.9024-6.846 27.2689-4.546 8.3665-11.135 15.4471-19.154 20.5811 21.118 6.259 39.904 18.645 53.978 35.589 14.074 16.943 22.803 37.683 25.082 59.591 1 9.36-16.65 9.88-17.69 1-4.71-46.77-44.71-82.66-92.59-82.66-22.9062-.035-45.0195 8.385-62.1017 23.646-17.0822 15.26-27.9314 36.289-30.4683 59.054-1 8.84-18.73 8.32-17.69-1 2.2924-21.981 11.0891-42.779 25.2651-59.734 14.1761-16.955 33.0872-29.297 54.3149-35.446-10.3135-6.6383-18.2017-16.4363-22.4853-27.9292-4.2837-11.493-4.7327-24.0636-1.28-35.8329 3.4527-11.7693 10.6216-22.1051 20.4352-29.4624C86.9736 4.6882 98.9047.70454 111.17.69zm0 17.68c-10.343 0-20.2632 4.1089-27.5772 11.4228C76.2789 37.1068 72.17 47.0266 72.17 57.37c0 21.84 17.16 39.53 39 39.53 5.192.0026 10.333-1.018 15.131-3.0037a39.50846 39.50846 0 0012.827-8.5685c3.671-3.6712 6.583-8.03 8.568-12.8272 1.986-4.7972 3.007-9.9387 3.004-15.1306 0-21.32-17.65-39-39.53-39z"/></svg></div></div></div><div class="d-none d-md-flex btn btn-primary btn-sm btn-rounded">Connect</div></a>
+</hx:include>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto d-none d-md-block">
+                                    <div class="stack-inline-3">
+                        
+<div class="stack-inline-2 justify-content-center">
+            <a href="https://www.facebook.com/WamizUK/" class="socialNetwork socialNetwork--facebook btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/facebook.svg" class="socialNetwork-icon" alt="Facebook" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/facebook.svg" alt="Facebook" width="36" height="36"/></a>
+                    <a href="https://www.instagram.com/wamiz_uk/" class="socialNetwork socialNetwork--instagram btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/instagram.svg" class="socialNetwork-icon" alt="Instagram" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/instagram.svg" alt="Instagram" width="36" height="36"/></a>
+    </div>
+
+                    </div>
+                            </div>
         </div>
     </div>
+        </header>
+
 
                 
                 <div class="main-wrapper py-3 py-md-4 main-wrapper--breeds">
@@ -683,14 +1040,11 @@
                             </figure>
                         </div>
                                                             </div>
-                                    <button type="button" class="breed-image-switch js-breed-image-switch btn-no-style pb-2" data-breed="adult" data-type="cat">
-                        <span class="icon-wrapper">
-                            <i class="icss-eye"></i>
-                        </span>
-                        <span class="js-breed-button-label breed-button-label">
-                            Kitten
-                        </span>
-                    </button>
+                                    <div class="breed-image-switch">
+                        <button type="button" class="btn flex-column js-breed-image-switch" data-breed="adult" data-type="cat"><span class="icon-wrapper"><i class="icss-eye"></i></span><div class="js-breed-button-label breed-button-label">
+                                    Kitten
+                                </div></button>
+                    </div>
                             </div>
 
             <div class="breed-page">
@@ -1940,12 +2294,14 @@ Persian Cameo, whose hair color is actually &quot;red silver shaded&quot; or &qu
 <footer class="font-secondary js-footer">
             <div class="footer-socialNetwork">
             <p class="socialNetwork-title">Follow us</p>
-            
+            <div class="socialNetwork-wrapper stack-inline-2">
+                
 <div class="stack-inline-2 justify-content-center">
             <a href="https://www.facebook.com/WamizUK/" class="socialNetwork socialNetwork--facebook btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/facebook.svg" class="socialNetwork-icon" alt="Facebook" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/facebook.svg" alt="Facebook" width="36" height="36"/></a>
                     <a href="https://www.instagram.com/wamiz_uk/" class="socialNetwork socialNetwork--instagram btn-circle btn-circle-sm" rel="nofollow" target="_blank"><noscript><img src="/assets/images/logos/instagram.svg" class="socialNetwork-icon" alt="Instagram" /></noscript><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="        class="lazyload socialNetwork-icon" data-src="/assets/images/logos/instagram.svg" alt="Instagram" width="36" height="36"/></a>
     </div>
 
+            </div>
         </div>
         <div class="footer-newsletter">
         <div class="container">
@@ -2025,7 +2381,7 @@ Persian Cameo, whose hair color is actually &quot;red silver shaded&quot; or &qu
                 and rights that I have on my personal data
             </p>
         </div>
-    <hx:include src="/_fragment?_hash=dLaN5P87aGfe0xgdDhXkFqnv0lSHJkHw03sF8VXkKok%3D&amp;_path=tokenId%3Doptin_form%26name%3Doptin_form%255B_token%255D%26_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CSystem%255CForm%255CToken"><input type="hidden" name="optin_form[_token]" value="uN5zDr9GVeLPm-3NGQ1p_-Luf4vbIBYM2dCNzzZ7KOE" />
+    <hx:include src="/_fragment?_hash=dLaN5P87aGfe0xgdDhXkFqnv0lSHJkHw03sF8VXkKok%3D&amp;_path=tokenId%3Doptin_form%26name%3Doptin_form%255B_token%255D%26_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CSystem%255CForm%255CToken"><input type="hidden" name="optin_form[_token]" value="WDuXO5c084LPO6RnSlguvZ42AIAKwTo5_9nmFwC7Yxo" />
 </hx:include></form>
 
                     </div>
@@ -2082,6 +2438,7 @@ Persian Cameo, whose hair color is actually &quot;red silver shaded&quot; or &qu
                 
 
                 <hx:include src="/_fragment?_hash=jR7Ro%2FJUK%2FS%2BV59mptqj1ZvMo0Z%2BtNIEUZZCInQMPGI%3D&amp;_path=_format%3Dhtml%26_locale%3Den_GB%26_controller%3DApp%255CWebsite%255CAction%255CSystem%255CMagicBar"></hx:include>
+                <div class="website-overlay"></div>
             
             
     
