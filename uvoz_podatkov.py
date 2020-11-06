@@ -13,7 +13,7 @@ directory2 = "pasme_html"
 # ime datoteke v katero bomo shranili glavno stran
 filename = "pasme_mack"
 # ime CSV datoteke v katero bomo shranili podatke
-csv_filename = "pasme_mack"
+csv_filename = "pasme_mack.csv"
 
 #######################################################################################################
 #pobiramo podatke iz glavni_url_1
