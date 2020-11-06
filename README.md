@@ -22,4 +22,4 @@ Delovne hipoteze:
 * Ali obstaja povezava med pričakovano življenjsko dobo in ceno?
 * Ali so mačke, ki so bolj naklonjene otrokom tudi bolj inteligentne?
 
-
+Pobrani podatki so zbrani v csv tabeli 'pasme_mack'. Podatki v vrsticah predstavljajjo posamezno pasmo, podatki v stolpcih pa določeno lastnost.
