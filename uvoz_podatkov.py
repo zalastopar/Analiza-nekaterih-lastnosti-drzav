@@ -4,10 +4,10 @@ import requests
 import re
 
 
-#spletne strani iz katerih bomo jemali podatke
+# spletne strani iz katerih bomo jemali podatke
 glavni_url = "https://wamiz.co.uk/cat/breeds"
 pomozni_url = "https://wamiz.co.uk"
-#mapa, v katero bomo shranili podatke
+# mapa, v katero bomo shranili podatke
 directory = "zajeti_podatki"
 directory2 = "pasme_html"
 # ime datoteke v katero bomo shranili glavno stran
@@ -68,10 +68,10 @@ def read_file_to_string(directory, filename):
         return f.read()
 
 ##########################################################################################################################
-# Poiščemo spletne strani za posamezno mačko
+# Poiščemo spletne strani za posamezno mačko in uredimo
 #############################################################################################################################
 
-#želimo poiskati linke do pasem
+# želimo poiskati linke do pasem
 def link_from_file(page_content):
     """Funkcija poišče povezave do posamezne vrste."""
 
@@ -79,7 +79,13 @@ def link_from_file(page_content):
     result = re.findall(pattern, page_content)
     return result
 
-#iz številskih podatkov, ki imajo okoli besedilo želimo samo število
+# številske podatke shranimo kot int in ne kot string
+def str_to_int(sez):
+    stevilke = [int(i) for i in sez]
+
+    return stevilke
+
+# iz številskih podatkov, ki imajo okoli besedilo želimo samo število
 def izlusci_stevilo(dictionary):
     """Funkcija iz vrednosti slovarja, ki so besedne in številske vzame samo številke"""
 
@@ -88,8 +94,10 @@ def izlusci_stevilo(dictionary):
         for el in value:
             stevilke = re.findall(pattern, el)
             if len(stevilke) != 0:
-                dictionary[key] = stevilke
+                dictionary[key] = str_to_int(stevilke)
     return dictionary
+
+
 
 def get_cats_files(links, directory):
     """Funkciija za vsako pasmo shrani spletno stran pasme in jo poimenuje
@@ -135,7 +143,7 @@ def change_element_in_list(list):
     new_list= list[0:10] + new_list + list[15:]
     return new_list
 
-#izbrskaj želene podatke in jih uredi v slovar
+# izbrskaj želene podatke in jih uredi v slovar
 def get_data_from_file(directory, filename):
     """Funkcija bo iz datoteke za pasmo pobrala potrebne podatke in jih spravila v slovar"""
 
@@ -145,6 +153,7 @@ def get_data_from_file(directory, filename):
     kvadratek = re.compile('<li class="breed-list-item">\s*([^"]*) :\s*<span>\s*(.*?)\s*</span>')
     znacilnosti_iz_kvadratka = re.findall(kvadratek, html_data)
     dict_kv = make_dict_from_list_of_tuples(znacilnosti_iz_kvadratka)
+    print(dict_kv)
     dict_kv = izlusci_stevilo(dict_kv)
 
 
@@ -152,6 +161,7 @@ def get_data_from_file(directory, filename):
     tabela = re.compile('<table class="breed-specification-table--detail">\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*\s*<tr>\s*<td>\s*([^"]*)\s*</td>\s*<td>\s*(.*?)\s*</td>\s*</tr>\s*</table>')
     znacilnosti_iz_tabel = re.findall(tabela, html_data)
     dict_tab = make_dict_from_list_of_tuples(znacilnosti_iz_tabel)
+    print(dict_tab)
     dict_tab = izlusci_stevilo(dict_tab)
 
     #želimo ocene lastnosti
@@ -191,7 +201,7 @@ def list_of_cats(directory):
 # Obdelane podatke shranimo v csv datoteko
 ##########################################################################################################################
 
-#seznam slovarjev želimo shraniti kot csv
+# seznam slovarjev želimo shraniti kot csv
 def save_as_csv(filename, list):
     colnames = [*list[0]]
     
@@ -214,12 +224,12 @@ def main(redownload=True, reparse=True):
     4. podatke shrani v csv tabelo"""
 
     #naložimo glavno spletno stran in poiščemo linke od pasem
-    save_frontpage(glavni_url, directory, filename)
-    html_data = read_file_to_string(directory, filename)
-    links = link_from_file(html_data)
+    #save_frontpage(glavni_url, directory, filename)
+    #html_data = read_file_to_string(directory, filename)
+    #links = link_from_file(html_data)
 
     #za vsako pasmo shranimo njeno spletno stran
-    get_cats_files(links, directory2)
+    #get_cats_files(links, directory2)
 
     #potebne podatke pasem zberimo v slovar in spravimo slovarje v seznam
     lists = list_of_cats(directory2)
@@ -230,3 +240,4 @@ def main(redownload=True, reparse=True):
 
 if __name__ == '__main__':
     main()
+
