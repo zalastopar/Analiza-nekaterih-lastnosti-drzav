@@ -1,20 +1,26 @@
-# Analiza-pasemskih-mack
+# Primerjava držav glede na nekaj izbranih značilnosti
 
 
-Analizirala bom pasemske mačke. 
+Primerjala bom države glede na različne lastnosti
 Podatke bom vzela iz sledečih spletnih strani:
-* https://wamiz.co.uk/cat/breeds
+* https://www.worldometers.info/geography/alphabetical-list-of-countries/
+* "https://en.wikipedia.org/wiki/List_of_countries_by_median_age
+* https://en.wikipedia.org/wiki/List_of_countries_by_central_bank_interest_rates
+* https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate
+* https://en.wikipedia.org/wiki/Education_Index
+* "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
+* https://en.wikipedia.org/wiki/List_of_countries_by_forest_area
+* https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel
 
 Zajela bom podatke o:
-* ceni
-* dolžina dlake
-* pričakovana življenska doba
-* igrivost
-* poteba po pozornosti
-* glasnost
-* inteligentnost
-* neodvisnost
-* naklonjenost do otrok
+* površini držav in številu prebivalcev
+* starostni strukturi
+* obrestni meri centralnih bank
+* debelosti prebivalstva
+* izobrazbi
+* številu uporabnikov interneta
+* gozdni površini
+* vojski na prebivalca
 
 Delovne hipoteze:
 * Pasme, ki so bolj neodvisne, so manj igrive.
