@@ -90,11 +90,51 @@ def read_file_to_string(directory, filename):
 
 ## Glavno - prebivalstvo in gostota
 def prebivalstvo_in_gostota(page_content):
-    pattern = re.compile('<tr> <td>1</td> <td style="font-weight: bold; font-size:15px">(\w*)</td> <td style="font-weight: bold; text-align:right"><a href=".*">(.*)</a></td> <td style="text-align:right">652,860</td> <td style="text-align:right">60</td> </tr>')
+    pattern = re.compile('<tr> <td>.*?</td> <td style="font-weight: bold; font-size:15px">(.*?)</td> <td style="font-weight: bold; text-align:right"><a href="/world-population/.*?/">(.*?)</a></td> <td style="text-align:right">(.*?)</td> <td style="text-align:right">(.*?)</td> </tr>')
     result = re.findall(pattern, page_content)
     return result 
 
+## Starost
+def starost(page_content):
+    pattern = re.compile(r'<tr>\n<td align="left"><span class="datasortkey" data-sort-value="(.*?)".*?</span></td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>(.*?)</td>\n<td>(.*?)\n</td></tr>')
+    result = re.findall(pattern, page_content)
+    return result
 
+## Obrestna mera
+def obrestna_mera(page_content):
+    pattern = re.compile(r'<tr>\n<td align="left">.*? title=".*?">(.*?)</a></td>\n<td>(.*?)</td>.*?</tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return result
+
+## Debelost
+def debelost(page_content):
+    pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a>\n</td>\n<td>.*?\n</td>\n<td>(.*?)\n</td></tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return result
+
+## Izobrazba
+def izobrazba(page_content):
+    pattern = re.compile(r'<tr>\n<td>\d*?</td>\n<td( data-sort-value|><img alt=).*?</td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>.*?</tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return [match[1:] for match in result]
+
+## Internet
+def internet(page_content):
+    pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a></td>\n<td>(.*?)</td>.*?</tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return result
+
+## Gozd
+def gozd(page_content):
+    pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a></td>\n.*?\n.*?\n.*?\n<td style="text-align: right;">(.*?)\n</td></tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return result
+
+## Vojska
+def vojska(page_content):
+    pattern = re.compile(r'<tr .*? title=".*?">(Armenia)</a><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">&#91;7&#93;</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">&#91;Note 1&#93;</a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">&#91;Note 2&#93;</a></sup>\n</td>\n<td style="text-align:right;">44,800\n</td>\n<td style="text-align:right;">210,000\n</td>\n<td style="text-align:right;">4,300\n</td>\n<td style="text-align:right;">259,100\n</td>\n<td style="text-align:right;">85.3\n</td>\n<td style="text-align:right;">(14.7)\n</td></tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    return result
 
 ############################################################################################################################
 # Izvedemo program
@@ -119,7 +159,7 @@ def main(redownload=True, reparse=True):
 
 
 
-html_data = read_file_to_string(directory, "glavni")
-links = prebivalstvo_in_gostota(html_data)
+html_data = read_file_to_string(directory, "vojska")
+links = vojska(html_data)
 print(links)
 
