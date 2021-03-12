@@ -1,28 +1,30 @@
 # Primerjava držav glede na nekaj izbranih značilnosti
 
-
 Primerjala bom države glede na različne lastnosti
 Podatke bom vzela iz sledečih spletnih strani:
+
 * https://www.worldometers.info/geography/alphabetical-list-of-countries/
 * https://en.wikipedia.org/wiki/List_of_countries_by_median_age
-* https://en.wikipedia.org/wiki/List_of_countries_by_central_bank_interest_rates
+* https://en.wikipedia.org/wiki/List_of_countries_by_food_energy_intake
 * https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate
 * https://en.wikipedia.org/wiki/Education_Index
 * https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
 * https://en.wikipedia.org/wiki/List_of_countries_by_forest_area
-* https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel
+* https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants
 
 Zajela bom podatke o:
+
 * površini držav in številu prebivalcev
 * starostni strukturi
-* obrestni meri centralnih bank
+* dnevni vnos kalorij
 * debelosti prebivalstva
 * izobrazbi
 * številu uporabnikov interneta
 * gozdni površini
-* vojski na prebivalca
+* številu McDonald's restavracij
 
 Delovne hipoteze:
+
 * Pasme, ki so bolj neodvisne, so manj igrive.
 * Pasme, ki veljejo za glasne, imajo visoko potrebo po pozornosti.
 * Ali obstaja povezava med pričakovano življenjsko dobo in ceno?
