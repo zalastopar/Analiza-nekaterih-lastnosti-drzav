@@ -11,7 +11,8 @@ linki = {
 "url4" : "https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate",
 "url5" : "https://en.wikipedia.org/wiki/Education_Index",
 "url6" : "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users",
-"url7" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
+"url7" : "https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php",
+"url8" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
 }
 
 # mapa, v katero bomo shranili podatke
@@ -24,7 +25,9 @@ imena = {
 "filename4" : "debelost",
 "filename5" : "izobrazba",
 "filename6" : "internet",
-"filename7" : "mcdonalds"
+"filename7" : "bdp",
+"filename8" : "mcdonalds"
+
 }
 # ime CSV datoteke v katero bomo shranili podatke
 csv_filename = "drzave.csv"
@@ -87,7 +90,8 @@ def read_file_to_string(directory, filename):
 #######################################################################################################
 
 def ustvari_slovar(sez, kategorije):
-    """ Funkcija iz seznama tuplov ustvari seznam slovarjev, tako da vsak slovar pripada eni drzavi.
+    """ Funkcija iz seznama tuplov ustvari seznam slovarjev, 
+    tako da vsak slovar pripada eni drzavi.
     """
     drzave = []
     for el in sez:
@@ -134,7 +138,7 @@ def debelost(page_content):
 def izobrazba(page_content):
     pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td align="left">.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    novo = ustvari_slovar(result, ['indeks izobrazbe'])
+    novo = ustvari_slovar(result, ['indeks izobrazbe 2015'])
     return novo
 
 ## Internet - (country, internet users, percent of population)
@@ -142,6 +146,13 @@ def internet(page_content):
     pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['st uporabnikov interneta', 'procent uporabnikov interneta'])
+    return novo
+
+## BDP - (country, 2020 gdp)
+def bdp(page_content):
+    pattern = re.compile(r'<tr><td class="name">(.*?)</td><td class="data">(.*?)</td>.*?</tr>', re.DOTALL)
+    result = re.findall(pattern, page_content)
+    novo = ustvari_slovar(result, ['bdp 2020'])
     return novo
 
 ## McDonald's restavracije ########
@@ -177,6 +188,27 @@ def zdruzi(sez1, sez2, nova):
 # Popravki imen
 ##########################################################################################################################
 
+def poisci_in_izbrisi(imena, sez):
+    """ Funkcija za državo, ki ima različne zapise spravljene v seznamu 'imena', 
+    ustvari samo en slovar, ga doda v 'sez' in izbrise potrebne slovarje.
+    """
+    nov = {}
+    a = len(sez)
+    for i in range(a-1, -1, -1):
+        if sez[i]['drzava'] in imena:
+            nov = {**nov, **sez[i]}
+            sez.remove(sez[i])
+    sez.append(nov)
+
+
+def spremeni_drzave(sez):
+    """ Nekatere drzave imajo razlicna poimenovanja. Funkcija jih poenoti."""
+
+    for el in [['Bahamas', 'The Bahamas'], ['Brunei', 'Brunei', 'Brunei Darussalar'], ['Cabo Verde', 'Cape Verde'], ['Congo (Congo-Brazzaville)', 'Congo', 'Republic of the Congo'], ["C&ocirc;te d'Ivoire", "Cote d'Ivoire", "Côte d'Ivoire", "Ivory Coast"], ['Czech Republic', 'Czechia (Czech Republic)'], ['DR Congo', 'Democratic Republic of the Congo'], ['Eswatini (Swaziland)', 'Eswatini', 'Eswatini (fmr. "Swaziland")', 'Swaziland'], ['F.S. Micronesia', 'Federated States of Micronesia', 'Micronesia, Federated States of', 'Micronesia'], ['Gambia', 'The Gambia'], ['Myanmar (Burma)', 'Myanmar', 'Myanmar (formerly Burma)'], ['Macedonia', 'North Macedonia'], ['Palestine', 'Palestine State', 'Palestinian Authority'], ['Russia', 'Russian Federation'], ['Syrian Arab Republic', 'Syria'], ['Timor Leste', 'Timor-Leste'], ['United States', 'United States of America'], ['Viet Nam', 'Vietnam']]:
+        poisci_in_izbrisi(el, sez)
+    
+
+
 
 
 ##########################################################################################################################
@@ -203,13 +235,13 @@ def save_as_csv(filename, list):
 def main(redownload=True, reparse=True):
     """Funkcija izvede celotno pridobivanje podatkov
     1. shrani vse spletne strani
-    2. shrani stran od vsake pasme
+    2. poisce ustrezne podatke
     3. podatke, ki jih potrebujemo uredi v slovar
     4. podatke shrani v csv tabelo"""
 
 
     drzave = []
-    for i in range(1, 7):
+    for i in range(1, 8):
         # naložimo spletne strani za vsako kategorijo
         save_frontpage(linki["url" + str(i)], directory, imena["filename" + str(i)])
         html_data = read_file_to_string(directory, imena["filename" + str(i)])
@@ -219,37 +251,17 @@ def main(redownload=True, reparse=True):
 
         # sproti sestavljamo slovarje
         drzave = zdruzi(drzave, umesni, [])
+
+    spremeni_drzave(drzave)
+    drzave = sorted(drzave, key=lambda k: k['drzava'])
+    
     # shranimo v csv datoteko
     save_as_csv(csv_filename, drzave)
 
 
 
 
-
-
 if __name__ == '__main__':
     main()
-
-
-
-html_data1 = read_file_to_string(directory, "glavni")
-glav = glavni(html_data1)
-
-html_data2 = read_file_to_string(directory, "starost")
-star = starost(html_data2)
-
-html_data3 = read_file_to_string(directory, "vnos_kalorij")
-kcal = vnos_kalorij(html_data3)
-
-html_data4 = read_file_to_string(directory, "debelost")
-deb = debelost(html_data4)
-
-html_data5 = read_file_to_string(directory, "izobrazba")
-izo = izobrazba(html_data5)
-
-html_data6 = read_file_to_string(directory, "internet")
-inter = internet(html_data6)
-
-
 
 

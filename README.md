@@ -1,6 +1,7 @@
-# Primerjava držav glede na nekaj izbranih značilnosti
+# Vpliv razvitosti države na življenje državljanov
 
-Primerjala bom države glede na različne lastnosti
+Analizirala bom kako razvitost države vpliva na življenje njenih državljanov. Za merilo razlitosti bom vzela nominalni BDP na prebivalca iz leta 2020. Opazovala bom, kako višina BDP-ja vpliva na starostno strukturo, povprečen dnevni vnos kalorij, izobraženost prebivalcev, delež prebivalsta s prekomerno težo in število uporabnikov interneta.
+
 Podatke bom vzela iz sledečih spletnih strani:
 
 * https://www.worldometers.info/geography/alphabetical-list-of-countries/
@@ -9,25 +10,26 @@ Podatke bom vzela iz sledečih spletnih strani:
 * https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate
 * https://en.wikipedia.org/wiki/Education_Index
 * https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
-* https://en.wikipedia.org/wiki/List_of_countries_by_forest_area
+* https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php
 * https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants
 
 Zajela bom podatke o:
 
 * površini držav in številu prebivalcev
-* starostni strukturi
-* dnevni vnos kalorij
-* debelosti prebivalstva
-* izobrazbi
+* starostni strukturi (mediana starosti prebivalcev, mediana starosti moških, mediana straosti žensk)
+* dnevni vnos kalorij (povprečni dnevni vnos kalorij državljanov)
+* debelosti prebivalstva (procent državljanov, ki imajo prekomerno težo)
+* izobrazbi (izobrazbeni indeks)
 * številu uporabnikov interneta
-* gozdni površini
+* BDP na prebivalca
 * številu McDonald's restavracij
 
 Delovne hipoteze:
 
-* Pasme, ki so bolj neodvisne, so manj igrive.
-* Pasme, ki veljejo za glasne, imajo visoko potrebo po pozornosti.
-* Ali obstaja povezava med pričakovano življenjsko dobo in ceno?
-* Ali so mačke, ki so bolj naklonjene otrokom tudi bolj inteligentne?
+* V državah z višjim izbrazbenim indeksom večina državljanov uporablja internet.
+* Države z višjim BDP p.p. imajo višje izobrazbene indekse.
+* Delež prebivalcev s čezmerno težo je večji v državah z višjim BDP na prebivalca.
+* Ali obstaja povezava med starostno strukturo in številom MCDnald's restavracij?
+* Višji dnevni vnost kalorij pomeni večji delež prekomerno težkih.
 
-Pobrani podatki so zbrani v csv tabeli 'pasme_mack'. Podatki v vrsticah predstavljajjo posamezno pasmo, podatki v stolpcih pa določeno lastnost.
+Pobrani podatki so zbrani v csv tabeli 'drzave.csv'. Ena vrstica predstavlja eno državo, v stolpcih pa so število prebivalcev, površina, povprečna starost, povprečna starost moških, povprečna starost žensk, povprečni dnevni vnos kalorij, delež prebivalsta s čezmerno težo, indeks izobrazbe, število uporabnikov interneta, BDP.

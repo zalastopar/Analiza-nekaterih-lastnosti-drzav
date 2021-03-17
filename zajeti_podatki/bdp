@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+<!--
+if (screen.width <= 699) {
+document.location = "https://m.statisticstimes.com/economy/countries-by-projected-gdp-capita.php";
+}
+//-->
+</script>
+<title>Countries by Projected GDP per capita 2021 - StatisticsTimes.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="This list contains projected GDP per capita (Nominal and PPP) of 193 Countries/Economies
+at current prices of year 2020 and 2021 by IMF alongside with their world rank and compare to world's average.">
+<link rel="alternate" media="only screen and (max-width: 699px)" href="https://m.statisticstimes.com/economy/countries-by-projected-gdp-capita.php">
+<link rel="canonical" href="https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php">
+<link rel="stylesheet" type="text/css" href="../table.css">
+<link rel="stylesheet" type="text/css" href="../css_new.css">
+<link rel="stylesheet" type="text/css" href="../div-switcher.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../DataTables-1.10.4/media/css/jquery.dataTables.css">
+<script src="../DataTables-1.10.4/media/js/jquery.js"></script>  
+<script src="../DataTables-1.10.4/media/js/jquery.dataTables.js"></script>
+<script src="../div-switcher.js"></script>
+<script>
+(function ($) {
+    // start
+    $(document).ready(function(){
+	$('#div-switcher').divSwitcher();
+    });
+})(jQuery);
+</script>
+<script>
+$(document).ready( function () {
+    $('#table_id').DataTable({
+        "order": [[4, "asc" ]]
+    });
+} );
+
+$.extend( $.fn.dataTable.defaults, {
+    paging: false,
+    "info": false,
+    searching: false
+    
+} );
+</script>
+<style>
+p,caption{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#chartdiv1, #chartdiv2, #chartdiv3, #chartdiv4, #chartdiv5, #chartdiv6, #chartdiv7, #chartdiv8 {
+	width: 950px;
+	height: 600px;
+}
+
+.div-switcher {
+	width: 250px;    
+}
+.div-switcher .switcher {
+    width: 47%;
+}
+.switcher-target-container {
+	width: 950px;
+	height: 600px;
+	margin-left : 1px;
+}
+</style>
+<script src="//services.bilsyndication.com/adv1/?d=1604" defer="" async=""></script><script> var vitag = vitag || {};</script>
+</head>
+<body>
+<div id="header">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "content": {
+    "message": "This site uses cookies to analyse traffic and for ads measurement purposes.",
+    "href": "/privacy.php"
+  }
+})});
+</script>
+<div id="top" style="background-color:#4d94ff; width:1150px;height: 100px;">
+<div style="margin-left:50px;float: left; padding-top:5px; width:200px;height:90px;">
+<a href='/index.php' >
+<img src="/statistics.png" alt="statisticstimes" width="200" height="90">
+</a>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57003708-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Home
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/index.php">World</a>
+      <a href="/india.php">India</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Economy
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/economy/world-statistics.php">World</a>
+      <a href="/economy/country-statistics.php">Country</a>
+      <a href="/economy/india-statistics.php">India</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Demographics
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/demographics/world-statistics.php">World</a>
+      <a href="/demographics/country-statistics.php">Country</a>
+      <a href="/demographics/india-statistics.php">India</a>
+    </div>
+  </div>
+  <a href="/health/coronavirus-statistics.php">Coronavirus</a>
+  <div class="dropdown">
+    <button class="dropbtn">Politics
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/politics/india-statistics.php">India</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Geography
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/geography/world-statistics.php">World</a>
+      <a href="/geography/india-statistics.php">India</a>
+    </div>
+  </div> 
+  <a href="/tech/world-statistics.php">Tech</a>
+  <div class="dropdown">
+    <button class="dropbtn">Sports
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/sports/world-statistics.php">World</a>
+      <a href="/sports/india-statistics.php">India</a>
+    </div> 
+  </div>
+  <a href="/ranking/world-statistics.php">Ranking</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Article
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/article/world-statistics.php">World</a>
+      <a href="/article/india-statistics.php">India</a>
+    </div>
+  </div> 
+</div>
+</div>
+<div id="main" itemscope itemtype="https://schema.org/WebPageElement">
+<div class="fwidth">
+<h1 itemprop="about">List of Countries by Projected GDP per capita</h1>    
+<table class="reference">
+<tr><td>Source</td><td itemprop="citation">
+<a href="https://www.imf.org/en/Publications/WEO/weo-database/2020/October/weo-report?c=512,914,612,614,311,213,911,314,193,122,912,313,419,513,316,913,124,339,638,514,218,963,616,223,516,918,748,618,624,522,622,156,626,628,228,924,233,632,636,634,238,662,960,423,935,128,611,321,243,248,469,253,642,643,939,734,644,819,172,132,646,648,915,134,652,174,328,258,656,654,336,263,268,532,944,176,534,536,429,433,178,436,136,343,158,439,916,664,826,542,967,443,917,544,941,446,666,668,672,946,137,546,674,676,548,556,678,181,867,682,684,273,868,921,948,943,686,688,518,728,836,558,138,196,278,692,694,962,142,449,564,565,283,853,288,293,566,964,182,359,453,968,922,714,862,135,716,456,722,942,718,724,576,936,961,813,726,199,733,184,524,361,362,364,732,366,144,146,463,528,923,738,578,537,742,866,369,744,186,925,869,746,926,466,112,111,298,927,846,299,582,487,474,754,698,&s=NGDPDPC,PPPPC,&sy=2020&ey=2021&ssm=0&scsm=0&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1" target="_blank">
+ International Monetary Fund World Economic Outlook (October - 2020)</a></td></tr>                   
+<tr><td>Date</td><td>15 Mar 2021</td></tr>
+</table>
+</div>
+
+<div class="right">
+<div class="content-separator"></div>
+<div class="space">
+<div class="adsbyvli" data-ad-slot="vi_16043977"></div> <script>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("vi_16043977") })</script></div>
+<div class="content-separator"></div>
+<div class="space latest border">
+<div style="text-align:center;float:left;margin-left:10px;font-size:20px;padding-top:10px;padding-bottom:5px;width:330px;">
+    Top Statistics
+</div>
+<div style="float:left;margin-left:10px;padding-top:5px;padding-bottom:5px;width:325px;border-bottom:1px solid #993366; ">
+<a href="/economy/gdp-indicators-2021.php" class="ls">
+       GDP ranking 2021</a>
+</div>
+<div style="float:left;margin-left:10px;padding-top:5px;padding-bottom:5px;width:325px;border-bottom:1px solid #993366; ">
+<a href="/economy/projected-world-gdp-capita-ranking.php" class="ls">
+       GDP per capita ranking 2021</a>
+</div>
+<div style="float:left;margin-left:10px;padding-top:5px;padding-bottom:5px;width:325px;border-bottom:1px solid #993366; ">
+<a href="/health/coronavirus.php" class="ls">
+       Coronavirus Pandemic (COVID-19)</a>
+</div></div>
+<div class="space url border">
+<ul style="list-style-type:none;">
+<li class="seealso">
+       See Also: </li>
+<li><a href="projected-world-gdp-capita-ranking.php" class="ec">
+       » Projected GDP per capita Ranking</a></li>
+<li><a href="countries-by-gdp-capita.php" class="ec">
+       » Countries by GDP (Nominal) per capita </a></li>
+<li><a href="countries-by-gdp-capita-ppp.php" class="ec">
+       » Countries by GDP (PPP) per capita</a></li>
+<li><a href="countries-by-projected-gdp.php" class="ec">
+       » Countries by Projected GDP</a></li>
+<li><a href="countries-by-projected-gdp-growth.php" class="ec">
+       » Countries by projected GDP Growth</a></li>
+<li><a href="world-statistics.php" class="more">
+       View More Economy Statistics</a></li>
+</ul>
+</div>
+</div>
+
+<div class="divpara para">
+<div class="para">
+<p>In <a href="gdp-indicators-2021.php">2021</a>, Luxembourg would have the <a href="richest-economies-in-the-world.php">
+highest GDP per capita</a>, while Burundi would be the poorest economy in nominal and PPP terms. The per capita of the richest
+economy, Luxembourg, would be 1,070% and 662% of the global average in nominal and PPP methods, respectively. The poorest 
+economy, South Sudan, would be only 2.3% and 4.4% of the <a href="world-gdp-per-capita.php">global GDP per capita</a>
+in nominal and PPP methods, respectively.</p>
+<p>In nominal data, only Luxembourg would have gdp per capita of above 100k US dollars. Sixteen economies would have per capita
+gdp above $50,000. Austria, Finland, Germany, and Belgium are expected to cross the $50k mark in 2021. With the entry of 
+Bulgaria, Russia, St. Lucia, and Grenada into the elite $10000 per capita GDP club in 2021, there would be a total of 69 
+economies in this list.</p>
+<p>Out of 193 economies, gdp (nominal) per capita of the 174 economies would increase, and 19 economies would decrease in 2021
+compared to <a href="gdp-indicators-2020.php">2020</a>. Luxembourg will add $16320 in 2021, followed by Ireland ($10810), 
+Macao SAR ($9438), Switzerland ($8490), and Norway ($8419). The top five losers are Palau (Int. $-1053), Zimbabwe (Int. $-406),
+Timor-Leste (Int. $-183), Venezuela (Int. $-153), and Tonga (Int. $-74). Libya (+26) would be a huge gainer in the 
+<a href="world-gdp-capita-ranking.php">nominal ranking</a>, followed by Macao SAR (+7) and Suriname (+6). Zimbabwe (-17), 
+Bhutan (-7), Turkey (-7), Palau (-6), and Egypt (-6) would lose most in the ranking.</p>
+<p>In ppp data, Luxembourg and Singapore would have gdp per capita of above 100k International dollar. Singapore's will again
+cross Int. $100,000 in 2021. Twenty-four economies would have per capita gdp above $50,000. Finland, Canada, and Bahrain are
+expected to cross the $50k mark in 2021. There would be a total of 69 economies above Int. $20k level.</p>
+<p>Out of 193 economies, gdp (ppp) per capita of the 183 economies would increase, and ten economies would decrease in 2021 
+compared to 2020. Macao SAR will add Int. $15083 in 2021, followed by Luxembourg (Int. $6885), Singapore (Int. $5806), 
+Ireland (Int. $5588), and San Marino (Int. $4351). Palau (Int. $-891), Lebanon (Int. $-886), Timor-Leste (Int. $-653), 
+Oman (Int. $-396), and Venezuela (Int. $-357) are top decliners. Libya (+22), Bangladesh (+6), Fiji (+5), Aruba (+4), 
+Spain (+4), and Macao SAR (+4) are top gainers in the ppp ranking. Venezuela (-12), Timor-Leste (-10), Lebanon (-8), 
+and Palau (-8) would lose most in the ranking.</p>
+</div>
+<div class="native">
+<div class="content-separator"></div>
+<div class="adsbyvli" data-ad-slot="vi_16043978"></div><script>(vitag.Init = window.vitag.Init || []).push(function(){viAPItag.display("vi_16043978")})</script><div class="content-separator"></div>
+</div>
+</div>
+
+<div class="fwidth">
+<div class="border" style="width:955px;float:left;">
+<div style="margin-left:300px;width:600px;float:left;">
+<ul id="div-switcher" class="div-switcher" data-target="switcher-target-container">
+	<li data-div="1" data-group="1" class="switcher active">Nominal</li>
+	<li data-div="2" data-group="1" class="switcher">PPP</li>
+	<li data-div="3" data-group="2" class="switcher active">GDP per capita</li>
+	<li data-div="4" data-group="2" class="switcher">Change</li>
+	<li data-div="5" data-group="3" class="switcher active">Choropleth Map</li>
+	<li data-div="6" data-group="3" class="switcher">Bubble Map</li>
+</ul>
+</div>
+
+<div id="switcher-target-container" class="switcher-target-container">
+<div id="chartdiv1" class="switcher-target group-135"></div>
+<div id="chartdiv2" class="switcher-target group-235"></div>
+<div id="chartdiv3" class="switcher-target group-136"></div>
+<div id="chartdiv4" class="switcher-target group-236"></div>
+<div id="chartdiv5" class="switcher-target group-145"></div>
+<div id="chartdiv6" class="switcher-target group-245"></div>
+<div id="chartdiv7" class="switcher-target group-146"></div>
+<div id="chartdiv8" class="switcher-target group-246"></div>
+</div>
+</div>
+</div>
+
+<div class="fwidth">
+<div itemprop="text" itemscope itemtype="https://schema.org/Table"
+     style="float:left;padding-bottom:10px;width:990px;margin-top:20px;">
+<table id="table_id" class="display" style="width:980px;display:table;border:1px solid #0000FF;">
+<thead>
+<tr><th style="background-color:#ffc266" rowspan="2">Country/Economy</th>
+<th style="background-color:#00e64d" colspan="5">GDP per capita Nominal ($)</th>
+<th style="background-color:#ff6666" colspan="5">GDP per capita PPP (Int. $)</th></tr>
+<tr style="background-color:#a3a375"><th>2020</th><th>Rank</th><th>2021</th><th>Rank</th><th>% world</th>
+<th>2020</th><th>Rank</th><th>2021</th><th>Rank</th><th>% world</th></tr>
+</thead>
+<tbody>
+<tr><td class="name">Pakistan
+     </td><td class="data">1,260</td><td class="data1">160</td><td class="data" style="background-color:#DEB887">1,308</td><td class="data1" style="background-color:#DEB887">160</td><td class="data1" style="background-color:#DEB887">11.1</td><td class="data">5,160</td><td class="data1">141</td><td class="data">5,230</td><td class="data1">144</td><td class="data1">28.9</td></tr><tr><td class="name">Venezuela
+     </td><td class="data">1,739</td><td class="data1">152</td><td class="data">1,586</td><td class="data1">156</td><td class="data1">13.5</td><td class="data">5,558</td><td class="data1">134</td><td class="data" style="background-color:#DEB887">5,201</td><td class="data1" style="background-color:#DEB887">146</td><td class="data1" style="background-color:#DEB887">28.8</td></tr><tr><td class="name">Lebanon
+     </td><td class="data">2,745</td><td class="data1">135</td><td class="data" style="background-color:#DEB887">2,902</td><td class="data1" style="background-color:#DEB887">135</td><td class="data1" style="background-color:#DEB887">24.6</td><td class="data">11,562</td><td class="data1">106</td><td class="data" style="background-color:#DEB887">10,676</td><td class="data1" style="background-color:#DEB887">114</td><td class="data1" style="background-color:#DEB887">59.0</td></tr><tr><td class="name">Afghanistan</td><td class="data">499</td><td class="data1">187</td><td class="data">506</td><td class="data1">187</td><td class="data1">4.30</td><td class="data">2,073</td><td class="data1">178</td><td class="data">2,154</td><td class="data1">178</td><td class="data1">11.9</td></tr><tr><td class="name">Albania</td><td class="data">4,898</td><td class="data1">98</td><td class="data">5,161</td><td class="data1">98</td><td class="data1">43.8</td><td class="data">13,651</td><td class="data1">93</td><td class="data">14,827</td><td class="data1">91</td><td class="data1">82.0</td></tr><tr><td class="name">Algeria</td><td class="data">3,331</td><td class="data1">127</td><td class="data">3,449</td><td class="data1">128</td><td class="data1">29.3</td><td class="data">11,041</td><td class="data1">109</td><td class="data">11,435</td><td class="data1">110</td><td class="data1">63.2</td></tr><tr><td class="name">Angola</td><td class="data">2,021</td><td class="data1">145</td><td class="data">2,130</td><td class="data1">145</td><td class="data1">18.1</td><td class="data">6,978</td><td class="data1">128</td><td class="data">7,148</td><td class="data1">129</td><td class="data1">39.5</td></tr><tr><td class="name">Antigua and Barbuda</td><td class="data">14,159</td><td class="data1">56</td><td class="data">14,748</td><td class="data1">56</td><td class="data1">125</td><td class="data">18,655</td><td class="data1">73</td><td class="data">19,675</td><td class="data1">73</td><td class="data1">109</td></tr><tr><td class="name">Argentina</td><td class="data">8,433</td><td class="data1">74</td><td class="data">9,095</td><td class="data1">75</td><td class="data1">77.3</td><td class="data">20,370</td><td class="data1">66</td><td class="data">21,621</td><td class="data1">66</td><td class="data1">120</td></tr><tr><td class="name">Armenia</td><td class="data">4,315</td><td class="data1">103</td><td class="data">4,427</td><td class="data1">107</td><td class="data1">37.6</td><td class="data">13,735</td><td class="data1">91</td><td class="data">14,536</td><td class="data1">92</td><td class="data1">80.4</td></tr><tr><td class="name">Aruba</td><td class="data">20,310</td><td class="data1">42</td><td class="data">22,709</td><td class="data1">43</td><td class="data1">193</td><td class="data">27,169</td><td class="data1">56</td><td class="data">30,149</td><td class="data1">52</td><td class="data1">167</td></tr><tr><td class="name">Australia</td><td class="data">51,885</td><td class="data1">10</td><td class="data">57,211</td><td class="data1">11</td><td class="data1">486</td><td class="data">50,845</td><td class="data1">20</td><td class="data">53,189</td><td class="data1">21</td><td class="data1">294</td></tr><tr><td class="name">Austria</td><td class="data">48,634</td><td class="data1">13</td><td class="data">54,820</td><td class="data1">13</td><td class="data1">466</td><td class="data">55,406</td><td class="data1">15</td><td class="data">58,966</td><td class="data1">14</td><td class="data1">326</td></tr><tr><td class="name">Azerbaijan</td><td class="data">4,125</td><td class="data1">109</td><td class="data">4,404</td><td class="data1">109</td><td class="data1">37.4</td><td class="data">14,499</td><td class="data1">88</td><td class="data">14,932</td><td class="data1">88</td><td class="data1">82.6</td></tr><tr><td class="name">Bahrain</td><td class="data">22,878</td><td class="data1">38</td><td class="data">23,710</td><td class="data1">40</td><td class="data1">201</td><td class="data">49,057</td><td class="data1">23</td><td class="data">50,265</td><td class="data1">24</td><td class="data1">278</td></tr><tr><td class="name">Bangladesh</td><td class="data">1,888</td><td class="data1">147</td><td class="data">1,990</td><td class="data1">148</td><td class="data1">16.9</td><td class="data">5,139</td><td class="data1">142</td><td class="data">5,752</td><td class="data1">136</td><td class="data1">31.8</td></tr><tr><td class="name">Barbados</td><td class="data">16,082</td><td class="data1">49</td><td class="data">17,472</td><td class="data1">49</td><td class="data1">148</td><td class="data">14,568</td><td class="data1">86</td><td class="data">15,951</td><td class="data1">85</td><td class="data1">88.2</td></tr><tr><td class="name">Belarus</td><td class="data">6,134</td><td class="data1">89</td><td class="data">6,513</td><td class="data1">91</td><td class="data1">55.3</td><td class="data">19,759</td><td class="data1">68</td><td class="data">20,744</td><td class="data1">68</td><td class="data1">115</td></tr><tr><td class="name">Belgium</td><td class="data">43,814</td><td class="data1">17</td><td class="data">50,051</td><td class="data1">16</td><td class="data1">425</td><td class="data">50,114</td><td class="data1">21</td><td class="data">53,805</td><td class="data1">20</td><td class="data1">298</td></tr><tr><td class="name">Belize</td><td class="data">3,734</td><td class="data1">118</td><td class="data">3,968</td><td class="data1">119</td><td class="data1">33.7</td><td class="data">5,695</td><td class="data1">133</td><td class="data">6,145</td><td class="data1">131</td><td class="data1">34.0</td></tr><tr><td class="name">Benin</td><td class="data">1,259</td><td class="data1">161</td><td class="data">1,400</td><td class="data1">159</td><td class="data1">11.9</td><td class="data">3,443</td><td class="data1">161</td><td class="data">3,594</td><td class="data1">159</td><td class="data1">19.9</td></tr><tr><td class="name">Bhutan</td><td class="data">3,431</td><td class="data1">122</td><td class="data">3,447</td><td class="data1">129</td><td class="data1">29.3</td><td class="data">12,058</td><td class="data1">103</td><td class="data">12,118</td><td class="data1">107</td><td class="data1">67.0</td></tr><tr><td class="name">Bolivia</td><td class="data">3,322</td><td class="data1">128</td><td class="data">3,618</td><td class="data1">124</td><td class="data1">30.7</td><td class="data">8,342</td><td class="data1">122</td><td class="data">8,873</td><td class="data1">122</td><td class="data1">49.1</td></tr><tr><td class="name">Bosnia and Herzegovina</td><td class="data">5,762</td><td class="data1">92</td><td class="data">6,536</td><td class="data1">90</td><td class="data1">55.5</td><td class="data">14,895</td><td class="data1">84</td><td class="data">16,063</td><td class="data1">84</td><td class="data1">88.8</td></tr><tr><td class="name">Botswana</td><td class="data">6,558</td><td class="data1">87</td><td class="data">7,036</td><td class="data1">87</td><td class="data1">59.8</td><td class="data">16,153</td><td class="data1">81</td><td class="data">17,623</td><td class="data1">80</td><td class="data1">97.5</td></tr><tr><td class="name">Brazil</td><td class="data">6,450</td><td class="data1">88</td><td class="data">6,728</td><td class="data1">89</td><td class="data1">57.1</td><td class="data">14,563</td><td class="data1">87</td><td class="data">15,208</td><td class="data1">86</td><td class="data1">84.1</td></tr><tr><td class="name">Brunei Darussalam</td><td class="data">23,117</td><td class="data1">36</td><td class="data">26,274</td><td class="data1">37</td><td class="data1">223</td><td class="data">61,816</td><td class="data1">8</td><td class="data">65,085</td><td class="data1">9</td><td class="data1">360</td></tr><tr><td class="name">Bulgaria</td><td class="data">9,826</td><td class="data1">67</td><td class="data">11,349</td><td class="data1">66</td><td class="data1">96.4</td><td class="data">23,741</td><td class="data1">60</td><td class="data">25,413</td><td class="data1">61</td><td class="data1">141</td></tr><tr><td class="name">Burkina Faso</td><td class="data">769</td><td class="data1">174</td><td class="data">851</td><td class="data1">172</td><td class="data1">7.23</td><td class="data">2,203</td><td class="data1">176</td><td class="data">2,273</td><td class="data1">176</td><td class="data1">12.6</td></tr><tr><td class="name">Burundi</td><td class="data">264</td><td class="data1">193</td><td class="data">267</td><td class="data1">193</td><td class="data1">2.27</td><td class="data">783</td><td class="data1">193</td><td class="data">801</td><td class="data1">193</td><td class="data1">4.43</td></tr><tr><td class="name">Cabo Verde</td><td class="data">3,358</td><td class="data1">126</td><td class="data">3,675</td><td class="data1">123</td><td class="data1">31.2</td><td class="data">6,980</td><td class="data1">127</td><td class="data">7,366</td><td class="data1">128</td><td class="data1">40.7</td></tr><tr><td class="name">Cambodia</td><td class="data">1,572</td><td class="data1">154</td><td class="data">1,680</td><td class="data1">153</td><td class="data1">14.3</td><td class="data">4,441</td><td class="data1">149</td><td class="data">4,774</td><td class="data1">148</td><td class="data1">26.4</td></tr><tr><td class="name">Cameroon</td><td class="data">1,493</td><td class="data1">155</td><td class="data">1,657</td><td class="data1">154</td><td class="data1">14.1</td><td class="data">3,710</td><td class="data1">156</td><td class="data">3,826</td><td class="data1">153</td><td class="data1">21.2</td></tr><tr><td class="name">Canada</td><td class="data">42,080</td><td class="data1">18</td><td class="data">45,871</td><td class="data1">19</td><td class="data1">390</td><td class="data">47,569</td><td class="data1">24</td><td class="data">50,596</td><td class="data1">23</td><td class="data1">280</td></tr><tr><td class="name">Central African Republic</td><td class="data">480</td><td class="data1">188</td><td class="data">522</td><td class="data1">185</td><td class="data1">4.43</td><td class="data">972</td><td class="data1">191</td><td class="data">1,005</td><td class="data1">191</td><td class="data1">5.56</td></tr><tr><td class="name">Chad</td><td class="data">640</td><td class="data1">182</td><td class="data">710</td><td class="data1">178</td><td class="data1">6.03</td><td class="data">1,618</td><td class="data1">185</td><td class="data">1,704</td><td class="data1">183</td><td class="data1">9.42</td></tr><tr><td class="name">Chile</td><td class="data">12,612</td><td class="data1">60</td><td class="data">14,209</td><td class="data1">59</td><td class="data1">121</td><td class="data">23,455</td><td class="data1">61</td><td class="data">24,721</td><td class="data1">62</td><td class="data1">137</td></tr><tr><td class="name">China</td><td class="data">10,839</td><td class="data1">64</td><td class="data">11,956</td><td class="data1">63</td><td class="data1">102</td><td class="data">17,206</td><td class="data1">77</td><td class="data">18,983</td><td class="data1">76</td><td class="data1">105</td></tr><tr><td class="name">Colombia</td><td class="data">5,207</td><td class="data1">95</td><td class="data">5,457</td><td class="data1">95</td><td class="data1">46.3</td><td class="data">14,137</td><td class="data1">90</td><td class="data">14,884</td><td class="data1">90</td><td class="data1">82.3</td></tr><tr><td class="name">Comoros</td><td class="data">1,337</td><td class="data1">158</td><td class="data">1,431</td><td class="data1">158</td><td class="data1">12.2</td><td class="data">3,014</td><td class="data1">163</td><td class="data">3,087</td><td class="data1">163</td><td class="data1">17.1</td></tr><tr><td class="name">Costa Rica</td><td class="data">11,629</td><td class="data1">63</td><td class="data">11,805</td><td class="data1">64</td><td class="data1">100</td><td class="data">19,309</td><td class="data1">69</td><td class="data">19,978</td><td class="data1">70</td><td class="data1">110</td></tr><tr><td class="name">Croatia</td><td class="data">14,033</td><td class="data1">58</td><td class="data">16,401</td><td class="data1">53</td><td class="data1">139</td><td class="data">27,681</td><td class="data1">53</td><td class="data">30,222</td><td class="data1">51</td><td class="data1">167</td></tr><tr><td class="name">Cyprus</td><td class="data">26,240</td><td class="data1">34</td><td class="data">29,686</td><td class="data1">33</td><td class="data1">252</td><td class="data">39,079</td><td class="data1">36</td><td class="data">41,364</td><td class="data1">37</td><td class="data1">229</td></tr><tr><td class="name">Czech Republic</td><td class="data">22,627</td><td class="data1">39</td><td class="data">25,991</td><td class="data1">38</td><td class="data1">221</td><td class="data">40,293</td><td class="data1">33</td><td class="data">43,144</td><td class="data1">32</td><td class="data1">239</td></tr><tr><td class="name">Côte d'Ivoire</td><td class="data">2,281</td><td class="data1">140</td><td class="data">2,571</td><td class="data1">139</td><td class="data1">21.8</td><td class="data">5,360</td><td class="data1">138</td><td class="data">5,671</td><td class="data1">138</td><td class="data1">31.4</td></tr><tr><td class="name">Democratic Republic of the Congo</td><td class="data">457</td><td class="data1">189</td><td class="data">478</td><td class="data1">188</td><td class="data1">4.06</td><td class="data">978</td><td class="data1">190</td><td class="data">1,005</td><td class="data1">190</td><td class="data1">5.56</td></tr><tr><td class="name">Denmark</td><td class="data">58,439</td><td class="data1">7</td><td class="data">63,645</td><td class="data1">6</td><td class="data1">541</td><td class="data">57,781</td><td class="data1">12</td><td class="data">61,008</td><td class="data1">12</td><td class="data1">337</td></tr><tr><td class="name">Djibouti</td><td class="data">3,074</td><td class="data1">132</td><td class="data">3,275</td><td class="data1">132</td><td class="data1">27.8</td><td class="data">5,074</td><td class="data1">143</td><td class="data">5,398</td><td class="data1">142</td><td class="data1">29.8</td></tr><tr><td class="name">Dominica</td><td class="data">7,709</td><td class="data1">79</td><td class="data">8,111</td><td class="data1">79</td><td class="data1">68.9</td><td class="data">12,083</td><td class="data1">102</td><td class="data">12,753</td><td class="data1">102</td><td class="data1">70.5</td></tr><tr><td class="name">Dominican Republic</td><td class="data">7,445</td><td class="data1">81</td><td class="data">7,740</td><td class="data1">82</td><td class="data1">65.7</td><td class="data">18,783</td><td class="data1">72</td><td class="data">19,767</td><td class="data1">71</td><td class="data1">109</td></tr><tr><td class="name">Ecuador</td><td class="data">5,316</td><td class="data1">93</td><td class="data">5,589</td><td class="data1">94</td><td class="data1">47.5</td><td class="data">10,617</td><td class="data1">112</td><td class="data">11,211</td><td class="data1">111</td><td class="data1">62.0</td></tr><tr><td class="name">Egypt</td><td class="data">3,561</td><td class="data1">120</td><td class="data">3,606</td><td class="data1">126</td><td class="data1">30.6</td><td class="data">12,719</td><td class="data1">96</td><td class="data">13,058</td><td class="data1">100</td><td class="data1">72.2</td></tr><tr><td class="name">El Salvador</td><td class="data">3,821</td><td class="data1">117</td><td class="data">4,023</td><td class="data1">117</td><td class="data1">34.2</td><td class="data">8,401</td><td class="data1">121</td><td class="data">8,890</td><td class="data1">121</td><td class="data1">49.2</td></tr><tr><td class="name">Equatorial Guinea</td><td class="data">7,131</td><td class="data1">85</td><td class="data">8,000</td><td class="data1">80</td><td class="data1">68.0</td><td class="data">17,782</td><td class="data1">75</td><td class="data">17,985</td><td class="data1">77</td><td class="data1">99.5</td></tr><tr><td class="name">Eritrea</td><td class="data">585</td><td class="data1">183</td><td class="data">632</td><td class="data1">181</td><td class="data1">5.37</td><td class="data">1,824</td><td class="data1">180</td><td class="data">1,941</td><td class="data1">179</td><td class="data1">10.7</td></tr><tr><td class="name">Estonia</td><td class="data">22,986</td><td class="data1">37</td><td class="data">26,378</td><td class="data1">36</td><td class="data1">224</td><td class="data">37,033</td><td class="data1">40</td><td class="data">39,544</td><td class="data1">40</td><td class="data1">219</td></tr><tr><td class="name">Eswatini</td><td class="data">3,415</td><td class="data1">124</td><td class="data">3,697</td><td class="data1">122</td><td class="data1">31.4</td><td class="data">8,955</td><td class="data1">119</td><td class="data">9,186</td><td class="data1">120</td><td class="data1">50.8</td></tr><tr><td class="name">Ethiopia</td><td class="data">974</td><td class="data1">167</td><td class="data">918</td><td class="data1">170</td><td class="data1">7.80</td><td class="data">2,772</td><td class="data1">166</td><td class="data">2,788</td><td class="data1">166</td><td class="data1">15.4</td></tr><tr><td class="name">Fiji</td><td class="data">4,371</td><td class="data1">102</td><td class="data">4,822</td><td class="data1">101</td><td class="data1">41.0</td><td class="data">11,175</td><td class="data1">108</td><td class="data">12,665</td><td class="data1">103</td><td class="data1">70.0</td></tr><tr><td class="name">Finland</td><td class="data">48,461</td><td class="data1">14</td><td class="data">54,817</td><td class="data1">14</td><td class="data1">466</td><td class="data">49,334</td><td class="data1">22</td><td class="data">52,174</td><td class="data1">22</td><td class="data1">289</td></tr><tr><td class="name">France</td><td class="data">39,257</td><td class="data1">21</td><td class="data">44,770</td><td class="data1">20</td><td class="data1">380</td><td class="data">45,454</td><td class="data1">26</td><td class="data">49,124</td><td class="data1">25</td><td class="data1">272</td></tr><tr><td class="name">Gabon</td><td class="data">7,185</td><td class="data1">84</td><td class="data">7,785</td><td class="data1">81</td><td class="data1">66.1</td><td class="data">15,854</td><td class="data1">82</td><td class="data">16,342</td><td class="data1">82</td><td class="data1">90.4</td></tr><tr><td class="name">Georgia</td><td class="data">4,405</td><td class="data1">101</td><td class="data">4,714</td><td class="data1">105</td><td class="data1">40.0</td><td class="data">15,142</td><td class="data1">83</td><td class="data">16,236</td><td class="data1">83</td><td class="data1">89.8</td></tr><tr><td class="name">Germany</td><td class="data">45,466</td><td class="data1">15</td><td class="data">51,967</td><td class="data1">15</td><td class="data1">441</td><td class="data">53,571</td><td class="data1">18</td><td class="data">57,081</td><td class="data1">16</td><td class="data1">316</td></tr><tr><td class="name">Ghana</td><td class="data">2,188</td><td class="data1">141</td><td class="data">2,300</td><td class="data1">141</td><td class="data1">19.5</td><td class="data">5,707</td><td class="data1">132</td><td class="data">5,980</td><td class="data1">133</td><td class="data1">33.1</td></tr><tr><td class="name">Greece</td><td class="data">18,168</td><td class="data1">46</td><td class="data">20,521</td><td class="data1">46</td><td class="data1">174</td><td class="data">29,045</td><td class="data1">51</td><td class="data">30,984</td><td class="data1">50</td><td class="data1">171</td></tr><tr><td class="name">Grenada</td><td class="data">9,824</td><td class="data1">68</td><td class="data">10,211</td><td class="data1">69</td><td class="data1">86.7</td><td class="data">16,454</td><td class="data1">80</td><td class="data">17,249</td><td class="data1">81</td><td class="data1">95.4</td></tr><tr><td class="name">Guatemala</td><td class="data">4,240</td><td class="data1">105</td><td class="data">4,385</td><td class="data1">110</td><td class="data1">37.2</td><td class="data">8,267</td><td class="data1">123</td><td class="data">8,608</td><td class="data1">124</td><td class="data1">47.6</td></tr><tr><td class="name">Guinea</td><td class="data">1,019</td><td class="data1">165</td><td class="data">1,067</td><td class="data1">165</td><td class="data1">9.06</td><td class="data">2,516</td><td class="data1">170</td><td class="data">2,675</td><td class="data1">170</td><td class="data1">14.8</td></tr><tr><td class="name">Guinea-Bissau</td><td class="data">767</td><td class="data1">175</td><td class="data">843</td><td class="data1">173</td><td class="data1">7.16</td><td class="data">2,340</td><td class="data1">174</td><td class="data">2,411</td><td class="data1">174</td><td class="data1">13.3</td></tr><tr><td class="name">Guyana</td><td class="data">8,649</td><td class="data1">73</td><td class="data">9,913</td><td class="data1">70</td><td class="data1">84.2</td><td class="data">17,360</td><td class="data1">76</td><td class="data">19,126</td><td class="data1">75</td><td class="data1">106</td></tr><tr><td class="name">Haiti</td><td class="data">732</td><td class="data1">178</td><td class="data">697</td><td class="data1">179</td><td class="data1">5.92</td><td class="data">1,728</td><td class="data1">181</td><td class="data">1,766</td><td class="data1">181</td><td class="data1">9.77</td></tr><tr><td class="name">Honduras</td><td class="data">2,412</td><td class="data1">138</td><td class="data">2,593</td><td class="data1">138</td><td class="data1">22.0</td><td class="data">5,538</td><td class="data1">136</td><td class="data">5,837</td><td class="data1">135</td><td class="data1">32.3</td></tr><tr><td class="name">Hong Kong SAR</td><td class="data">45,176</td><td class="data1">16</td><td class="data">47,990</td><td class="data1">18</td><td class="data1">408</td><td class="data">58,165</td><td class="data1">11</td><td class="data">61,275</td><td class="data1">10</td><td class="data1">339</td></tr><tr><td class="name">Hungary</td><td class="data">15,373</td><td class="data1">50</td><td class="data">17,645</td><td class="data1">48</td><td class="data1">150</td><td class="data">32,434</td><td class="data1">45</td><td class="data">34,512</td><td class="data1">46</td><td class="data1">191</td></tr><tr><td class="name">Iceland</td><td class="data">57,189</td><td class="data1">8</td><td class="data">58,371</td><td class="data1">8</td><td class="data1">496</td><td class="data">54,482</td><td class="data1">16</td><td class="data">57,045</td><td class="data1">17</td><td class="data1">315</td></tr><tr><td class="name">India</td><td class="data">1,877</td><td class="data1">148</td><td class="data">2,031</td><td class="data1">147</td><td class="data1">17.2</td><td class="data">6,284</td><td class="data1">129</td><td class="data">6,918</td><td class="data1">130</td><td class="data1">38.3</td></tr><tr><td class="name">Indonesia</td><td class="data">4,038</td><td class="data1">114</td><td class="data">4,287</td><td class="data1">113</td><td class="data1">36.4</td><td class="data">12,345</td><td class="data1">99</td><td class="data">13,259</td><td class="data1">98</td><td class="data1">73.3</td></tr><tr><td class="name">Iraq</td><td class="data">4,438</td><td class="data1">100</td><td class="data">4,767</td><td class="data1">102</td><td class="data1">40.5</td><td class="data">9,952</td><td class="data1">116</td><td class="data">10,165</td><td class="data1">116</td><td class="data1">56.2</td></tr><tr><td class="name">Ireland</td><td class="data">79,669</td><td class="data1">3</td><td class="data">90,478</td><td class="data1">2</td><td class="data1">769</td><td class="data">89,383</td><td class="data1">4</td><td class="data">94,971</td><td class="data1">4</td><td class="data1">525</td></tr><tr><td class="name">Islamic Republic of Iran</td><td class="data">7,257</td><td class="data1">83</td><td class="data">7,668</td><td class="data1">84</td><td class="data1">65.1</td><td class="data">11,963</td><td class="data1">104</td><td class="data">12,488</td><td class="data1">105</td><td class="data1">69.1</td></tr><tr><td class="name">Israel</td><td class="data">41,560</td><td class="data1">20</td><td class="data">43,439</td><td class="data1">22</td><td class="data1">369</td><td class="data">39,126</td><td class="data1">35</td><td class="data">41,142</td><td class="data1">39</td><td class="data1">228</td></tr><tr><td class="name">Italy</td><td class="data">30,657</td><td class="data1">27</td><td class="data">35,062</td><td class="data1">26</td><td class="data1">298</td><td class="data">40,066</td><td class="data1">34</td><td class="data">43,139</td><td class="data1">33</td><td class="data1">239</td></tr><tr><td class="name">Jamaica</td><td class="data">5,221</td><td class="data1">94</td><td class="data">5,643</td><td class="data1">93</td><td class="data1">47.9</td><td class="data">10,221</td><td class="data1">114</td><td class="data">10,831</td><td class="data1">113</td><td class="data1">59.9</td></tr><tr><td class="name">Japan</td><td class="data">39,048</td><td class="data1">23</td><td class="data">40,733</td><td class="data1">25</td><td class="data1">346</td><td class="data">41,637</td><td class="data1">31</td><td class="data">43,709</td><td class="data1">30</td><td class="data1">242</td></tr><tr><td class="name">Jordan</td><td class="data">4,174</td><td class="data1">107</td><td class="data">4,347</td><td class="data1">111</td><td class="data1">36.9</td><td class="data">10,007</td><td class="data1">115</td><td class="data">10,462</td><td class="data1">115</td><td class="data1">57.9</td></tr><tr><td class="name">Kazakhstan</td><td class="data">8,782</td><td class="data1">72</td><td class="data">9,454</td><td class="data1">73</td><td class="data1">80.3</td><td class="data">26,589</td><td class="data1">57</td><td class="data">27,644</td><td class="data1">58</td><td class="data1">153</td></tr><tr><td class="name">Kenya</td><td class="data">2,075</td><td class="data1">144</td><td class="data">2,122</td><td class="data1">146</td><td class="data1">18.0</td><td class="data">4,993</td><td class="data1">145</td><td class="data">5,223</td><td class="data1">145</td><td class="data1">28.9</td></tr><tr><td class="name">Kiribati</td><td class="data">1,638</td><td class="data1">153</td><td class="data">1,817</td><td class="data1">151</td><td class="data1">15.4</td><td class="data">2,126</td><td class="data1">177</td><td class="data">2,200</td><td class="data1">177</td><td class="data1">12.2</td></tr><tr><td class="name">Korea</td><td class="data">30,644</td><td class="data1">28</td><td class="data">32,305</td><td class="data1">28</td><td class="data1">274</td><td class="data">44,292</td><td class="data1">27</td><td class="data">46,534</td><td class="data1">28</td><td class="data1">257</td></tr><tr><td class="name">Kosovo</td><td class="data">4,141</td><td class="data1">108</td><td class="data">4,753</td><td class="data1">103</td><td class="data1">40.4</td><td class="data">11,017</td><td class="data1">110</td><td class="data">11,888</td><td class="data1">108</td><td class="data1">65.7</td></tr><tr><td class="name">Kuwait</td><td class="data">22,252</td><td class="data1">40</td><td class="data">23,138</td><td class="data1">41</td><td class="data1">197</td><td class="data">41,735</td><td class="data1">30</td><td class="data">41,769</td><td class="data1">34</td><td class="data1">231</td></tr><tr><td class="name">Kyrgyz Republic</td><td class="data">1,148</td><td class="data1">162</td><td class="data">1,270</td><td class="data1">162</td><td class="data1">10.8</td><td class="data">4,824</td><td class="data1">146</td><td class="data">5,300</td><td class="data1">143</td><td class="data1">29.3</td></tr><tr><td class="name">Lao P.D.R.</td><td class="data">2,567</td><td class="data1">137</td><td class="data">2,614</td><td class="data1">136</td><td class="data1">22.2</td><td class="data">8,221</td><td class="data1">124</td><td class="data">8,678</td><td class="data1">123</td><td class="data1">48.0</td></tr><tr><td class="name">Latvia</td><td class="data">17,230</td><td class="data1">47</td><td class="data">19,934</td><td class="data1">47</td><td class="data1">169</td><td class="data">30,579</td><td class="data1">47</td><td class="data">32,946</td><td class="data1">47</td><td class="data1">182</td></tr><tr><td class="name">Lesotho</td><td class="data">924</td><td class="data1">168</td><td class="data">1,018</td><td class="data1">166</td><td class="data1">8.65</td><td class="data">2,886</td><td class="data1">164</td><td class="data">3,027</td><td class="data1">164</td><td class="data1">16.7</td></tr><tr><td class="name">Liberia</td><td class="data">654</td><td class="data1">180</td><td class="data">646</td><td class="data1">180</td><td class="data1">5.49</td><td class="data">1,536</td><td class="data1">186</td><td class="data">1,581</td><td class="data1">186</td><td class="data1">8.74</td></tr><tr><td class="name">Libya</td><td class="data">3,282</td><td class="data1">130</td><td class="data">4,733</td><td class="data1">104</td><td class="data1">40.2</td><td class="data">4,746</td><td class="data1">147</td><td class="data">8,454</td><td class="data1">125</td><td class="data1">46.8</td></tr><tr><td class="name">Lithuania</td><td class="data">19,883</td><td class="data1">43</td><td class="data">22,752</td><td class="data1">42</td><td class="data1">193</td><td class="data">38,605</td><td class="data1">37</td><td class="data">41,288</td><td class="data1">38</td><td class="data1">228</td></tr><tr><td class="name">Luxembourg</td><td class="data">109,602</td><td class="data1">1</td><td class="data">125,923</td><td class="data1">1</td><td class="data1">1,070</td><td class="data">112,875</td><td class="data1">1</td><td class="data">119,760</td><td class="data1">1</td><td class="data1">662</td></tr><tr><td class="name">Macao SAR</td><td class="data">38,769</td><td class="data1">24</td><td class="data">48,207</td><td class="data1">17</td><td class="data1">409</td><td class="data">58,931</td><td class="data1">9</td><td class="data">74,013</td><td class="data1">5</td><td class="data1">409</td></tr><tr><td class="name">Madagascar</td><td class="data">515</td><td class="data1">186</td><td class="data">554</td><td class="data1">184</td><td class="data1">4.71</td><td class="data">1,647</td><td class="data1">183</td><td class="data">1,694</td><td class="data1">184</td><td class="data1">9.37</td></tr><tr><td class="name">Malawi</td><td class="data">399</td><td class="data1">191</td><td class="data">397</td><td class="data1">191</td><td class="data1">3.37</td><td class="data">995</td><td class="data1">189</td><td class="data">1,014</td><td class="data1">189</td><td class="data1">5.60</td></tr><tr><td class="name">Malaysia</td><td class="data">10,192</td><td class="data1">65</td><td class="data">11,378</td><td class="data1">65</td><td class="data1">96.6</td><td class="data">27,287</td><td class="data1">55</td><td class="data">29,686</td><td class="data1">54</td><td class="data1">164</td></tr><tr><td class="name">Maldives</td><td class="data">12,464</td><td class="data1">61</td><td class="data">14,194</td><td class="data1">60</td><td class="data1">121</td><td class="data">22,965</td><td class="data1">62</td><td class="data">26,016</td><td class="data1">60</td><td class="data1">144</td></tr><tr><td class="name">Mali</td><td class="data">899</td><td class="data1">171</td><td class="data">992</td><td class="data1">168</td><td class="data1">8.43</td><td class="data">2,421</td><td class="data1">172</td><td class="data">2,498</td><td class="data1">173</td><td class="data1">13.8</td></tr><tr><td class="name">Malta</td><td class="data">28,469</td><td class="data1">31</td><td class="data">32,099</td><td class="data1">29</td><td class="data1">273</td><td class="data">43,087</td><td class="data1">29</td><td class="data">45,517</td><td class="data1">29</td><td class="data1">252</td></tr><tr><td class="name">Marshall Islands</td><td class="data">4,071</td><td class="data1">112</td><td class="data">4,092</td><td class="data1">115</td><td class="data1">34.8</td><td class="data">3,786</td><td class="data1">154</td><td class="data">3,804</td><td class="data1">154</td><td class="data1">21.0</td></tr><tr><td class="name">Mauritania</td><td class="data">1,791</td><td class="data1">150</td><td class="data">1,782</td><td class="data1">152</td><td class="data1">15.1</td><td class="data">5,797</td><td class="data1">131</td><td class="data">5,913</td><td class="data1">134</td><td class="data1">32.7</td></tr><tr><td class="name">Mauritius</td><td class="data">8,951</td><td class="data1">70</td><td class="data">9,630</td><td class="data1">72</td><td class="data1">81.8</td><td class="data">20,719</td><td class="data1">65</td><td class="data">23,277</td><td class="data1">63</td><td class="data1">129</td></tr><tr><td class="name">Mexico</td><td class="data">8,069</td><td class="data1">76</td><td class="data">8,402</td><td class="data1">78</td><td class="data1">71.4</td><td class="data">18,804</td><td class="data1">71</td><td class="data">19,695</td><td class="data1">72</td><td class="data1">109</td></tr><tr><td class="name">Micronesia</td><td class="data">3,855</td><td class="data1">116</td><td class="data">3,995</td><td class="data1">118</td><td class="data1">33.9</td><td class="data">3,447</td><td class="data1">160</td><td class="data">3,561</td><td class="data1">160</td><td class="data1">19.7</td></tr><tr><td class="name">Moldova</td><td class="data">4,268</td><td class="data1">104</td><td class="data">4,527</td><td class="data1">106</td><td class="data1">38.5</td><td class="data">13,253</td><td class="data1">94</td><td class="data">14,357</td><td class="data1">93</td><td class="data1">79.4</td></tr><tr><td class="name">Mongolia</td><td class="data">3,990</td><td class="data1">115</td><td class="data">4,139</td><td class="data1">114</td><td class="data1">35.2</td><td class="data">12,259</td><td class="data1">101</td><td class="data">13,059</td><td class="data1">99</td><td class="data1">72.2</td></tr><tr><td class="name">Montenegro</td><td class="data">7,933</td><td class="data1">77</td><td class="data">9,152</td><td class="data1">74</td><td class="data1">77.7</td><td class="data">19,931</td><td class="data1">67</td><td class="data">21,477</td><td class="data1">67</td><td class="data1">119</td></tr><tr><td class="name">Morocco</td><td class="data">3,121</td><td class="data1">131</td><td class="data">3,409</td><td class="data1">130</td><td class="data1">29.0</td><td class="data">7,609</td><td class="data1">125</td><td class="data">8,078</td><td class="data1">126</td><td class="data1">44.7</td></tr><tr><td class="name">Mozambique</td><td class="data">455</td><td class="data1">190</td><td class="data">431</td><td class="data1">190</td><td class="data1">3.66</td><td class="data">1,279</td><td class="data1">187</td><td class="data">1,300</td><td class="data1">188</td><td class="data1">7.19</td></tr><tr><td class="name">Myanmar</td><td class="data">1,333</td><td class="data1">159</td><td class="data">1,441</td><td class="data1">157</td><td class="data1">12.2</td><td class="data">5,179</td><td class="data1">140</td><td class="data">5,556</td><td class="data1">139</td><td class="data1">30.7</td></tr><tr><td class="name">Namibia</td><td class="data">4,052</td><td class="data1">113</td><td class="data">4,412</td><td class="data1">108</td><td class="data1">37.5</td><td class="data">9,537</td><td class="data1">118</td><td class="data">9,799</td><td class="data1">118</td><td class="data1">54.2</td></tr><tr><td class="name">Nauru</td><td class="data">8,867</td><td class="data1">71</td><td class="data">9,865</td><td class="data1">71</td><td class="data1">83.8</td><td class="data">9,875</td><td class="data1">117</td><td class="data">10,023</td><td class="data1">117</td><td class="data1">55.4</td></tr><tr><td class="name">Nepal</td><td class="data">1,116</td><td class="data1">163</td><td class="data">1,166</td><td class="data1">163</td><td class="data1">9.90</td><td class="data">3,586</td><td class="data1">157</td><td class="data">3,708</td><td class="data1">157</td><td class="data1">20.5</td></tr><tr><td class="name">Netherlands</td><td class="data">51,290</td><td class="data1">11</td><td class="data">58,029</td><td class="data1">9</td><td class="data1">493</td><td class="data">57,101</td><td class="data1">13</td><td class="data">60,550</td><td class="data1">13</td><td class="data1">335</td></tr><tr><td class="name">New Zealand</td><td class="data">38,675</td><td class="data1">25</td><td class="data">41,793</td><td class="data1">24</td><td class="data1">355</td><td class="data">41,072</td><td class="data1">32</td><td class="data">43,290</td><td class="data1">31</td><td class="data1">239</td></tr><tr><td class="name">Nicaragua</td><td class="data">1,832</td><td class="data1">149</td><td class="data">1,828</td><td class="data1">150</td><td class="data1">15.5</td><td class="data">5,439</td><td class="data1">137</td><td class="data">5,491</td><td class="data1">141</td><td class="data1">30.4</td></tr><tr><td class="name">Niger</td><td class="data">536</td><td class="data1">184</td><td class="data">567</td><td class="data1">183</td><td class="data1">4.82</td><td class="data">1,253</td><td class="data1">188</td><td class="data">1,318</td><td class="data1">187</td><td class="data1">7.29</td></tr><tr><td class="name">Nigeria</td><td class="data">2,149</td><td class="data1">142</td><td class="data">2,209</td><td class="data1">143</td><td class="data1">18.8</td><td class="data">5,066</td><td class="data1">144</td><td class="data">5,134</td><td class="data1">147</td><td class="data1">28.4</td></tr><tr><td class="name">North Macedonia</td><td class="data">6,019</td><td class="data1">90</td><td class="data">6,933</td><td class="data1">88</td><td class="data1">58.9</td><td class="data">16,609</td><td class="data1">79</td><td class="data">17,910</td><td class="data1">78</td><td class="data1">99.0</td></tr><tr><td class="name">Norway</td><td class="data">67,989</td><td class="data1">4</td><td class="data">76,408</td><td class="data1">4</td><td class="data1">649</td><td class="data">64,856</td><td class="data1">6</td><td class="data">68,239</td><td class="data1">7</td><td class="data1">377</td></tr><tr><td class="name">Oman</td><td class="data">14,423</td><td class="data1">54</td><td class="data">14,675</td><td class="data1">57</td><td class="data1">125</td><td class="data">29,908</td><td class="data1">50</td><td class="data">29,512</td><td class="data1">55</td><td class="data1">163</td></tr><tr><td class="name">Palau</td><td class="data">14,233</td><td class="data1">55</td><td class="data">13,179</td><td class="data1">61</td><td class="data1">112</td><td class="data">14,159</td><td class="data1">89</td><td class="data">13,268</td><td class="data1">97</td><td class="data1">73.4</td></tr><tr><td class="name">Panama</td><td class="data">14,090</td><td class="data1">57</td><td class="data">14,390</td><td class="data1">58</td><td class="data1">122</td><td class="data">30,034</td><td class="data1">49</td><td class="data">31,300</td><td class="data1">49</td><td class="data1">173</td></tr><tr><td class="name">Papua New Guinea</td><td class="data">2,652</td><td class="data1">136</td><td class="data">2,596</td><td class="data1">137</td><td class="data1">22.0</td><td class="data">3,861</td><td class="data1">152</td><td class="data">3,911</td><td class="data1">152</td><td class="data1">21.6</td></tr><tr><td class="name">Paraguay</td><td class="data">4,909</td><td class="data1">97</td><td class="data">5,207</td><td class="data1">97</td><td class="data1">44.2</td><td class="data">12,503</td><td class="data1">98</td><td class="data">13,298</td><td class="data1">96</td><td class="data1">73.5</td></tr><tr><td class="name">Peru</td><td class="data">5,845</td><td class="data1">91</td><td class="data">6,229</td><td class="data1">92</td><td class="data1">52.9</td><td class="data">11,516</td><td class="data1">107</td><td class="data">12,503</td><td class="data1">104</td><td class="data1">69.1</td></tr><tr><td class="name">Philippines</td><td class="data">3,373</td><td class="data1">125</td><td class="data">3,602</td><td class="data1">127</td><td class="data1">30.6</td><td class="data">8,574</td><td class="data1">120</td><td class="data">9,271</td><td class="data1">119</td><td class="data1">51.3</td></tr><tr><td class="name">Poland</td><td class="data">15,304</td><td class="data1">52</td><td class="data">16,740</td><td class="data1">50</td><td class="data1">142</td><td class="data">33,739</td><td class="data1">43</td><td class="data">36,099</td><td class="data1">43</td><td class="data1">200</td></tr><tr><td class="name">Portugal</td><td class="data">21,608</td><td class="data1">41</td><td class="data">25,097</td><td class="data1">39</td><td class="data1">213</td><td class="data">33,131</td><td class="data1">44</td><td class="data">36,128</td><td class="data1">42</td><td class="data1">200</td></tr><tr><td class="name">Puerto Rico</td><td class="data">30,113</td><td class="data1">29</td><td class="data">31,207</td><td class="data1">31</td><td class="data1">265</td><td class="data">34,998</td><td class="data1">41</td><td class="data">36,863</td><td class="data1">41</td><td class="data1">204</td></tr><tr><td class="name">Qatar</td><td class="data">52,751</td><td class="data1">9</td><td class="data">55,417</td><td class="data1">12</td><td class="data1">471</td><td class="data">91,897</td><td class="data1">3</td><td class="data">96,103</td><td class="data1">3</td><td class="data1">531</td></tr><tr><td class="name">Republic of Congo</td><td class="data">2,128</td><td class="data1">143</td><td class="data">2,271</td><td class="data1">142</td><td class="data1">19.3</td><td class="data">4,233</td><td class="data1">150</td><td class="data">4,186</td><td class="data1">150</td><td class="data1">23.2</td></tr><tr><td class="name">Romania</td><td class="data">12,813</td><td class="data1">59</td><td class="data">14,916</td><td class="data1">55</td><td class="data1">127</td><td class="data">30,141</td><td class="data1">48</td><td class="data">32,218</td><td class="data1">48</td><td class="data1">178</td></tr><tr><td class="name">Russia</td><td class="data">9,972</td><td class="data1">66</td><td class="data">10,792</td><td class="data1">67</td><td class="data1">91.7</td><td class="data">27,394</td><td class="data1">54</td><td class="data">28,792</td><td class="data1">56</td><td class="data1">159</td></tr><tr><td class="name">Rwanda</td><td class="data">823</td><td class="data1">173</td><td class="data">820</td><td class="data1">174</td><td class="data1">6.96</td><td class="data">2,393</td><td class="data1">173</td><td class="data">2,541</td><td class="data1">172</td><td class="data1">14.1</td></tr><tr><td class="name">Samoa</td><td class="data">4,084</td><td class="data1">111</td><td class="data">4,053</td><td class="data1">116</td><td class="data1">34.4</td><td class="data">5,547</td><td class="data1">135</td><td class="data">5,534</td><td class="data1">140</td><td class="data1">30.6</td></tr><tr><td class="name">San Marino</td><td class="data">41,683</td><td class="data1">19</td><td class="data">44,676</td><td class="data1">21</td><td class="data1">379</td><td class="data">56,690</td><td class="data1">14</td><td class="data">61,040</td><td class="data1">11</td><td class="data1">338</td></tr><tr><td class="name">Saudi Arabia</td><td class="data">19,587</td><td class="data1">44</td><td class="data">20,742</td><td class="data1">45</td><td class="data1">176</td><td class="data">46,273</td><td class="data1">25</td><td class="data">47,805</td><td class="data1">26</td><td class="data1">264</td></tr><tr><td class="name">Senegal</td><td class="data">1,455</td><td class="data1">157</td><td class="data">1,629</td><td class="data1">155</td><td class="data1">13.8</td><td class="data">3,463</td><td class="data1">159</td><td class="data">3,622</td><td class="data1">158</td><td class="data1">20.0</td></tr><tr><td class="name">Serbia</td><td class="data">7,497</td><td class="data1">80</td><td class="data">8,444</td><td class="data1">77</td><td class="data1">71.7</td><td class="data">18,840</td><td class="data1">70</td><td class="data">20,393</td><td class="data1">69</td><td class="data1">113</td></tr><tr><td class="name">Seychelles</td><td class="data">12,323</td><td class="data1">62</td><td class="data">12,648</td><td class="data1">62</td><td class="data1">107</td><td class="data">26,388</td><td class="data1">58</td><td class="data">27,857</td><td class="data1">57</td><td class="data1">154</td></tr><tr><td class="name">Sierra Leone</td><td class="data">518</td><td class="data1">185</td><td class="data">471</td><td class="data1">189</td><td class="data1">4.00</td><td class="data">1,711</td><td class="data1">182</td><td class="data">1,759</td><td class="data1">182</td><td class="data1">9.73</td></tr><tr><td class="name">Singapore</td><td class="data">58,484</td><td class="data1">6</td><td class="data">62,113</td><td class="data1">7</td><td class="data1">528</td><td class="data">95,603</td><td class="data1">2</td><td class="data">101,409</td><td class="data1">2</td><td class="data1">561</td></tr><tr><td class="name">Slovak Republic</td><td class="data">18,669</td><td class="data1">45</td><td class="data">21,606</td><td class="data1">44</td><td class="data1">184</td><td class="data">32,184</td><td class="data1">46</td><td class="data">35,118</td><td class="data1">45</td><td class="data1">194</td></tr><tr><td class="name">Slovenia</td><td class="data">25,039</td><td class="data1">35</td><td class="data">28,734</td><td class="data1">35</td><td class="data1">244</td><td class="data">38,506</td><td class="data1">38</td><td class="data">41,384</td><td class="data1">36</td><td class="data1">229</td></tr><tr><td class="name">Solomon Islands</td><td class="data">2,367</td><td class="data1">139</td><td class="data">2,501</td><td class="data1">140</td><td class="data1">21.2</td><td class="data">2,442</td><td class="data1">171</td><td class="data">2,551</td><td class="data1">171</td><td class="data1">14.1</td></tr><tr><td class="name">South Africa</td><td class="data">4,736</td><td class="data1">99</td><td class="data">5,236</td><td class="data1">96</td><td class="data1">44.5</td><td class="data">11,911</td><td class="data1">105</td><td class="data">12,351</td><td class="data1">106</td><td class="data1">68.3</td></tr><tr><td class="name">South Sudan</td><td class="data">303</td><td class="data1">192</td><td class="data">323</td><td class="data1">192</td><td class="data1">2.74</td><td class="data">884</td><td class="data1">192</td><td class="data">858</td><td class="data1">192</td><td class="data1">4.74</td></tr><tr><td class="name">Spain</td><td class="data">26,832</td><td class="data1">33</td><td class="data">31,178</td><td class="data1">32</td><td class="data1">265</td><td class="data">38,143</td><td class="data1">39</td><td class="data">41,736</td><td class="data1">35</td><td class="data1">231</td></tr><tr><td class="name">Sri Lanka</td><td class="data">3,698</td><td class="data1">119</td><td class="data">3,928</td><td class="data1">120</td><td class="data1">33.4</td><td class="data">13,114</td><td class="data1">95</td><td class="data">14,023</td><td class="data1">94</td><td class="data1">77.6</td></tr><tr><td class="name">St. Kitts and Nevis</td><td class="data">15,246</td><td class="data1">53</td><td class="data">16,491</td><td class="data1">52</td><td class="data1">140</td><td class="data">21,028</td><td class="data1">64</td><td class="data">22,977</td><td class="data1">64</td><td class="data1">127</td></tr><tr><td class="name">St. Lucia</td><td class="data">9,780</td><td class="data1">69</td><td class="data">10,636</td><td class="data1">68</td><td class="data1">90.3</td><td class="data">13,708</td><td class="data1">92</td><td class="data">14,926</td><td class="data1">89</td><td class="data1">82.5</td></tr><tr><td class="name">St. Vincent and the Grenadines</td><td class="data">7,033</td><td class="data1">86</td><td class="data">7,401</td><td class="data1">86</td><td class="data1">62.9</td><td class="data">12,268</td><td class="data1">100</td><td class="data">12,987</td><td class="data1">101</td><td class="data1">71.8</td></tr><tr><td class="name">Sudan</td><td class="data">735</td><td class="data1">177</td><td class="data">714</td><td class="data1">177</td><td class="data1">6.06</td><td class="data">3,749</td><td class="data1">155</td><td class="data">3,763</td><td class="data1">156</td><td class="data1">20.8</td></tr><tr><td class="name">Suriname</td><td class="data">4,199</td><td class="data1">106</td><td class="data">4,921</td><td class="data1">100</td><td class="data1">41.8</td><td class="data">14,605</td><td class="data1">85</td><td class="data">14,970</td><td class="data1">87</td><td class="data1">82.8</td></tr><tr><td class="name">Sweden</td><td class="data">50,339</td><td class="data1">12</td><td class="data">57,660</td><td class="data1">10</td><td class="data1">490</td><td class="data">52,477</td><td class="data1">19</td><td class="data">54,953</td><td class="data1">19</td><td class="data1">304</td></tr><tr><td class="name">Switzerland</td><td class="data">81,867</td><td class="data1">2</td><td class="data">90,358</td><td class="data1">3</td><td class="data1">768</td><td class="data">68,340</td><td class="data1">5</td><td class="data">71,493</td><td class="data1">6</td><td class="data1">395</td></tr><tr><td class="name">São Tomé and Príncipe</td><td class="data">1,912</td><td class="data1">146</td><td class="data">2,133</td><td class="data1">144</td><td class="data1">18.1</td><td class="data">3,837</td><td class="data1">153</td><td class="data">3,949</td><td class="data1">151</td><td class="data1">21.8</td></tr><tr><td class="name">Taiwan Province of China</td><td class="data">26,910</td><td class="data1">32</td><td class="data">28,889</td><td class="data1">34</td><td class="data1">245</td><td class="data">54,020</td><td class="data1">17</td><td class="data">56,959</td><td class="data1">18</td><td class="data1">315</td></tr><tr><td class="name">Tajikistan</td><td class="data">834</td><td class="data1">172</td><td class="data">851</td><td class="data1">171</td><td class="data1">7.23</td><td class="data">3,560</td><td class="data1">158</td><td class="data">3,784</td><td class="data1">155</td><td class="data1">20.9</td></tr><tr><td class="name">Tanzania</td><td class="data">1,106</td><td class="data1">164</td><td class="data">1,132</td><td class="data1">164</td><td class="data1">9.62</td><td class="data">2,851</td><td class="data1">165</td><td class="data">2,931</td><td class="data1">165</td><td class="data1">16.2</td></tr><tr><td class="name">Thailand</td><td class="data">7,295</td><td class="data1">82</td><td class="data">7,675</td><td class="data1">83</td><td class="data1">65.2</td><td class="data">18,073</td><td class="data1">74</td><td class="data">19,170</td><td class="data1">74</td><td class="data1">106</td></tr><tr><td class="name">The Bahamas</td><td class="data">30,027</td><td class="data1">30</td><td class="data">31,532</td><td class="data1">30</td><td class="data1">268</td><td class="data">33,808</td><td class="data1">42</td><td class="data">35,742</td><td class="data1">44</td><td class="data1">198</td></tr><tr><td class="name">The Gambia</td><td class="data">746</td><td class="data1">176</td><td class="data">809</td><td class="data1">175</td><td class="data1">6.87</td><td class="data">2,239</td><td class="data1">175</td><td class="data">2,355</td><td class="data1">175</td><td class="data1">13.0</td></tr><tr><td class="name">Timor-Leste</td><td class="data">1,456</td><td class="data1">156</td><td class="data">1,273</td><td class="data1">161</td><td class="data1">10.8</td><td class="data">4,031</td><td class="data1">151</td><td class="data">3,378</td><td class="data1">161</td><td class="data1">18.7</td></tr><tr><td class="name">Togo</td><td class="data">690</td><td class="data1">179</td><td class="data">759</td><td class="data1">176</td><td class="data1">6.44</td><td class="data">1,640</td><td class="data1">184</td><td class="data">1,684</td><td class="data1">185</td><td class="data1">9.31</td></tr><tr><td class="name">Tonga</td><td class="data">5,023</td><td class="data1">96</td><td class="data">4,949</td><td class="data1">99</td><td class="data1">42.0</td><td class="data">6,074</td><td class="data1">130</td><td class="data">5,996</td><td class="data1">132</td><td class="data1">33.2</td></tr><tr><td class="name">Trinidad and Tobago</td><td class="data">16,197</td><td class="data1">48</td><td class="data">16,622</td><td class="data1">51</td><td class="data1">141</td><td class="data">25,964</td><td class="data1">59</td><td class="data">27,088</td><td class="data1">59</td><td class="data1">150</td></tr><tr><td class="name">Tunisia</td><td class="data">3,295</td><td class="data1">129</td><td class="data">3,380</td><td class="data1">131</td><td class="data1">28.7</td><td class="data">10,382</td><td class="data1">113</td><td class="data">10,924</td><td class="data1">112</td><td class="data1">60.4</td></tr><tr><td class="name">Turkey</td><td class="data">7,715</td><td class="data1">78</td><td class="data">7,659</td><td class="data1">85</td><td class="data1">65.1</td><td class="data">28,294</td><td class="data1">52</td><td class="data">30,004</td><td class="data1">53</td><td class="data1">166</td></tr><tr><td class="name">Turkmenistan</td><td class="data">8,074</td><td class="data1">75</td><td class="data">8,874</td><td class="data1">76</td><td class="data1">75.4</td><td class="data">16,711</td><td class="data1">78</td><td class="data">17,698</td><td class="data1">79</td><td class="data1">97.9</td></tr><tr><td class="name">Tuvalu</td><td class="data">4,091</td><td class="data1">110</td><td class="data">4,296</td><td class="data1">112</td><td class="data1">36.5</td><td class="data">4,480</td><td class="data1">148</td><td class="data">4,697</td><td class="data1">149</td><td class="data1">26.0</td></tr><tr><td class="name">Uganda</td><td class="data">915</td><td class="data1">170</td><td class="data">971</td><td class="data1">169</td><td class="data1">8.25</td><td class="data">2,585</td><td class="data1">168</td><td class="data">2,692</td><td class="data1">169</td><td class="data1">14.9</td></tr><tr><td class="name">Ukraine</td><td class="data">3,425</td><td class="data1">123</td><td class="data">3,615</td><td class="data1">125</td><td class="data1">30.7</td><td class="data">12,710</td><td class="data1">97</td><td class="data">13,434</td><td class="data1">95</td><td class="data1">74.3</td></tr><tr><td class="name">United Arab Emirates</td><td class="data">31,948</td><td class="data1">26</td><td class="data">32,686</td><td class="data1">27</td><td class="data1">278</td><td class="data">58,466</td><td class="data1">10</td><td class="data">58,767</td><td class="data1">15</td><td class="data1">325</td></tr><tr><td class="name">United Kingdom</td><td class="data">39,229</td><td class="data1">22</td><td class="data">42,236</td><td class="data1">23</td><td class="data1">359</td><td class="data">44,288</td><td class="data1">28</td><td class="data">47,693</td><td class="data1">27</td><td class="data1">264</td></tr><tr><td class="name">United States</td><td class="data">63,051</td><td class="data1">5</td><td class="data">66,144</td><td class="data1">5</td><td class="data1">562</td><td class="data">63,051</td><td class="data1">7</td><td class="data">66,144</td><td class="data1">8</td><td class="data1">366</td></tr><tr><td class="name">Uruguay</td><td class="data">15,332</td><td class="data1">51</td><td class="data">16,297</td><td class="data1">54</td><td class="data1">138</td><td class="data">21,338</td><td class="data1">63</td><td class="data">22,670</td><td class="data1">65</td><td class="data1">125</td></tr><tr><td class="name">Uzbekistan</td><td class="data">1,763</td><td class="data1">151</td><td class="data">1,836</td><td class="data1">149</td><td class="data1">15.6</td><td class="data">7,378</td><td class="data1">126</td><td class="data">7,786</td><td class="data1">127</td><td class="data1">43.1</td></tr><tr><td class="name">Vanuatu</td><td class="data">2,879</td><td class="data1">134</td><td class="data">2,967</td><td class="data1">134</td><td class="data1">25.2</td><td class="data">2,649</td><td class="data1">167</td><td class="data">2,754</td><td class="data1">167</td><td class="data1">15.2</td></tr><tr><td class="name">Vietnam</td><td class="data">3,498</td><td class="data1">121</td><td class="data">3,759</td><td class="data1">121</td><td class="data1">31.9</td><td class="data">10,755</td><td class="data1">111</td><td class="data">11,619</td><td class="data1">109</td><td class="data1">64.3</td></tr><tr><td class="name">West Bank and Gaza</td><td class="data">2,894</td><td class="data1">133</td><td class="data">3,060</td><td class="data1">133</td><td class="data1">26.0</td><td class="data">5,316</td><td class="data1">139</td><td class="data">5,742</td><td class="data1">137</td><td class="data1">31.8</td></tr><tr><td class="name">Yemen</td><td class="data">645</td><td class="data1">181</td><td class="data">573</td><td class="data1">182</td><td class="data1">4.86</td><td class="data">1,931</td><td class="data1">179</td><td class="data">1,935</td><td class="data1">180</td><td class="data1">10.7</td></tr><tr><td class="name">Zambia</td><td class="data">1,001</td><td class="data1">166</td><td class="data">1,006</td><td class="data1">167</td><td class="data1">8.54</td><td class="data">3,302</td><td class="data1">162</td><td class="data">3,295</td><td class="data1">162</td><td class="data1">18.2</td></tr><tr><td class="name">Zimbabwe</td><td class="data">922</td><td class="data1">169</td><td class="data">516</td><td class="data1">186</td><td class="data1">4.38</td><td class="data">2,583</td><td class="data1">169</td><td class="data">2,696</td><td class="data1">168</td><td class="data1">14.9</td></tr></tbody> 
+<tfoot>
+<tr><td class="name">Syria</td><td class="data">-</td><td class="data1">-</td><td class="data">-</td>
+<td class="data1">-</td><td class="data1">-</td><td class="data">-</td><td class="data1">-</td>
+<td class="data">-</td><td class="data1">-</td><td class="data1">-</td></tr>
+<tr><td class="name">Somalia</td><td class="data">-</td><td class="data1">-</td><td class="data">-</td>
+<td class="data1">-</td><td class="data1">-</td><td class="data">-</td><td class="data1">-</td>
+<td class="data">-</td><td class="data1">-</td><td class="data1">-</td></tr>
+<tr style="background-color:#66FFC2"><td class="name">World
+      </td><td class=data>10,954</td><td class="data1">
+      </td><td class=data>11,773</td><td class="data1">
+      </td><td class="data1">
+      </td><td class=data>17,007</td><td class="data1">
+      </td><td class=data>18,083</td><td class="data1">
+      </td><td class="data1">
+      </td></tr></tfoot>
+</table>
+</div>
+
+<div style="float:right;width:160px;">
+<div class="ad160">
+<div class="adsbyvli" data-ad-slot="vi_16043979"></div> <script>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display("vi_16043979") })</script></div>
+<div class="ad160" style="margin-top:500px;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160_600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-7716747007138100"
+     data-ad-slot="2604361742"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+
+</div>
+
+<div class="ad728">   
+<div class="content-separator"></div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728_90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7716747007138100"
+     data-ad-slot="4620807536"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><div class="content-separator"></div>
+</div>
+
+</div>
+<div id="footer">
+<div style="width:100px;float:left;height:100px;">
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_horizontal_follow_toolbox"></div>
+</div>
+<div style="width:1050px;float:left;height:100px;">
+<div style="width:700px;float:left;padding-left:300px;padding-top:20px;">
+    <a href="/about.php" style="text-decoration: none;" > About US</a> | 
+    <a href="/termsofuse.php" style="text-decoration: none;"> Terms Of Use </a> | 
+    <a href="/privacy.php" style="text-decoration: none;"> Privacy Policy </a> |
+    <a href="/contact.php" style="text-decoration: none;"> Contact Us </a>
+</div>
+<div style="width:650px;float:left;padding-left:350px;padding-top:10px;">© 2021 - StatisticsTimes.com</div>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54d4ab9b03845be6"></script></div>
+</div>
+
+<script src="../amcharts4/core.js"></script>
+<script src="../amcharts4/maps.js"></script>
+<script src="../amcharts4/geodata/worldHigh.js"></script>
+<script src="../amcharts4/themes/animated.js"></script>
+
+<script>
+var container1 = am4core.create("chartdiv1", am4core.Container);
+container1.width = am4core.percent(100);
+container1.height = am4core.percent(100);
+container1.layout = "vertical";
+
+var legendContainer = container1.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Projected GDP (Nominal) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","Above 100000 $");
+addRec(300,30,"#00b300","75000-100000 $");
+addRec(450,30,"#79d279","50000-75000 $");
+addRec(600,30,"#94b8b8","25000-50000 $");
+addRec(750,30,"#ffc34d","10000-25000 $");
+addRec(150,50,"#e085c2","5000-10000 $");
+addRec(300,50,"#ff9999","3000-5000 $");
+addRec(450,50,"#e60000","1000-3000 $");
+addRec(600,50,"#990000","Below 1000 $");
+
+var chart1 = container1.createChild(am4maps.MapChart);
+chart1.width = am4core.percent(100);
+chart1.height = 500;
+
+chart1.geodata = am4geodata_worldHigh;
+chart1.projection = new am4maps.projections.Miller();
+
+var polygonSeries = chart1.series.push(new am4maps.MapPolygonSeries());
+polygonSeries.dataSource.url = "../m/economy/json/projected-nominal-capita-map.json";
+
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ","KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+	"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 3.5;
+polygonSeries.calculateVisualCenter = true;
+
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{rank}. {name}[/]\nGDP per capita : ${nominal}\n% of world : {npercent}%";
+polygonTemplate.propertyFields.fill = "color";
+
+var hs = polygonTemplate.states.create("hover");
+hs.propertyFields.fill = "color";
+
+var hs = polygonTemplate.states.create("hover");
+hs.propertyFields.fill = "color";
+
+var polygonSeries1 = chart1.series.push(new am4maps.MapPolygonSeriesh());
+polygonSeries1.useGeodata = true;
+polygonSeries1.include = ["KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries1.mapPolygons.template.tooltipText = "{name}[/] : no data";
+  
+chart1.zoomControl = new am4maps.ZoomControl();
+chart1.zoomControl.slider.height = 100;
+chart1.zoomControl.marginBottom = 100;
+var button = chart1.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart1.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart1.zoomControl;
+button.insertBefore(chart1.zoomControl.plusButton);
+</script>
+
+<script>
+var container2 = am4core.create("chartdiv2", am4core.Container);
+container2.width = am4core.percent(100);
+container2.height = am4core.percent(100);
+container2.layout = "vertical";
+
+var legendContainer = container2.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Projected GDP (PPP) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","Above 100000 Int. $");
+addRec(300,30,"#00b300","75000-100000 Int. $");
+addRec(450,30,"#79d279","50000-75000 Int. $");
+addRec(600,30,"#94b8b8","25000-50000 Int. $");
+addRec(750,30,"#ffc34d","10000-25000 Int. $");
+addRec(150,50,"#e085c2","5000-10000 Int. $");
+addRec(300,50,"#ff9999","3000-5000 Int. $");
+addRec(450,50,"#e60000","1000-3000 Int. $");
+addRec(600,50,"#990000","Below 1000 Int. $");
+
+var chart2 = container2.createChild(am4maps.MapChart);
+chart2.width = am4core.percent(100);
+chart2.height = 500;
+
+chart2.geodata = am4geodata_worldHigh;
+chart2.projection = new am4maps.projections.Miller();
+
+var polygonSeries = chart2.series.push(new am4maps.MapPolygonSeries());
+polygonSeries.dataSource.url = "../m/economy/json/projected-ppp-capita-map.json";
+
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ","KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+	"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 3.5;
+polygonSeries.calculateVisualCenter = true;
+
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{rank}. {name}[/]\nGDP per capita : Int. ${ppp}\n% of world : {ppercent}%";
+polygonTemplate.propertyFields.fill = "color";
+
+var hs = polygonTemplate.states.create("hover");
+hs.propertyFields.fill = "color";
+
+var polygonSeries1 = chart2.series.push(new am4maps.MapPolygonSeries());
+polygonSeries1.useGeodata = true;
+polygonSeries1.include = ["KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries1.mapPolygons.template.tooltipText = "{name}[/] : no data";
+  
+chart2.zoomControl = new am4maps.ZoomControl();
+chart2.zoomControl.slider.height = 100;
+chart2.zoomControl.marginBottom = 100;
+var button = chart2.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart2.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart2.zoomControl;
+button.insertBefore(chart2.zoomControl.plusButton);
+</script>
+
+<script>
+var container3 = am4core.create("chartdiv3", am4core.Container);
+container3.width = am4core.percent(100);
+container3.height = am4core.percent(100);
+container3.layout = "vertical";
+
+var legendContainer = container3.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Projected GDP (Nominal) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","Above 100000 $");
+addRec(300,30,"#00b300","75000-100000 $");
+addRec(450,30,"#79d279","50000-75000 $");
+addRec(600,30,"#94b8b8","25000-50000 $");
+addRec(750,30,"#ffc34d","10000-25000 $");
+addRec(150,50,"#e085c2","5000-10000 $");
+addRec(300,50,"#ff9999","3000-5000 $");
+addRec(450,50,"#e60000","1000-3000 $");
+addRec(600,50,"#990000","Below 1000 $");
+
+var chart3 = container3.createChild(am4maps.MapChart);
+chart3.width = am4core.percent(100);
+chart3.height = 500;
+
+chart3.geodata = am4geodata_worldHigh;
+chart3.projection = new am4maps.projections.Miller();
+var polygonSeries = chart3.series.push(new am4maps.MapPolygonSeries());
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ"];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 0.5;
+polygonSeries.calculateVisualCenter = true;
+
+var imageSeries = chart3.series.push(new am4maps.MapImageSeries());
+imageSeries.dataSource.url = "../m/economy/json/projected-nominal-capita-map.json";
+imageSeries.dataFields.value = "nominal";
+
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.nonScaling = true;
+
+var circle = imageTemplate.createChild(am4core.Circle);
+circle.fillOpacity = 0.7;
+circle.propertyFields.fill = "color";
+circle.tooltipText = "{rank}. {name}[/]\nGDP per capita : ${nominal}\n% of world : {npercent}%";
+
+imageSeries.heatRules.push({
+  "target": circle,
+  "property": "radius",
+  "min": 4,
+  "max": 30,
+  "dataField": "value"
+});
+
+imageTemplate.adapter.add("latitude", function(latitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLatitude;
+   }
+   return latitude;
+});
+
+imageTemplate.adapter.add("longitude", function(longitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLongitude;
+   }
+   return longitude;
+});
+  
+chart3.zoomControl = new am4maps.ZoomControl();
+chart3.zoomControl.slider.height = 100;
+chart3.zoomControl.marginBottom = 100;
+var button = chart3.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart3.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart3.zoomControl;
+button.insertBefore(chart3.zoomControl.plusButton);
+</script>
+
+<script>
+var container4 = am4core.create("chartdiv4", am4core.Container);
+container4.width = am4core.percent(100);
+container4.height = am4core.percent(100);
+container4.layout = "vertical";
+
+var legendContainer = container4.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Projected GDP (PPP) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","Above 100000 Int. $");
+addRec(300,30,"#00b300","75000-100000 Int. $");
+addRec(450,30,"#79d279","50000-75000 Int. $");
+addRec(600,30,"#94b8b8","25000-50000 Int. $");
+addRec(750,30,"#ffc34d","10000-25000 Int. $");
+addRec(150,50,"#e085c2","5000-10000 Int. $");
+addRec(300,50,"#ff9999","3000-5000 Int. $");
+addRec(450,50,"#e60000","1000-3000 Int. $");
+addRec(600,50,"#990000","Below 1000 Int. $");
+
+var chart4 = container4.createChild(am4maps.MapChart);
+chart4.width = am4core.percent(100);
+chart4.height = 500;
+
+chart4.geodata = am4geodata_worldHigh;
+chart4.projection = new am4maps.projections.Miller();
+var polygonSeries = chart4.series.push(new am4maps.MapPolygonSeries());
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ"];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 0.5;
+polygonSeries.calculateVisualCenter = true;
+
+var imageSeries = chart4.series.push(new am4maps.MapImageSeries());
+imageSeries.dataSource.url = "../m/economy/json/projected-ppp-capita-map.json";
+imageSeries.dataFields.value = "ppp";
+
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.nonScaling = true;
+
+var circle = imageTemplate.createChild(am4core.Circle);
+circle.fillOpacity = 0.7;
+circle.propertyFields.fill = "color";
+circle.tooltipText = "{rank}. {name}[/]\nGDP per capita : Int. ${ppp}\n% of world : {ppercent}%";
+
+imageSeries.heatRules.push({
+  "target": circle,
+  "property": "radius",
+  "min": 4,
+  "max": 30,
+  "dataField": "value"
+});
+
+imageTemplate.adapter.add("latitude", function(latitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLatitude;
+   }
+   return latitude;
+});
+
+imageTemplate.adapter.add("longitude", function(longitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLongitude;
+   }
+   return longitude;
+});
+  
+chart4.zoomControl = new am4maps.ZoomControl();
+chart4.zoomControl.slider.height = 100;
+chart4.zoomControl.marginBottom = 100;
+var button = chart4.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart4.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart4.zoomControl;
+button.insertBefore(chart4.zoomControl.plusButton);
+</script>
+
+<script>
+var container5 = am4core.create("chartdiv5", am4core.Container);
+container5.width = am4core.percent(100);
+container5.height = am4core.percent(100);
+container5.layout = "vertical";
+
+var legendContainer = container5.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Change in GDP (Nominal) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","(+) Above 1000 $");
+addRec(300,30,"#00b300","(+) 500-1000 $");
+addRec(450,30,"#79d279","(+) 100-500 $");
+addRec(600,30,"#94b8b8","(+) 0-100 $");
+addRec(150,50,"#e085c2","(-) 0-100 $");
+addRec(300,50,"#ff9999","(-) 100-500 $");
+addRec(450,50,"#e60000","(-) 500-1000 $");
+addRec(600,50,"#990000","(-) Below 1000 $");
+
+var chart5 = container5.createChild(am4maps.MapChart);
+chart5.width = am4core.percent(100);
+chart5.height = 500;
+
+chart5.geodata = am4geodata_worldHigh;
+chart5.projection = new am4maps.projections.Miller();
+
+var polygonSeries = chart5.series.push(new am4maps.MapPolygonSeries());
+polygonSeries.dataSource.url = "../m/economy/json/projected-nominal-capita-change-map.json";
+
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ","KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+	"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 3.5;
+polygonSeries.calculateVisualCenter = true;
+
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{name}[/]\nGDP per capita (2020) : ${ncur}\nGDP per capita (2019) : ${npre}\nChange in 2020 : ${nchange}";
+polygonTemplate.propertyFields.fill = "color";
+
+var hs = polygonTemplate.states.create("hover");
+hs.propertyFields.fill = "color";
+
+var polygonSeries1 = chart5.series.push(new am4maps.MapPolygonSeries());
+polygonSeries1.useGeodata = true;
+polygonSeries1.include = ["KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries1.mapPolygons.template.tooltipText = "{name}[/] : no data";
+  
+chart5.zoomControl = new am4maps.ZoomControl();
+chart5.zoomControl.slider.height = 100;
+chart5.zoomControl.marginBottom = 100;
+var button = chart5.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart5.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart5.zoomControl;
+button.insertBefore(chart5.zoomControl.plusButton);
+</script>
+
+<script>
+var container6 = am4core.create("chartdiv6", am4core.Container);
+container6.width = am4core.percent(100);
+container6.height = am4core.percent(100);
+container6.layout = "vertical";
+
+var legendContainer = container6.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Change in GDP (PPP) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(100,30,"#006600","(+) Above 1000 Int. $");
+addRec(300,30,"#00b300","(+) 500-1000 Int. $");
+addRec(500,30,"#79d279","(+) 100-500 Int. $");
+addRec(700,30,"#94b8b8","(+) 0-100 Int. $");
+addRec(100,50,"#e085c2","(-) 0-100 Int. $");
+addRec(300,50,"#ff9999","(-) 100-500 Int. $");
+addRec(500,50,"#e60000","(-) 500-1000 Int. $");
+addRec(700,50,"#990000","(-) Below 1000 Int. $");
+
+var chart6 = container6.createChild(am4maps.MapChart);
+chart6.width = am4core.percent(100);
+chart6.height = 500;
+
+chart6.geodata = am4geodata_worldHigh;
+chart6.projection = new am4maps.projections.Miller();
+
+var polygonSeries = chart6.series.push(new am4maps.MapPolygonSeries());
+polygonSeries.dataSource.url = "../m/economy/json/projected-ppp-capita-change-map.json";
+
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ","KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+	"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 3.5;
+polygonSeries.calculateVisualCenter = true;
+
+var polygonTemplate = polygonSeries.mapPolygons.template;
+polygonTemplate.tooltipText = "{name}[/]\nGDP per capita (2020) : Int. ${pcur}\nGDP per capita (2019) : Int. ${ppre}\nChange in 2020 : Int. ${pchange}";
+polygonTemplate.propertyFields.fill = "color";
+
+var hs = polygonTemplate.states.create("hover");
+hs.propertyFields.fill = "color";
+
+var polygonSeries1 = chart6.series.push(new am4maps.MapPolygonSeries());
+polygonSeries1.useGeodata = true;
+polygonSeries1.include = ["KP","SO","SY","RE","YT","EH","SH","FO","GG","IM","AD","GI","VA","LI","MC",
+"BQ","AI","CU","CW","GP","KY","MQ","MS","BL","MF","SX","TC","VG","VI","BM","GL","PM","FK","GF","NC","GU","MP","AS","CK","NU","PF","TK","WF","AX","JE","JU","GO","IO","CC","CX","NF","UM-DQ","UM-FQ","UM-HQ","UM-JQ","UM-MQ","UM-WQ","SJ","PN","GS","BV","TF","HM",];
+polygonSeries1.mapPolygons.template.tooltipText = "{name}[/] : no data";
+  
+chart6.zoomControl = new am4maps.ZoomControl();
+chart6.zoomControl.slider.height = 100;
+chart6.zoomControl.marginBottom = 100;
+var button = chart6.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart6.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart6.zoomControl;
+button.insertBefore(chart6.zoomControl.plusButton);
+</script>
+
+<script>
+var container7 = am4core.create("chartdiv7", am4core.Container);
+container7.width = am4core.percent(100);
+container7.height = am4core.percent(100);
+container7.layout = "vertical";
+
+var legendContainer = container7.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Change in GDP (Nominal) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(150,30,"#006600","(+) Above 1000 $");
+addRec(300,30,"#00b300","(+) 500-1000 $");
+addRec(450,30,"#79d279","(+) 100-500 $");
+addRec(600,30,"#94b8b8","(+) 0-100 $");
+addRec(150,50,"#e085c2","(-) 0-100 $");
+addRec(300,50,"#ff9999","(-) 100-500 $");
+addRec(450,50,"#e60000","(-) 500-1000 $");
+addRec(600,50,"#990000","(-) Below 1000 $");
+
+var chart7 = container7.createChild(am4maps.MapChart);
+chart7.width = am4core.percent(100);
+chart7.height = 500;
+
+chart7.geodata = am4geodata_worldHigh;
+chart7.projection = new am4maps.projections.Miller();
+var polygonSeries = chart7.series.push(new am4maps.MapPolygonSeries());
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ"];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 0.5;
+polygonSeries.calculateVisualCenter = true;
+
+var imageSeries = chart7.series.push(new am4maps.MapImageSeries());
+imageSeries.dataSource.url = "../m/economy/json/projected-nominal-capita-change-map.json";
+imageSeries.dataFields.value = "nbchange";
+
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.nonScaling = true;
+
+var circle = imageTemplate.createChild(am4core.Circle);
+circle.fillOpacity = 0.7;
+circle.propertyFields.fill = "color";
+circle.tooltipText = "{name}[/]\nGDP per capita (2020) : ${ncur}\nGDP per capita (2019) : ${npre}\nChange in 2020 : ${nchange}";
+
+imageSeries.heatRules.push({
+  "target": circle,
+  "property": "radius",
+  "min": 4,
+  "max": 30,
+  "dataField": "value"
+});
+
+imageTemplate.adapter.add("latitude", function(latitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLatitude;
+   }
+   return latitude;
+});
+
+imageTemplate.adapter.add("longitude", function(longitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLongitude;
+   }
+   return longitude;
+});
+  
+chart7.zoomControl = new am4maps.ZoomControl();
+chart7.zoomControl.slider.height = 100;
+chart7.zoomControl.marginBottom = 100;
+var button = chart7.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart7.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart7.zoomControl;
+button.insertBefore(chart7.zoomControl.plusButton);
+</script>
+
+<script>
+var container8 = am4core.create("chartdiv8", am4core.Container);
+container8.width = am4core.percent(100);
+container8.height = am4core.percent(100);
+container8.layout = "vertical";
+
+var legendContainer = container8.createChild(am4core.Container);
+legendContainer.width = am4core.percent(100);
+legendContainer.height = 100;
+legendContainer.zIndex = 100;
+legendContainer.background.fill = am4core.color("#ffffff");
+
+var label = legendContainer.createChild(am4core.Label);
+label.text = "Change in GDP (PPP) per capita 2021";
+label.fontSize = 20;
+label.align = "center";
+
+function addRec(x,y,color,text) {
+var rect = legendContainer.createChild(am4core.Rectangle);
+rect.width = 15;
+rect.height = 15;
+rect.x = x;
+rect.y = y;
+rect.fill = am4core.color(color);
+var label = legendContainer.createChild(am4core.Label);
+label.text = text;
+label.fontSize = 15;
+label.align = "center";
+label.isMeasured = false;
+label.x = (x+18);
+label.y = y;
+}
+
+addRec(100,30,"#006600","(+) Above 1000 Int. $");
+addRec(300,30,"#00b300","(+) 500-1000 Int. $");
+addRec(500,30,"#79d279","(+) 100-500 Int. $");
+addRec(700,30,"#94b8b8","(+) 0-100 Int. $");
+addRec(100,50,"#e085c2","(-) 0-100 Int. $");
+addRec(300,50,"#ff9999","(-) 100-500 Int. $");
+addRec(500,50,"#e60000","(-) 500-1000 Int. $");
+addRec(700,50,"#990000","(-) Below 1000 Int. $");
+
+var chart8 = container8.createChild(am4maps.MapChart);
+chart8.width = am4core.percent(100);
+chart8.height = 500;
+
+chart8.geodata = am4geodata_worldHigh;
+chart8.projection = new am4maps.projections.Miller();
+var polygonSeries = chart8.series.push(new am4maps.MapPolygonSeries());
+
+// Make map load polygon (like country names) data from GeoJSON
+polygonSeries.useGeodata = true;
+polygonSeries.exclude = ["AQ"];
+polygonSeries.nonScalingStroke = true;
+polygonSeries.strokeWidth = 0.5;
+polygonSeries.calculateVisualCenter = true;
+
+var imageSeries = chart8.series.push(new am4maps.MapImageSeries());
+imageSeries.dataSource.url = "../m/economy/json/projected-ppp-capita-change-map.json";
+imageSeries.dataFields.value = "pbchange";
+
+var imageTemplate = imageSeries.mapImages.template;
+imageTemplate.nonScaling = true;
+
+var circle = imageTemplate.createChild(am4core.Circle);
+circle.fillOpacity = 0.7;
+circle.propertyFields.fill = "color";
+circle.tooltipText = "{name}[/]\nGDP per capita (2020) : Int. ${pcur}\nGDP per capita (2019) : Int. ${ppre}\nChange in 2020 : Int. ${pchange}";
+
+imageSeries.heatRules.push({
+  "target": circle,
+  "property": "radius",
+  "min": 4,
+  "max": 30,
+  "dataField": "value"
+});
+
+imageTemplate.adapter.add("latitude", function(latitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLatitude;
+   }
+   return latitude;
+});
+
+imageTemplate.adapter.add("longitude", function(longitude, target) {
+  var polygon = polygonSeries.getPolygonById(target.dataItem.dataContext.id);
+  if(polygon){
+    return polygon.visualLongitude;
+   }
+   return longitude;
+});
+  
+chart8.zoomControl = new am4maps.ZoomControl();
+chart8.zoomControl.slider.height = 100;
+chart8.zoomControl.marginBottom = 100;
+var button = chart8.chartContainer.createChild(am4core.Button);
+button.padding(5, 5, 5, 5);
+button.marginRight = 15;
+button.events.on("hit", function() {
+  chart8.goHome();
+});
+button.icon = new am4core.Sprite();
+button.icon.path = "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+button.marginBottom = 5;
+button.parent = chart8.zoomControl;
+button.insertBefore(chart8.zoomControl.plusButton);
+</script>
+</body>
+</html>
