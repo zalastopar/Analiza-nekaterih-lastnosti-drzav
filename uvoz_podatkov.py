@@ -224,15 +224,16 @@ def main(redownload=True, reparse=True):
     4. podatke shrani v csv tabelo"""
 
     #naložimo glavno spletno stran in poiščemo linke od pasem
-    #save_frontpage(glavni_url, directory, filename)
-    #html_data = read_file_to_string(directory, filename)
-    #links = link_from_file(html_data)
+    save_frontpage(glavni_url, directory, filename)
+    html_data = read_file_to_string(directory, filename)
+    links = link_from_file(html_data)
 
     #za vsako pasmo shranimo njeno spletno stran
-    #get_cats_files(links, directory2)
+    get_cats_files(links, directory2)
 
     #potebne podatke pasem zberimo v slovar in spravimo slovarje v seznam
     lists = list_of_cats(directory2)
+    print(lists)
 
     #seznam slovarjev shranimo kot csv tabelo
     save_as_csv(csv_filename, lists)

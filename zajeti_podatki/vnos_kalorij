@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <title>List of countries by food energy intake - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"YEtHwl-0Bxyw9YU@8HYbmAAAAQ4","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_by_food_energy_intake","wgTitle":"List of countries by food energy intake","wgCurRevisionId":1004948667,"wgRevisionId":1004948667,"wgArticleId":30749143,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: archived copy as title","Articles with short description","Short description is different from Wikidata","Diets","Lists of countries by consumption","Malnutrition","Lists of countries by population-related issue"],"wgPageContentLanguage":
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"YE62M7g6JwHgMNIixgBw4gAAAMY","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_by_food_energy_intake","wgTitle":"List of countries by food energy intake","wgCurRevisionId":1004948667,"wgRevisionId":1004948667,"wgArticleId":30749143,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: archived copy as title","Articles with short description","Short description is different from Wikidata","Diets","Lists of countries by consumption","Malnutrition","Lists of countries by population-related issue"],"wgPageContentLanguage":
 "en","wgPageContentModel":"wikitext","wgRelevantPageName":"List_of_countries_by_food_energy_intake","wgRelevantArticleId":30749143,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsReferencePreviewsBeta":!0,"wgPopupsConflictsWithNavPopupGadget":!1,"wgPopupsConflictsWithRefTooltipsGadget":!0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q8216186"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready",
 "user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.tablesorter","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
@@ -1659,13 +1659,13 @@
 </ol></div></div>
 <!-- 
 NewPP limit report
-Parsed by mw1324
-Cached time: 20210309180729
+Parsed by mw1371
+Cached time: 20210315004803
 Cache expiry: 2592000
 Dynamic content: false
 Complications: [vary‐revision‐sha1]
-CPU time usage: 2.054 seconds
-Real time usage: 5.316 seconds
+CPU time usage: 1.466 seconds
+Real time usage: 2.528 seconds
 Preprocessor visited node count: 16155/1000000
 Post‐expand include size: 103777/2097152 bytes
 Template argument size: 23021/2097152 bytes
@@ -1673,25 +1673,25 @@ Highest expansion depth: 10/40
 Expensive parser function count: 0/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 19668/5000000 bytes
-Lua time usage: 0.502/10.000 seconds
+Lua time usage: 0.367/10.000 seconds
 Lua memory usage: 5450815/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 3702.196      1 -total
- 67.66% 2504.928    175 Template:Flag
- 13.78%  510.314    188 Template:Convert
-  7.29%  269.924      1 Template:Short_description
-  6.29%  233.014      1 Template:Reflist
-  5.45%  201.662    175 Template:Flag/core
-  4.91%  181.882     13 Template:Legend
-  4.62%  170.871      4 Template:Cite_web
-  4.58%  169.664      1 Template:Pagetype
-  1.97%   72.886      3 Template:Main_other
+100.00% 1861.497      1 -total
+ 62.58% 1164.995    175 Template:Flag
+ 18.25%  339.743    188 Template:Convert
+ 11.84%  220.482      1 Template:Country_data_Jordan
+  8.10%  150.714    175 Template:Flag/core
+  7.17%  133.389      1 Template:Reflist
+  5.67%  105.569     13 Template:Legend
+  5.63%  104.864      4 Template:Cite_web
+  4.71%   87.761      1 Template:Short_description
+  2.23%   41.477      1 Template:Pagetype
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:30749143-0!canonical and timestamp 20210309180724 and revision id 1004948667. Serialized with JSON.
+<!-- Saved in parser cache with key enwiki:pcache:idhash:30749143-0!canonical and timestamp 20210315004801 and revision id 1004948667. Serialized with JSON.
  -->
 </div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_countries_by_food_energy_intake&amp;oldid=1004948667">https://en.wikipedia.org/w/index.php?title=List_of_countries_by_food_energy_intake&amp;oldid=1004948667</a>"</div></div>
@@ -1880,7 +1880,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </footer>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.054","walltime":"5.316","ppvisitednodes":{"value":16155,"limit":1000000},"postexpandincludesize":{"value":103777,"limit":2097152},"templateargumentsize":{"value":23021,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":19668,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 3702.196      1 -total"," 67.66% 2504.928    175 Template:Flag"," 13.78%  510.314    188 Template:Convert","  7.29%  269.924      1 Template:Short_description","  6.29%  233.014      1 Template:Reflist","  5.45%  201.662    175 Template:Flag/core","  4.91%  181.882     13 Template:Legend","  4.62%  170.871      4 Template:Cite_web","  4.58%  169.664      1 Template:Pagetype","  1.97%   72.886      3 Template:Main_other"]},"scribunto":{"limitreport-timeusage":{"value":"0.502","limit":"10.000"},"limitreport-memusage":{"value":5450815,"limit":52428800}},"cachereport":{"origin":"mw1324","timestamp":"20210309180729","ttl":2592000,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.466","walltime":"2.528","ppvisitednodes":{"value":16155,"limit":1000000},"postexpandincludesize":{"value":103777,"limit":2097152},"templateargumentsize":{"value":23021,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":19668,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1861.497      1 -total"," 62.58% 1164.995    175 Template:Flag"," 18.25%  339.743    188 Template:Convert"," 11.84%  220.482      1 Template:Country_data_Jordan","  8.10%  150.714    175 Template:Flag/core","  7.17%  133.389      1 Template:Reflist","  5.67%  105.569     13 Template:Legend","  5.63%  104.864      4 Template:Cite_web","  4.71%   87.761      1 Template:Short_description","  2.23%   41.477      1 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.367","limit":"10.000"},"limitreport-memusage":{"value":5450815,"limit":52428800}},"cachereport":{"origin":"mw1371","timestamp":"20210315004803","ttl":2592000,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of countries by food energy intake","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_countries_by_food_energy_intake","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8216186","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8216186","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2011-02-04T17:19:41Z","dateModified":"2021-02-05T05:52:00Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/7\/74\/World_map_of_energy_consumption_2006-2008%2C_from_FAO_Food_Consumption_Nutrients_data.svg","headline":"Wikimedia list article"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":158,"wgHostname":"mw1354"});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":96,"wgHostname":"mw1401"});});</script>
 </body></html>

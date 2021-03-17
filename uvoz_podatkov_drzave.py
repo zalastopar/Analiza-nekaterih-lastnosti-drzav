@@ -11,8 +11,7 @@ linki = {
 "url4" : "https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate",
 "url5" : "https://en.wikipedia.org/wiki/Education_Index",
 "url6" : "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users",
-"url7" : "https://en.wikipedia.org/wiki/List_of_countries_by_forest_area",
-"url8" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
+"url7" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
 }
 
 # mapa, v katero bomo shranili podatke
@@ -25,8 +24,7 @@ imena = {
 "filename4" : "debelost",
 "filename5" : "izobrazba",
 "filename6" : "internet",
-"filename7" : "gozd",
-"filename8" : "mcdonalds"
+"filename7" : "mcdonalds"
 }
 # ime CSV datoteke v katero bomo shranili podatke
 csv_filename = "drzave.csv"
@@ -88,51 +86,67 @@ def read_file_to_string(directory, filename):
 # Izluscimo podatke za vsako kategorijo
 #######################################################################################################
 
-## Glavno - prebivalstvo in gostota
+def ustvari_slovar(sez, kategorije):
+    """ Funkcija iz seznama tuplov ustvari seznam slovarjev, tako da vsak slovar pripada eni drzavi.
+    """
+    drzave = []
+    for el in sez:
+        slovar = {}
+        slovar['drzava'] = el[0]
+        i = 1
+        for k in kategorije:
+            slovar[k] = el[i]
+            i += 1
+        drzave.append(slovar)
+    return drzave
+
+
+
+## Glavno - prebivalstvo in gostota - (country, population, land area)
 def glavni(page_content):
     pattern = re.compile('<tr> <td>.*?</td> <td style="font-weight: bold; font-size:15px">(.*?)</td> <td style="font-weight: bold; text-align:right"><a href="/world-population/.*?/">(.*?)</a></td> <td style="text-align:right">(.*?)</td> <td style="text-align:right">(.*?)</td> </tr>')
     result = re.findall(pattern, page_content)
-    return result 
+    novo = ustvari_slovar(result, ['prebivalstvo', 'povrsina [km^2]'])
+    return novo 
 
-## Starost
+## Starost - (country, 2020 combined, male, female)
 def starost(page_content):
-    pattern = re.compile(r'<tr>\n<td align="left"><span class="datasortkey" data-sort-value="(.*?)".*?</span></td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>(.*?)</td>\n<td>(.*?)\n</td></tr>')
+    pattern = re.compile(r'<tr>\n<td align="left">.*?<span class="datasortkey" data-sort-value="(.*?)".*?</span>.*?</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>(.*?)</td>\n<td>(.*?)\n</td></tr>')
     result = re.findall(pattern, page_content)
-    return result
+    novo = ustvari_slovar(result, ['povprecna starost', 'starost moski', 'starost zenske'])
+    return novo
 
-## Vnos kalorij
+## Vnos kalorij - (country, average daily kcal)
 def vnos_kalorij(page_content):
     pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a>\n</td>\n<td style="text-align:right;">(.*?)\n</td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    return result
+    novo = ustvari_slovar(result, ['povprecni vnos kcal'])
+    return novo
 
-## Debelost #######
+## Debelost - (country, obesity rate %)
 def debelost(page_content):
-    pattern = re.compile(r'<tr>\n.*? title=".*?">(Iraq)</a>\n</td>\n<td>23\n</td>\n<td>(30.40)\n</td></tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n.*? title=".*?">(.*?)</a>\n</td>\n<td>\d*\n</td>\n<td>(.*?)\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    return result
+    novo = ustvari_slovar(result, ['% prekomero tezkih'])
+    return novo
 
-## Izobrazba
+## Izobrazba - (country, education index)
 def izobrazba(page_content):
-    pattern = re.compile(r'<tr>\n<td>\d*?</td>\n<td( data-sort-value|><img alt=).*?</td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>.*?</tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td align="left">.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    return [match[1:] for match in result]
+    novo = ustvari_slovar(result, ['indeks izobrazbe'])
+    return novo
 
-## Internet ########
+## Internet - (country, internet users, percent of population)
 def internet(page_content):
-    pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a></td>\n<td>(.*?)</td>.*?</tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    return result
-
-## Gozd ######
-def gozd(page_content):
-    pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a></td>\n.*?\n.*?\n.*?\n<td style="text-align: right;">(.*?)\n</td></tr>', re.DOTALL)
-    result = re.findall(pattern, page_content)
-    return result
+    novo = ustvari_slovar(result, ['st uporabnikov interneta', 'procent uporabnikov interneta'])
+    return novo
 
 ## McDonald's restavracije ########
 def mcdonalds(page_content):
-    pattern = re.compile(r'<tr>\n<th>3\n</th>\n<td><span class="datasortkey" data-sort-value="Puerto Rico"><span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/23px-Flag_of_Puerto_Rico.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/35px-Flag_of_Puerto_Rico.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/45px-Flag_of_Puerto_Rico.svg.png 2x" data-file-width="900" data-file-height="600" />&#160;</span><a href="/wiki/Puerto_Rico" title="Puerto Rico">Puerto Rico</a></span><br /><span style="font-size:85%;">(part of <span class="datasortkey" data-sort-value="United States"><span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" />&#160;</span><a href="/wiki/United_States" title="United States">United States</a></span>)</span>\n</td>\n<td>December 6, 1967\n</td>\n<td><a href="/wiki/San_Juan,_Puerto_Rico" title="San Juan, Puerto Rico">San Juan</a>\n</td>\n<td>108\n</td>\n<td>(source:.*?)\n</td>\n<td>(29,583)\n</td>\n<td>.*?</td></tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n<th>(17)\n</th>\n.*?title=".*?">(Curaçao)</a> <span style="font-size:85%;">(part of <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600" />&#160;</span><a href="/wiki/Netherlands" title="Netherlands">(Netherlands)</a>)</span>\n</td>\n<td>August 16, 1974\n</td>\n<td><a href="/wiki/Willemstad" title="Willemstad">Willemstad</a>\n</td>\n<td>5\n</td>\n<td>(source: McDonald\'s 2013)\n</td>\n<td>32,203\n</td>\n<td>See <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160406091702/http://www.mcdonalds.aw/">McDonald\'s Aruba and Curaçao</a>\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     return result
 
@@ -143,6 +157,43 @@ re.compile(r'<tr>\n<th>1\n(</th>)\n<td><span class="datasortkey" data-sort-value
 ############################################################################################################################
 # Urejanje podatkov
 ############################################################################################################################
+
+def zdruzi(sez1, sez2, nova):
+    ''' Funkcija dva seznama slovarjev rekurzivno zdruzi, tako da eni drzavi pripada en slovar.    '''
+    sez1 = sorted(sez1, key=lambda k: k['drzava'])
+    sez2 = sorted(sez2, key=lambda k: k['drzava'])
+    if sez1 == []:
+        return nova + sez2
+    elif sez2 == []:
+        return nova + sez1
+    elif sez1[0]['drzava'] == sez2[0]['drzava']:
+        return zdruzi(sez1[1:], sez2[1:], nova + [{**sez1[0], **sez2[0]}])
+    elif sez1[0]['drzava'] < sez2[0]['drzava']:
+        return zdruzi(sez1[1:], sez2, nova + [sez1[0]])
+    else:
+        return zdruzi(sez1, sez2[1:], nova + [sez2[0]])
+
+##########################################################################################################################
+# Popravki imen
+##########################################################################################################################
+
+
+
+##########################################################################################################################
+# Obdelane podatke shranimo v csv datoteko
+##########################################################################################################################
+
+# seznam slovarjev želimo shraniti kot csv
+def save_as_csv(filename, list):
+    colnames = [*list[1]]
+    
+    with open(filename, 'w', encoding='utf-8') as csvfile: 
+        writer = csv.DictWriter(csvfile, fieldnames = colnames) 
+        writer.writeheader() 
+        writer.writerows(list) 
+
+
+
 
 ############################################################################################################################
 # Izvedemo program
@@ -156,26 +207,49 @@ def main(redownload=True, reparse=True):
     3. podatke, ki jih potrebujemo uredi v slovar
     4. podatke shrani v csv tabelo"""
 
-    #naložimo spletne strani za vsako kategorijo
-    kategorije = []
-    for i in range(1, 8):
-        umesni = {}
+
+    drzave = []
+    for i in range(1, 7):
+        # naložimo spletne strani za vsako kategorijo
         save_frontpage(linki["url" + str(i)], directory, imena["filename" + str(i)])
         html_data = read_file_to_string(directory, imena["filename" + str(i)])
-        umesni[imena["filename" + str(i)]] = eval(imena["filename" + str(i)])(html_data)
-        kategorije.append(umesni)
-    print(kategorije)
+
+        # izluscimo potrebne podatke
+        umesni = eval(imena["filename" + str(i)])(html_data)
+
+        # sproti sestavljamo slovarje
+        drzave = zdruzi(drzave, umesni, [])
+    # shranimo v csv datoteko
+    save_as_csv(csv_filename, drzave)
 
 
-'''
+
+
+
+
 if __name__ == '__main__':
     main()
 
-'''
 
-html_data = read_file_to_string(directory, "debelost")
-links = debelost(html_data)
-print(links)
+
+html_data1 = read_file_to_string(directory, "glavni")
+glav = glavni(html_data1)
+
+html_data2 = read_file_to_string(directory, "starost")
+star = starost(html_data2)
+
+html_data3 = read_file_to_string(directory, "vnos_kalorij")
+kcal = vnos_kalorij(html_data3)
+
+html_data4 = read_file_to_string(directory, "debelost")
+deb = debelost(html_data4)
+
+html_data5 = read_file_to_string(directory, "izobrazba")
+izo = izobrazba(html_data5)
+
+html_data6 = read_file_to_string(directory, "internet")
+inter = internet(html_data6)
+
 
 
 
