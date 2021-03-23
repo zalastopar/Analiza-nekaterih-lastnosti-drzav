@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <title>Education Index - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"YFBr6NyV6AKWlRIfxrx0AQAAABU","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Education_Index","wgTitle":"Education Index","wgCurRevisionId":1012414596,"wgRevisionId":1012414596,"wgArticleId":20907300,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: archived copy as title","Articles with short description","Short description matches Wikidata","Democracy","Human Development Index","Index numbers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Education_Index","wgRelevantArticleId":20907300,
-"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsReferencePreviewsBeta":!0,"wgPopupsConflictsWithNavPopupGadget":!1,"wgPopupsConflictsWithRefTooltipsGadget":!0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q2566274"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"d9efbc0c-30af-4129-aaf7-8aa8b644a6c4","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Education_Index","wgTitle":"Education Index","wgCurRevisionId":1012414596,"wgRevisionId":1012414596,"wgArticleId":20907300,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: archived copy as title","Articles with short description","Short description matches Wikidata","Democracy","Human Development Index","Index numbers"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Education_Index","wgRelevantArticleId":20907300
+,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsReferencePreviewsBeta":!0,"wgPopupsConflictsWithNavPopupGadget":!1,"wgPopupsConflictsWithRefTooltipsGadget":!0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q2566274"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":
 "ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 });});</script>
@@ -12,12 +12,12 @@
 <script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
 <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
-<meta name="generator" content="MediaWiki 1.36.0-wmf.34"/>
+<meta name="generator" content="MediaWiki 1.36.0-wmf.35"/>
 <meta name="referrer" content="origin"/>
 <meta name="referrer" content="origin-when-crossorigin"/>
 <meta name="referrer" content="origin-when-cross-origin"/>
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Education_index_UN_HDR_2008.svg/1200px-Education_index_UN_HDR_2008.svg.png"/>
-<meta property="og:title" content="Education Index"/>
+<meta property="og:title" content="Education Index - Wikipedia"/>
 <meta property="og:type" content="website"/>
 <link rel="preconnect" href="//upload.wikimedia.org"/>
 <link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Education_Index"/>
@@ -3352,39 +3352,39 @@
 </div></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1312
-Cached time: 20210316074816
+Parsed by mw1272
+Cached time: 20210323090933
 Cache expiry: 2592000
 Dynamic content: false
 Complications: [vary‐revision‐sha1]
-CPU time usage: 2.057 seconds
-Real time usage: 3.146 seconds
-Preprocessor visited node count: 29386/1000000
+CPU time usage: 2.220 seconds
+Real time usage: 4.699 seconds
+Preprocessor visited node count: 29388/1000000
 Post‐expand include size: 207688/2097152 bytes
 Template argument size: 47654/2097152 bytes
 Highest expansion depth: 10/40
 Expensive parser function count: 0/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 23767/5000000 bytes
-Lua time usage: 0.169/10.000 seconds
-Lua memory usage: 3917933/52428800 bytes
+Lua time usage: 0.181/10.000 seconds
+Lua memory usage: 3914227/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 1850.807      1 -total
- 72.83% 1348.011    369 Template:Flag
- 16.52%  305.804    369 Template:Flag/core
-  9.40%  173.921      1 Template:Reflist
-  6.00%  111.114      1 Template:Cite_news
-  5.01%   92.776      1 Template:Short_description
-  3.38%   62.505     15 Template:Legend
-  3.35%   62.040      1 Template:Pagetype
-  2.91%   53.777      1 Template:Population_country_lists
-  2.47%   45.692      1 Template:Navbox
+100.00% 2248.587      1 -total
+ 72.72% 1635.234    369 Template:Flag
+ 15.19%  341.477    369 Template:Flag/core
+ 10.08%  226.562      1 Template:Reflist
+  6.74%  151.617      1 Template:Cite_news
+  4.30%   96.586      1 Template:Short_description
+  3.69%   83.028      1 Template:Population_country_lists
+  3.07%   69.116      1 Template:Navbox
+  2.82%   63.467     15 Template:Legend
+  2.62%   58.997      2 Template:Country_data_Angola
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:20907300-0!canonical!math=5 and timestamp 20210316074813 and revision id 1012414596. Serialized with JSON.
+<!-- Saved in parser cache with key enwiki:pcache:idhash:20907300-0!canonical!math=5 and timestamp 20210323090928 and revision id 1012414596. Serialized with JSON.
  -->
 </div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
 <div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Education_Index&amp;oldid=1012414596">https://en.wikipedia.org/w/index.php?title=Education_Index&amp;oldid=1012414596</a>"</div></div>
@@ -3573,7 +3573,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </footer>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.057","walltime":"3.146","ppvisitednodes":{"value":29386,"limit":1000000},"postexpandincludesize":{"value":207688,"limit":2097152},"templateargumentsize":{"value":47654,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":23767,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1850.807      1 -total"," 72.83% 1348.011    369 Template:Flag"," 16.52%  305.804    369 Template:Flag/core","  9.40%  173.921      1 Template:Reflist","  6.00%  111.114      1 Template:Cite_news","  5.01%   92.776      1 Template:Short_description","  3.38%   62.505     15 Template:Legend","  3.35%   62.040      1 Template:Pagetype","  2.91%   53.777      1 Template:Population_country_lists","  2.47%   45.692      1 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.169","limit":"10.000"},"limitreport-memusage":{"value":3917933,"limit":52428800}},"cachereport":{"origin":"mw1312","timestamp":"20210316074816","ttl":2592000,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.220","walltime":"4.699","ppvisitednodes":{"value":29388,"limit":1000000},"postexpandincludesize":{"value":207688,"limit":2097152},"templateargumentsize":{"value":47654,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":23767,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2248.587      1 -total"," 72.72% 1635.234    369 Template:Flag"," 15.19%  341.477    369 Template:Flag/core"," 10.08%  226.562      1 Template:Reflist","  6.74%  151.617      1 Template:Cite_news","  4.30%   96.586      1 Template:Short_description","  3.69%   83.028      1 Template:Population_country_lists","  3.07%   69.116      1 Template:Navbox","  2.82%   63.467     15 Template:Legend","  2.62%   58.997      2 Template:Country_data_Angola"]},"scribunto":{"limitreport-timeusage":{"value":"0.181","limit":"10.000"},"limitreport-memusage":{"value":3914227,"limit":52428800}},"cachereport":{"origin":"mw1272","timestamp":"20210323090933","ttl":2592000,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Education Index","url":"https:\/\/en.wikipedia.org\/wiki\/Education_Index","sameAs":"http:\/\/www.wikidata.org\/entity\/Q2566274","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q2566274","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2008-12-31T22:35:41Z","dateModified":"2021-03-16T07:48:01Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/00\/Education_index_UN_HDR_2008.svg","headline":"component of the Human Development Index"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":173,"wgHostname":"mw1261"});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":194,"wgHostname":"mw1331"});});</script>
 </body></html>

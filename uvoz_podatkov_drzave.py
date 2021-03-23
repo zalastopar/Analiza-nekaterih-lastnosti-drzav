@@ -12,7 +12,8 @@ linki = {
 "url5" : "https://en.wikipedia.org/wiki/Education_Index",
 "url6" : "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users",
 "url7" : "https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php",
-"url8" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
+"url8" : "https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption",
+"url9" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
 }
 
 # mapa, v katero bomo shranili podatke
@@ -26,7 +27,8 @@ imena = {
 "filename5" : "izobrazba",
 "filename6" : "internet",
 "filename7" : "bdp",
-"filename8" : "mcdonalds"
+"filename8" : "energija",
+"filename9" : "mcdonalds"
 
 }
 # ime CSV datoteke v katero bomo shranili podatke
@@ -89,6 +91,14 @@ def read_file_to_string(directory, filename):
 # Izluscimo podatke za vsako kategorijo
 #######################################################################################################
 
+def spremeni_v_float(el):
+    if ',' in el:
+        return float(el.replace(',', ''))
+    elif '-' in el:
+        return None
+    else:
+        return float(el)
+
 def ustvari_slovar(sez, kategorije):
     """ Funkcija iz seznama tuplov ustvari seznam slovarjev, 
     tako da vsak slovar pripada eni drzavi.
@@ -99,10 +109,21 @@ def ustvari_slovar(sez, kategorije):
         slovar['drzava'] = el[0]
         i = 1
         for k in kategorije:
-            slovar[k] = el[i]
+            slovar[k] = spremeni_v_float(el[i])
             i += 1
         drzave.append(slovar)
     return drzave
+
+def izlusci_stevilo(el):
+    i = len(el) - 1
+    nov = ''
+    while i >= 0:
+        if el[i] in '1234567890,.':
+            nov = el[i] + nov
+            i = i - 1
+        else:
+            i = -1
+    return nov
 
 
 
@@ -143,7 +164,7 @@ def izobrazba(page_content):
 
 ## Internet - (country, internet users, percent of population)
 def internet(page_content):
-    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['st uporabnikov interneta', 'procent uporabnikov interneta'])
     return novo
@@ -155,15 +176,20 @@ def bdp(page_content):
     novo = ustvari_slovar(result, ['bdp 2020'])
     return novo
 
+## Energija - (country, energy consumption)
+def energija(page_content):
+    pattern = re.compile(r'<tr>\n<td>\d*?</td>.*? title=".*?">(.*?)</a></td>\n.*?\n.*?\n.*?\n.*?\n.*?\n.*?\n<td>(.*?)\n</td></tr>', re.DOTALL)
+    result = [[el[0], izlusci_stevilo(el[1])] for el in re.findall(pattern, page_content)]
+    novo = ustvari_slovar(result, ['poraba energije [vat]'])
+    return novo
+
 ## McDonald's restavracije ########
 def mcdonalds(page_content):
-    pattern = re.compile(r'<tr>\n<th>(17)\n</th>\n.*?title=".*?">(Curaçao)</a> <span style="font-size:85%;">(part of <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600" />&#160;</span><a href="/wiki/Netherlands" title="Netherlands">(Netherlands)</a>)</span>\n</td>\n<td>August 16, 1974\n</td>\n<td><a href="/wiki/Willemstad" title="Willemstad">Willemstad</a>\n</td>\n<td>5\n</td>\n<td>(source: McDonald\'s 2013)\n</td>\n<td>32,203\n</td>\n<td>See <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160406091702/http://www.mcdonalds.aw/">McDonald\'s Aruba and Curaçao</a>\n</td></tr>', re.DOTALL)
+    pattern = re.compile('''<tr>\n<th>(7)\n</th>\n<td><span class="flagicon">.*? title="Guam">(Guam)</a><br /><span style="font-size:85%;">(part of <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" />&.*?\n</td></tr>''', re.DOTALL)
     result = re.findall(pattern, page_content)
     return result
 
-'''
-re.compile(r'<tr>\n<th>1\n(</th>)\n<td><span class="datasortkey" data-sort-value="United States"><span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" />&#160;</span><a href="/wiki/United_States" title="United States">United States</a></span>\n</td>\n<td data-sort-value="May 15, 1940">May 15, 1940<br />Franchise: April 13, 1955\n</td>\n<td><a href="/wiki/San_Bernardino" class="mw-redirect" title="San Bernardino">San Bernardino</a>, <a href="/wiki/California" title="California">California</a><br /><a href="/wiki/Des_Plaines,_Illinois" title="Des Plaines, Illinois">Des Plaines, Illinois</a> <small>(Franchise)</small>\n</td>\n<td>14,146<sup id="cite_ref-auto1_7-0" class="reference"><a href="#cite_note-auto1-7">&#91;7&#93;</a></sup>\n</td>\n<td>(source: Investopedia November 15, 2018)\n</td>\n<td>23,130\n</td>\n<td>See <a rel="nofollow" class="external text" href="http://www.mcdonalds.com/">McDonald\'s USA</a>\n</td></tr>', re.DOTALL)
-'''
+
 
 ############################################################################################################################
 # Urejanje podatkov
@@ -241,11 +267,11 @@ def main(redownload=True, reparse=True):
 
 
     drzave = []
-    for i in range(1, 8):
+    for i in range(1, 9):
         # naložimo spletne strani za vsako kategorijo
         save_frontpage(linki["url" + str(i)], directory, imena["filename" + str(i)])
         html_data = read_file_to_string(directory, imena["filename" + str(i)])
-
+'''
         # izluscimo potrebne podatke
         umesni = eval(imena["filename" + str(i)])(html_data)
 
@@ -254,14 +280,18 @@ def main(redownload=True, reparse=True):
 
     spremeni_drzave(drzave)
     drzave = sorted(drzave, key=lambda k: k['drzava'])
-    
+    print(drzave)
     # shranimo v csv datoteko
     save_as_csv(csv_filename, drzave)
 
+'''
 
-
-
+'''
 if __name__ == '__main__':
     main()
 
 
+'''
+html_data = read_file_to_string('zajeti_podatki', 'mcdonalds')
+a = mcdonalds(html_data)
+print(a)
