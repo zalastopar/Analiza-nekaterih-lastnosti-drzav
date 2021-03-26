@@ -2,6 +2,8 @@ import csv
 import os
 import requests
 import re
+from lxml.html import etree, parse
+from bs4 import BeautifulSoup
 
 # spletne strani iz katerih bomo jemali podatke
 linki = {
@@ -13,7 +15,7 @@ linki = {
 "url6" : "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users",
 "url7" : "https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php",
 "url8" : "https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption",
-"url9" : "https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants"
+"url9" : "https://www.atlasbig.com/en-us/countries-mcdonalds-shops"
 }
 
 # mapa, v katero bomo shranili podatke
@@ -96,6 +98,8 @@ def spremeni_v_float(el):
         return float(el.replace(',', ''))
     elif '-' in el:
         return None
+    elif el == '':
+        return None
     else:
         return float(el)
 
@@ -136,7 +140,8 @@ def glavni(page_content):
 
 ## Starost - (country, 2020 combined, male, female)
 def starost(page_content):
-    pattern = re.compile(r'<tr>\n<td align="left">.*?<span class="datasortkey" data-sort-value="(.*?)".*?</span>.*?</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)</td>\n<td>(.*?)</td>\n<td>(.*?)\n</td></tr>')
+    pattern = re.compile(r'<tr>\n<th scope="row"><span class="datasortkey" .*?title=".*?">(.*?)</a>.*?\n.*?\n.*?\n.*?\n<td>(.*?)</td>\n<td>(.*?)</td>\n<td>(.*?)\n</td></tr>', re.DOTALL)
+
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['povprecna starost', 'starost moski', 'starost zenske'])
     return novo
@@ -179,15 +184,22 @@ def bdp(page_content):
 ## Energija - (country, energy consumption)
 def energija(page_content):
     pattern = re.compile(r'<tr>\n<td>\d*?</td>.*? title=".*?">(.*?)</a></td>\n.*?\n.*?\n.*?\n.*?\n.*?\n.*?\n<td>(.*?)\n</td></tr>', re.DOTALL)
-    result = [[el[0], izlusci_stevilo(el[1])] for el in re.findall(pattern, page_content)]
+    result = [(el[0], izlusci_stevilo(el[1])) for el in re.findall(pattern, page_content)]
     novo = ustvari_slovar(result, ['poraba energije [vat]'])
     return novo
 
 ## McDonald's restavracije ########
 def mcdonalds(page_content):
-    pattern = re.compile('''<tr>\n<th>(7)\n</th>\n<td><span class="flagicon">.*? title="Guam">(Guam)</a><br /><span style="font-size:85%;">(part of <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650" />&.*?\n</td></tr>''', re.DOTALL)
-    result = re.findall(pattern, page_content)
-    return result
+    soup = BeautifulSoup(page_content, 'lxml')
+    table = soup.find_all('table')[0]
+    result = []
+    for row in table.find_all('tr')[1:]:
+        sez = []
+        for i in row.find_all(text=True):
+            sez.append(i.strip())
+        result.append((sez[4], sez[7], sez[9]))
+    novo = ustvari_slovar(result, ['st restavracij', 'st restavracij na 100k ljudi'])
+    return novo
 
 
 
@@ -243,7 +255,7 @@ def spremeni_drzave(sez):
 
 # seznam slovarjev želimo shraniti kot csv
 def save_as_csv(filename, list):
-    colnames = [*list[1]]
+    colnames = ['bdp 2020', 'povprecni vnos kcal', *list[4]]
     
     with open(filename, 'w', encoding='utf-8') as csvfile: 
         writer = csv.DictWriter(csvfile, fieldnames = colnames) 
@@ -267,11 +279,11 @@ def main(redownload=True, reparse=True):
 
 
     drzave = []
-    for i in range(1, 9):
+    for i in range(1, 10):
         # naložimo spletne strani za vsako kategorijo
         save_frontpage(linki["url" + str(i)], directory, imena["filename" + str(i)])
         html_data = read_file_to_string(directory, imena["filename" + str(i)])
-'''
+
         # izluscimo potrebne podatke
         umesni = eval(imena["filename" + str(i)])(html_data)
 
@@ -284,14 +296,19 @@ def main(redownload=True, reparse=True):
     # shranimo v csv datoteko
     save_as_csv(csv_filename, drzave)
 
-'''
 
-'''
 if __name__ == '__main__':
     main()
 
 
 '''
+
 html_data = read_file_to_string('zajeti_podatki', 'mcdonalds')
 a = mcdonalds(html_data)
 print(a)
+
+
+
+'''
+
+

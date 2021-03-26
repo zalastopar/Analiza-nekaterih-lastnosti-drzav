@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <title>List of countries by median age - Wikipedia</title>
-<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"6c043d33-6b96-40d0-bebe-4d6bac039e07","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_by_median_age","wgTitle":"List of countries by median age","wgCurRevisionId":1013741794,"wgRevisionId":1013741794,"wgArticleId":22314434,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Demographic lists","Lists of countries","Lists of countries by population-related issue"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"19caf435-ecdc-4736-a5a5-4d4a879e2d25","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"List_of_countries_by_median_age","wgTitle":"List of countries by median age","wgCurRevisionId":1014131373,"wgRevisionId":1014131373,"wgArticleId":22314434,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with short description","Short description is different from Wikidata","Demographic lists","Lists of countries","Lists of countries by population-related issue"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":
 "List_of_countries_by_median_age","wgRelevantArticleId":22314434,"wgIsProbablyEditable":!0,"wgRelevantPageIsProbablyEditable":!0,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":!0,"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsReferencePreviewsBeta":!0,"wgPopupsConflictsWithNavPopupGadget":!1,"wgPopupsConflictsWithRefTooltipsGadget":!0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!1},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0,"wgULSPosition":"interlanguage","wgWikibaseItemId":"Q1187207"};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready",
 "user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
@@ -11298,13 +11298,13 @@
 </div></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw1333
-Cached time: 20210323091331
+Parsed by mw1390
+Cached time: 20210325103602
 Cache expiry: 2592000
 Dynamic content: false
 Complications: [vary‐revision‐sha1]
-CPU time usage: 2.171 seconds
-Real time usage: 3.388 seconds
+CPU time usage: 1.780 seconds
+Real time usage: 2.568 seconds
 Preprocessor visited node count: 25022/1000000
 Post‐expand include size: 224109/2097152 bytes
 Template argument size: 50151/2097152 bytes
@@ -11312,28 +11312,28 @@ Highest expansion depth: 11/40
 Expensive parser function count: 0/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 9149/5000000 bytes
-Lua time usage: 0.376/10.000 seconds
-Lua memory usage: 3268604/52428800 bytes
+Lua time usage: 0.317/10.000 seconds
+Lua memory usage: 3265330/52428800 bytes
 Number of Wikibase entities loaded: 0/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00% 2158.619      1 -total
- 81.75% 1764.707    227 Template:Flagcountry
- 10.41%  224.759    227 Template:Flagcountry/core
-  7.91%  170.672      1 Template:Reflist
-  5.68%  122.646      2 Template:Cite_web
-  5.43%  117.180    232 Template:Main_other
-  4.53%   97.705      1 Template:Short_description
-  2.44%   52.678      1 Template:Population_country_lists
-  2.14%   46.113      1 Template:Navbox
-  2.00%   43.107      1 Template:Pagetype
+100.00% 1666.449      1 -total
+ 80.64% 1343.756    227 Template:Flagcountry
+ 10.77%  179.475    227 Template:Flagcountry/core
+  6.96%  115.930      1 Template:Reflist
+  5.86%   97.698      2 Template:Cite_web
+  5.43%   90.544    232 Template:Main_other
+  5.07%   84.459      1 Template:Short_description
+  3.43%   57.086      1 Template:Population_country_lists
+  3.09%   51.555      1 Template:Navbox
+  2.43%   40.535      1 Template:Pagetype
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:22314434-0!canonical and timestamp 20210323091328 and revision id 1013741794. Serialized with JSON.
+<!-- Saved in parser cache with key enwiki:pcache:idhash:22314434-0!canonical and timestamp 20210325103716 and revision id 1014131373. Serialized with JSON.
  -->
 </div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript>
-<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1013741794">https://en.wikipedia.org/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1013741794</a>"</div></div>
+<div class="printfooter">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1014131373">https://en.wikipedia.org/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1014131373</a>"</div></div>
 		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Demographic_lists" title="Category:Demographic lists">Demographic lists</a></li><li><a href="/wiki/Category:Lists_of_countries" title="Category:Lists of countries">Lists of countries</a></li><li><a href="/wiki/Category:Lists_of_countries_by_population-related_issue" title="Category:Lists of countries by population-related issue">Lists of countries by population-related issue</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li></ul></div></div>
 	</div>
 </div>
@@ -11461,7 +11461,7 @@ Transclusion expansion time report (%,ms,calls,template)
 		<span>Tools</span>
 	</h3>
 	<div class="vector-menu-content">
-		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/List_of_countries_by_median_age" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/List_of_countries_by_median_age" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1013741794" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=List_of_countries_by_median_age&amp;action=info" title="More information about this page">Page information</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=List_of_countries_by_median_age&amp;id=1013741794&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1187207" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li></ul>
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/List_of_countries_by_median_age" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/List_of_countries_by_median_age" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=List_of_countries_by_median_age&amp;oldid=1014131373" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=List_of_countries_by_median_age&amp;action=info" title="More information about this page">Page information</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=List_of_countries_by_median_age&amp;id=1014131373&amp;wpFormIdentifier=titleform" title="Information on how to cite this page">Cite this page</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q1187207" title="Structured data on this page hosted by Wikidata [g]" accesskey="g">Wikidata item</a></li></ul>
 		
 	</div>
 </nav>
@@ -11494,7 +11494,7 @@ Transclusion expansion time report (%,ms,calls,template)
 </div>
 <footer id="footer" class="mw-footer" role="contentinfo" >
 	<ul id="footer-info" >
-	<li id="footer-info-lastmod"> This page was last edited on 23 March 2021, at 06:15<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-lastmod"> This page was last edited on 25 March 2021, at 10:37<span class="anonymous-show">&#160;(UTC)</span>.</li>
 	<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
 additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
 </ul>
@@ -11519,7 +11519,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </footer>
 
 
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"2.171","walltime":"3.388","ppvisitednodes":{"value":25022,"limit":1000000},"postexpandincludesize":{"value":224109,"limit":2097152},"templateargumentsize":{"value":50151,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":9149,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 2158.619      1 -total"," 81.75% 1764.707    227 Template:Flagcountry"," 10.41%  224.759    227 Template:Flagcountry/core","  7.91%  170.672      1 Template:Reflist","  5.68%  122.646      2 Template:Cite_web","  5.43%  117.180    232 Template:Main_other","  4.53%   97.705      1 Template:Short_description","  2.44%   52.678      1 Template:Population_country_lists","  2.14%   46.113      1 Template:Navbox","  2.00%   43.107      1 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.376","limit":"10.000"},"limitreport-memusage":{"value":3268604,"limit":52428800}},"cachereport":{"origin":"mw1333","timestamp":"20210323091331","ttl":2592000,"transientcontent":false}}});});</script>
-<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of countries by median age","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_countries_by_median_age","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1187207","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1187207","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2009-04-07T07:16:41Z","dateModified":"2021-03-23T06:15:36Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9c\/Median_age_by_country%2C_2016.svg","headline":"Wikimedia list article"}</script>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":195,"wgHostname":"mw1268"});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.780","walltime":"2.568","ppvisitednodes":{"value":25022,"limit":1000000},"postexpandincludesize":{"value":224109,"limit":2097152},"templateargumentsize":{"value":50151,"limit":2097152},"expansiondepth":{"value":11,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":9149,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00% 1666.449      1 -total"," 80.64% 1343.756    227 Template:Flagcountry"," 10.77%  179.475    227 Template:Flagcountry/core","  6.96%  115.930      1 Template:Reflist","  5.86%   97.698      2 Template:Cite_web","  5.43%   90.544    232 Template:Main_other","  5.07%   84.459      1 Template:Short_description","  3.43%   57.086      1 Template:Population_country_lists","  3.09%   51.555      1 Template:Navbox","  2.43%   40.535      1 Template:Pagetype"]},"scribunto":{"limitreport-timeusage":{"value":"0.317","limit":"10.000"},"limitreport-memusage":{"value":3265330,"limit":52428800}},"cachereport":{"origin":"mw1390","timestamp":"20210325103602","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of countries by median age","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_countries_by_median_age","sameAs":"http:\/\/www.wikidata.org\/entity\/Q1187207","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q1187207","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2009-04-07T07:16:41Z","dateModified":"2021-03-25T10:37:16Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9c\/Median_age_by_country%2C_2016.svg","headline":"Wikimedia list article"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":167,"wgHostname":"mw1389"});});</script>
 </body></html>
