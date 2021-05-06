@@ -2,7 +2,6 @@ import csv
 import os
 import requests
 import re
-from lxml.html import etree, parse
 from bs4 import BeautifulSoup
 
 # spletne strani iz katerih bomo jemali podatke
@@ -242,7 +241,7 @@ def poisci_in_izbrisi(imena, sez):
 def spremeni_drzave(sez):
     """ Nekatere drzave imajo razlicna poimenovanja. Funkcija jih poenoti."""
 
-    for el in [['Bahamas', 'The Bahamas'], ['Brunei', 'Brunei', 'Brunei Darussalar'], ['Cabo Verde', 'Cape Verde'], ['Congo (Congo-Brazzaville)', 'Congo', 'Republic of the Congo'], ["C&ocirc;te d'Ivoire", "Cote d'Ivoire", "Côte d'Ivoire", "Ivory Coast"], ['Czech Republic', 'Czechia (Czech Republic)'], ['DR Congo', 'Democratic Republic of the Congo'], ['Eswatini (Swaziland)', 'Eswatini', 'Eswatini (fmr. "Swaziland")', 'Swaziland'], ['F.S. Micronesia', 'Federated States of Micronesia', 'Micronesia, Federated States of', 'Micronesia'], ['Gambia', 'The Gambia'], ['Myanmar (Burma)', 'Myanmar', 'Myanmar (formerly Burma)'], ['Macedonia', 'North Macedonia'], ['Palestine', 'Palestine State', 'Palestinian Authority'], ['Russia', 'Russian Federation'], ['Syrian Arab Republic', 'Syria'], ['Timor Leste', 'Timor-Leste'], ['United States', 'United States of America'], ['Viet Nam', 'Vietnam']]:
+    for el in [['Bahamas', 'The Bahamas'], ['Brunei', 'Brunei ', 'Brunei Darussalam'], ['Cabo Verde', 'Cape Verde'], ['Congo (Congo-Brazzaville)', 'Congo', 'Republic of the Congo', 'Congo, Republic of the'], ["C&ocirc;te d'Ivoire", "Cote d'Ivoire", "Côte d'Ivoire", "Ivory Coast"], ['Czech Republic', 'Czechia (Czech Republic)'], ['DR Congo', 'Democratic Republic of the Congo', 'Congo, Democratic Republic of the'], ['Eswatini (Swaziland)', 'Eswatini', 'Eswatini (fmr. "Swaziland")', 'Swaziland'], ['F.S. Micronesia', 'Federated States of Micronesia', 'Micronesia, Federated States of', 'Micronesia'], ['Gambia', 'The Gambia'], ['Myanmar (Burma)', 'Myanmar', 'Myanmar (formerly Burma)'], ['Macedonia', 'North Macedonia'], ['Palestine', 'Palestine State', 'Palestinian Authority'], ['Russia', 'Russian Federation'], ['Syrian Arab Republic', 'Syria'], ['Timor Leste', 'Timor-Leste'], ['United States', 'United States of America'], ['Viet Nam', 'Vietnam'], ['The Netherlands', 'Netherlands'], ['Slovak Republic', 'Slovakia'], ['Taiwan Province of China', 'Taiwan'], ['Pakistan', 'Pakistan\n     '], ['Lebanon', 'Lebanon\n     '], ['Hong Kong', 'Hong Kong SAR'], ['Venezuela', 'Venezuela\n     '], ['Islamic Republic of Iran', 'Iran']]:
         poisci_in_izbrisi(el, sez)
     
 
@@ -254,13 +253,14 @@ def spremeni_drzave(sez):
 ##########################################################################################################################
 
 # seznam slovarjev želimo shraniti kot csv
-def save_as_csv(filename, list):
-    colnames = ['bdp 2020', 'povprecni vnos kcal', *list[4]]
+def save_as_csv(filename, lst):
+    colnames = [*lst[4], 'bdp 2020', 'povprecni vnos kcal']
     
     with open(filename, 'w', encoding='utf-8') as csvfile: 
         writer = csv.DictWriter(csvfile, fieldnames = colnames) 
         writer.writeheader() 
-        writer.writerows(list) 
+        writer.writerows(lst) 
+
 
 
 

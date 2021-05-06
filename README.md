@@ -4,15 +4,15 @@ Analizirala bom kako razvitost države in izobraženost državljanov vpliva na n
 
 Podatke bom vzela iz sledečih spletnih strani:
 
-* https://www.worldometers.info/geography/alphabetical-list-of-countries/
-* https://en.wikipedia.org/wiki/List_of_countries_by_median_age
-* https://en.wikipedia.org/wiki/List_of_countries_by_food_energy_intake
-* https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate
-* https://en.wikipedia.org/wiki/Education_Index
-* https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users
-* https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php
-* https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption
-* https://en.wikipedia.org/wiki/List_of_countries_with_McDonald%27s_restaurants
+* `https://www.worldometers.info/geography/alphabetical-list-of-countries/`
+* `https://en.wikipedia.org/wiki/List_of_countries_by_median_age`
+* `https://en.wikipedia.org/wiki/List_of_countries_by_food_energy_intake`
+* `https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate`
+* `https://en.wikipedia.org/wiki/Education_Index`
+* `https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users`
+* `https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php`
+* `https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption`
+* `https://www.atlasbig.com/en-us/countries-mcdonalds-shops`
 
 Zajela bom podatke o:
 
@@ -30,8 +30,8 @@ Delovne hipoteze:
 
 * V državah z višjim izbrazbenim indeksom večina državljanov uporablja internet.
 * Države z višjim BDP p.p. imajo višje izobrazbene indekse.
-* Delež prebivalcev s čezmerno težo je večji v državah z višjim BDP na prebivalca.
-* Ali obstaja povezava med starostno strukturo in številom MCDnald's restavracij?
+* Delež prebivalcev s čezmerno težo je večji v državah z višjim BDP na prebivalca in z višjim številom McDonald's restavracij.
 * Višji dnevni vnost kalorij pomeni večji delež prekomerno težkih.
+* Države z višjim izobrazbenim indeksam porabijo več energije.
 
-Pobrani podatki so zbrani v csv tabeli 'drzave.csv'. Ena vrstica predstavlja eno državo, v stolpcih pa so število prebivalcev, površina, povprečna starost, povprečna starost moških, povprečna starost žensk, povprečni dnevni vnos kalorij, delež prebivalsta s čezmerno težo, indeks izobrazbe, število uporabnikov interneta, BDP.
+Pobrani podatki so zbrani v csv tabeli 'drzave.csv'. Ena vrstica predstavlja eno državo, v stolpcih pa so število prebivalcev, površina, povprečna starost, povprečna starost moških, povprečna starost žensk, povprečni dnevni vnos kalorij, delež prebivalsta s čezmerno težo, indeks izobrazbe, število uporabnikov interneta, BDP, poraba energije, število McDonald's restavracij, število McDonald's restavracij na 100 000 prebivalcev.
