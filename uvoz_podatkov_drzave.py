@@ -167,10 +167,12 @@ def izobrazba(page_content):
     return novo
 
 ## Internet - (country, internet users, percent of population)
+#    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
+
 def internet(page_content):
-    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
+    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
-    novo = ustvari_slovar(result, ['st uporabnikov interneta', 'procent uporabnikov interneta'])
+    novo = ustvari_slovar(result, ['st uporabnikov interneta'])
     return novo
 
 ## BDP - (country, 2020 gdp)
@@ -286,6 +288,7 @@ def main(redownload=True, reparse=True):
 
         # izluscimo potrebne podatke
         umesni = eval(imena["filename" + str(i)])(html_data)
+        print(umesni)
 
         # sproti sestavljamo slovarje
         drzave = zdruzi(drzave, umesni, [])
@@ -303,12 +306,11 @@ if __name__ == '__main__':
 
 '''
 
-html_data = read_file_to_string('zajeti_podatki', 'mcdonalds')
-a = mcdonalds(html_data)
+html_data = read_file_to_string('zajeti_podatki', 'internet')
+a = internet(html_data)
 print(a)
-
-
-
 '''
+
+
 
 
