@@ -135,6 +135,7 @@ def glavni(page_content):
     pattern = re.compile('<tr> <td>.*?</td> <td style="font-weight: bold; font-size:15px">(.*?)</td> <td style="font-weight: bold; text-align:right"><a href="/world-population/.*?/">(.*?)</a></td> <td style="text-align:right">(.*?)</td> <td style="text-align:right">(.*?)</td> </tr>')
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['prebivalstvo', 'povrsina [km^2]'])
+
     return novo 
 
 ## Starost - (country, 2020 combined, male, female)
@@ -143,6 +144,7 @@ def starost(page_content):
 
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['povprecna starost', 'starost moski', 'starost zenske'])
+
     return novo
 
 ## Vnos kalorij - (country, average daily kcal)
@@ -150,6 +152,7 @@ def vnos_kalorij(page_content):
     pattern = re.compile(r'<tr>.*? title=".*?">(.*?)</a>\n</td>\n<td style="text-align:right;">(.*?)\n</td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['povprecni vnos kcal'])
+
     return novo
 
 ## Debelost - (country, obesity rate %)
@@ -157,22 +160,25 @@ def debelost(page_content):
     pattern = re.compile(r'<tr>\n.*? title=".*?">(.*?)</a>\n</td>\n<td>\d*\n</td>\n<td>(.*?)\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['% prekomero tezkih'])
+
     return novo
 
-## Izobrazba - (country, education index)
+## Izobrazba - (country, education index)  ###############
 def izobrazba(page_content):
     pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td align="left">.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['indeks izobrazbe 2015'])
+
     return novo
 
 ## Internet - (country, internet users, percent of population)
 #    pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>(.*?)%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
 
-def internet(page_content):
+def internet(page_content): #######################3
     pattern = re.compile(r'<tr>\n<td>\d*</td>\n<td>.*?title=".*?">(.*?)</a></td>\n<td>(.*?)</td>\n<td>.*?</td>\n<td>.*?</td>\n<td>.*?%</td>\n<td>.*?</td>\n<td>.*?\n</td></tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['st uporabnikov interneta'])
+    print(novo)
     return novo
 
 ## BDP - (country, 2020 gdp)
@@ -180,6 +186,7 @@ def bdp(page_content):
     pattern = re.compile(r'<tr><td class="name">(.*?)</td><td class="data">(.*?)</td>.*?</tr>', re.DOTALL)
     result = re.findall(pattern, page_content)
     novo = ustvari_slovar(result, ['bdp 2020'])
+    print(novo)
     return novo
 
 ## Energija - (country, energy consumption)
@@ -288,14 +295,14 @@ def main(redownload=True, reparse=True):
 
         # izluscimo potrebne podatke
         umesni = eval(imena["filename" + str(i)])(html_data)
-        print(umesni)
 
         # sproti sestavljamo slovarje
         drzave = zdruzi(drzave, umesni, [])
 
     spremeni_drzave(drzave)
     drzave = sorted(drzave, key=lambda k: k['drzava'])
-    print(drzave)
+
+
     # shranimo v csv datoteko
     save_as_csv(csv_filename, drzave)
 
