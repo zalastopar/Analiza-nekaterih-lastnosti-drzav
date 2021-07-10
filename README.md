@@ -32,4 +32,6 @@ Delovne hipoteze:
 
 Pobrani podatki so zbrani v csv tabeli 'immadegen.csv'. Ena vrstica predstavlja enega Visitorja, v stolpcih pa so ime Visitorja, ozadje, obleka, izraz, oči, očala, pokrivalo, usta, vrat, nos, koža, način prodaje, cena. 
 
+Podatki so bili iz spletne strani vzeti 10.7.2021.
+
 
