@@ -175,10 +175,11 @@ def main(redownload=True, reparse=True):
 
     slovarji = []
 
-    for i in range(6249, 10000):
-        time.sleep(0.1)
+    for i in range(1, 10000):
+        time.sleep(0.15)
         # naložimo spletne strani za vsako kategorijo
-        save_frontpage(link + str(i), directory, ime + str(i))
+        #save_frontpage(link + str(i), directory, ime + str(i))
+
         html_data = read_file_to_string(directory, ime + str(i))
         vsebina = dobi_vsebino(html_data)
         slovar = izluscimo_text(ime + str(i), vsebina)
