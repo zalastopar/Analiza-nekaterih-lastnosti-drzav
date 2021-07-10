@@ -1,37 +1,35 @@
-# Vpliv razvitosti države na življenje državljanov
+# Primerjanje NFT zbirke Visitors of Imma Degen
 
-Analizirala bom kako razvitost države in izobraženost državljanov vpliva na njihovo življenje. Za merilo razvitosti bom vzela nominalni BDP na prebivalca iz leta 2020. Opazovala bom, kako višina BDP-ja vpliva na starostno strukturo, povprečen dnevni vnos kalorij, izobraženost prebivalcev, delež prebivalsta s prekomerno težo in število uporabnikov interneta.
+Analizirala bom zbirko [NFT-jev (Non-fungible token)](https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq), ki se imenuje Visitors of Imma Degen. Prodajajo se na platformi Open Sea, iz katere bom tudi črpala podatke. Lastnosti Visitorjev so naključno generirane, zato ima vsak svojo vrednost glede na redkost lastnosti. V moji nalogi bom ugotavljala redkost posameznih lastnosti in kako to vpliva na vrednost posameznega NFT-ja. 
 
-Podatke bom vzela iz sledečih spletnih strani:
 
-* `https://www.worldometers.info/geography/alphabetical-list-of-countries/`
-* `https://en.wikipedia.org/wiki/List_of_countries_by_median_age`
-* `https://en.wikipedia.org/wiki/List_of_countries_by_food_energy_intake`
-* `https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate`
-* `https://en.wikipedia.org/wiki/Education_Index`
-* `https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users`
-* `https://statisticstimes.com/economy/countries-by-projected-gdp-capita.php`
-* `https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption`
-* `https://www.atlasbig.com/en-us/countries-mcdonalds-shops`
+
+<figure align>
+  <img src="https://lh3.googleusercontent.com/uheB3AQcDJ2et9fjOqMKxTgS5FobhsRvqo4ZTA8hZBvJLuVDwG_XaoRtodshA42JN6PPDf_ciMOAcC-wXSroi-dWg_hM5PxTIofiOA=w600" alt="alt text" width="200" height="200" align = "right">
+
+</figure>
+
+
+<br clear="left"/>
+
+
+Podatke bom vzela iz sledeče spletne strani:
+
+* https://opensea.io/assets/visitors-of-imma-degen 
 
 Zajela bom podatke o:
 
-* površini držav in številu prebivalcev
-* starostni strukturi (mediana starosti prebivalcev, mediana starosti moških, mediana straosti žensk)
-* dnevni vnos kalorij (povprečni dnevni vnos kalorij državljanov)
-* debelosti prebivalstva (procent državljanov, ki imajo prekomerno težo)
-* izobrazbi (izobrazbeni indeks)
-* številu uporabnikov interneta
-* BDP na prebivalca
-* povprečna poraba energije na prebivalca v vatih
-* številu McDonald's restavracij
+* lastnostih Visitorjev
+* ceni posameznega NFT-ja
 
 Delovne hipoteze:
 
-* V državah z višjim izbrazbenim indeksom večina državljanov uporablja internet.
-* Države z višjim BDP p.p. imajo višje izobrazbene indekse.
-* Delež prebivalcev s čezmerno težo je večji v državah z višjim BDP na prebivalca in z višjim številom McDonald's restavracij.
-* Višji dnevni vnost kalorij pomeni večji delež prekomerno težkih.
-* Države z višjim izobrazbenim indeksam porabijo več energije.
+* 
 
-Pobrani podatki so zbrani v csv tabeli 'drzave.csv'. Ena vrstica predstavlja eno državo, v stolpcih pa so število prebivalcev, površina, povprečna starost, povprečna starost moških, povprečna starost žensk, povprečni dnevni vnos kalorij, delež prebivalsta s čezmerno težo, indeks izobrazbe, število uporabnikov interneta, BDP, poraba energije, število McDonald's restavracij, število McDonald's restavracij na 100 000 prebivalcev.
+
+
+
+
+Pobrani podatki so zbrani v csv tabeli 'immadegen.csv'. Ena vrstica predstavlja enega Visitorja, v stolpcih pa so ime Visitorja, ozadje, obleka, izraz, oči, očala, pokrivalo, usta, vrat, nos, koža, način prodaje, cena. 
+
+
