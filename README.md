@@ -15,6 +15,4 @@ Delovne hipoteze:
 
 * 
 
-Pobrani podatki so zbrani v csv tabeli 'immadegen.csv'. Ena vrstica predstavlja enega Visitorja, v stolpcih pa so ime Visitorja, ozadje, obleka, izraz, oči, očala, pokrivalo, usta, vrat, nos, koža, način prodaje, cena.
-
-![slika](https://lh3.googleusercontent.com/uheB3AQcDJ2et9fjOqMKxTgS5FobhsRvqo4ZTA8hZBvJLuVDwG_XaoRtodshA42JN6PPDf_ciMOAcC-wXSroi-dWg_hM5PxTIofiOA=w600){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+Pobrani podatki so zbrani v csv tabeli 'immadegen.csv'. Ena vrstica predstavlja enega Visitorja, v stolpcih pa so ime Visitorja, ozadje, obleka, izraz, oči, očala, pokrivalo, usta, vrat, nos, koža, način prodaje, cena. ![slika](https://lh3.googleusercontent.com/uheB3AQcDJ2et9fjOqMKxTgS5FobhsRvqo4ZTA8hZBvJLuVDwG_XaoRtodshA42JN6PPDf_ciMOAcC-wXSroi-dWg_hM5PxTIofiOA=w600 | width = 100)
