@@ -9346,9 +9346,9 @@ Visitor9344,Red,Suit,Confident,Silver,,,Pipe,,Silver Nose Stud,Cyborg,Not for sa
 Visitor9345,Yellow,,Confident,Silver,Eyepatch,Police Helmet,Respirator,,,Blue,Not for sale,
 Visitor9346,Purple,Varsity,Confident,White,Aviators,Coolie Hat,,,Silver Brow Stud,Cyborg,Not for sale,
 Visitor9347,Purple,Mariniere,Tired,Silver,,Ethereum,Pipe,Silver Necklace,Silver Septum Piercing,Trippy,Not for sale,
-Visitor9348,Pink,Red T-shirt,Surprised,Navy,Round Glasses,Flak Helmet,Fangs,Gold Necklace,,Cyberpunk,Not for sale,
+Visitor9348,Pink,Red T-shirt,Surprised,Navy,Round Glasses,Flak Helmet,Fangs,Gold Necklace,,Cyberpunk,Buy,0.1 
 Visitor9349,Purple,Bath Robe,Surprised,Navy,3D Glasses,Bolero,Buck Teeth,,Silver Septum Piercing,Gold,Not for sale,
-Visitor9350,Red,Leather Jacket,Surprised,Navy,,Devo,Gagged,,,Cyborg,Buy,0 
+Visitor9350,Red,Leather Jacket,Surprised,Navy,,Devo,Gagged,,,Cyborg,Buy,0.25 
 Visitor9351,Pink,Red Leather Vest,Confident,Lime,VR,Do Rag,ToothPick,Silver Necklace,,Glowing Tats,Buy,5 
 Visitor9352,Blue,Black Tank Top,Confident,Golden,Aviators,Bolero,Pipe,Silver Necklace,Silver Brow Stud,Cyborg,Not for sale,
 Visitor9353,Purple,Suit,Tired,Navy,Heart Glasses,Horns,Pipe,,,Green,Not for sale,
@@ -9378,7 +9378,7 @@ Visitor9376,Green,Leather Jacket,Confident,Navy,Aviators,Antennae,,,Silver Lip R
 Visitor9377,Pink,Red Jersey,Tired,Navy,Eyepatch,Antennae,,Silver Necklace,,Tats,Not for sale,
 Visitor9378,Blue,Leather Jacket,Delusional,Lime,Steampunk,Do Rag,,,Silver Brow Stud,Blue,Not for sale,
 Visitor9379,Space,Hoodie Down,Tired,Lime,,Viking,Pipe,,Silver Lip Ring,Green,Not for sale,
-Visitor9380,Red,Hoodie Down,Confident,Silver,Round Glasses,Floppy Hat,,,,Green,Buy,0 
+Visitor9380,Red,Hoodie Down,Confident,Silver,Round Glasses,Floppy Hat,,,,Green,Buy,0.2 
 Visitor9381,Red,Hoodie With Jacket,Surprised,Lime,Thug Life,Ushanka,Gagged,,,Blue,Not for sale,
 Visitor9382,Yellow,Bath Robe,Surprised,Navy,Doc Glasses,Headphones,Buck Teeth,,Silver Nose Stud,Blue,Not for sale,
 Visitor9383,Green,,Surprised,Lime,,Skullcap,Bandit Mask,,,Trippy,Not for sale,
@@ -9419,7 +9419,7 @@ Visitor9417,Orange,Black T-shirt,Tired,Navy,,Punk Spikes,,Gold Necklace,Silver L
 Visitor9418,Green,Black Tank Top,Tired,Visitor,,Chef's Hat,,,,Silver,Not for sale,
 Visitor9419,Red,Varsity,Delusional,Visitor,,Flak Helmet,Gagged,,,Red,Not for sale,
 Visitor9420,Pink,Yellow Jersey,Tired,Silver,Holographic,Antennae,Bubble Gum,Silver Necklace,Silver Brow Stud,Blue,Not for sale,
-Visitor9421,Pink,,Delusional,Navy,Blindfold,,Knife,Gold Necklace,Silver Brow Stud,Gold,Not for sale,
+Visitor9421,Pink,,Delusional,Navy,Blindfold,,Knife,Gold Necklace,Silver Brow Stud,Gold,Buy,2 
 Visitor9422,Green,Red Leather Vest,Confident,Twirl,Aviators,Headphones,Bubble Gum,,,Green,Buy,0.15 
 Visitor9423,Purple,Bath Robe,Delusional,Lime,Imma Human,,,,,Green,Buy,1 
 Visitor9424,Orange,Alien,Confident,Stoned,,,Gagged,,,Green,Not for sale,
@@ -9433,7 +9433,7 @@ Visitor9431,Blue,Leather Jacket,Confident,Visitor,Heart Glasses,Ushanka,Rose,,Si
 Visitor9432,Orange,Hoodie With Jacket,Surprised,Navy,Eyepatch,,,,Clown,War Paint,Not for sale,
 Visitor9433,Red,Hawaiian,Surprised,Silver,,Chef's Hat,Bandit Mask,,,Cyborg,Not for sale,
 Visitor9434,Purple,Red T-shirt,Tired,Twirl,Aviators,Bolero,Face Mask,Silver Necklace,,Cyberpunk,Not for sale,
-Visitor9435,Yellow,Suit,Confident,Lime,Monocle,Backwards Cap,Bubble Gum,,Silver Lip Ring,Cyberpunk,Buy,0.222 
+Visitor9435,Yellow,Suit,Confident,Lime,Monocle,Backwards Cap,Bubble Gum,,Silver Lip Ring,Cyberpunk,Not for sale,
 Visitor9436,Pink,,Delusional,Navy,Heart Glasses,Headphones,Bandit Mask,Ethereum Necklace,,Silver,Buy,0.9 
 Visitor9437,Green,,Delusional,White,Round Glasses,,Rose,,,Silver,Not for sale,
 Visitor9438,Green,Black T-shirt,Surprised,Navy,,Police,Knife,,Clown,Trippy,Not for sale,
@@ -9464,7 +9464,7 @@ Visitor9462,Yellow,Hawaiian,Surprised,Lime,Aviators,,Pipe,Gold Necklace,Silver L
 Visitor9463,Red,Black T-shirt,Surprised,Navy,,Viking,Bandit Mask,Neck Pillow,Gold Brow Stud,Red,Not for sale,
 Visitor9464,Pink,Hawaiian,Confident,Navy,Monocle,Bucket Hat,Pipe,Ethereum Necklace,Silver Lip Ring,Poison,Not for sale,
 Visitor9465,Blue,Red T-shirt,Delusional,Lime,Round Glasses,Ethereum,Rose,,Silver Lip Ring,War Paint,Not for sale,
-Visitor9466,Purple,Hawaiian,Surprised,Navy,,Do Rag,Pipe,Ethereum Necklace,,Joker,Buy,1151.1518 
+Visitor9466,Purple,Hawaiian,Surprised,Navy,,Do Rag,Pipe,Ethereum Necklace,,Joker,Buy,1.234 
 Visitor9467,Pink,Bulletproof Vest,Tired,Silver,Heart Glasses,Chef's Hat,Fangs,Silver Necklace,Gold Lip Ring,Cyberpunk,Not for sale,
 Visitor9468,Yellow,Mariniere,Surprised,Rainbow,Heart Glasses,Ethereum,Fangs,Neck Pillow,Gold Lip Ring,Blue,Not for sale,
 Visitor9469,Blue,Hawaiian,Tired,Navy,Blindfold,Beanie,Bandit Mask,,,Blue,Not for sale,
@@ -9478,7 +9478,7 @@ Visitor9476,Green,Black T-shirt,Confident,Navy,,Spartan,,Silver Necklace,,Blue,B
 Visitor9477,Purple,,Surprised,Lime,,Beanie,ToothPick,,Silver Nose Stud,Trippy,Not for sale,
 Visitor9478,Blue,Alien,Delusional,Lime,Heart Glasses,Halo,,,Silver Nose Stud,Tats,Not for sale,
 Visitor9479,Pink,Bath Robe,Surprised,Visitor,Round Glasses,Beanie,,,,Poison,Not for sale,
-Visitor9480,Blue,,Confident,Navy,,Top Hat,Bandit Mask,Pearl Necklace,,Silver,Not for sale,
+Visitor9480,Blue,,Confident,Navy,,Top Hat,Bandit Mask,Pearl Necklace,,Silver,Buy,1 
 Visitor9481,Green,Suit,Confident,Visitor,,Headphones,,,Silver Septum Piercing,Green,Not for sale,
 Visitor9482,Purple,,Tired,Lime,,Chef's Hat,Knife,,,Red,Not for sale,
 Visitor9483,Yellow,Hawaiian,Tired,Navy,,Bubble,,Silver Necklace,,Blue,Not for sale,

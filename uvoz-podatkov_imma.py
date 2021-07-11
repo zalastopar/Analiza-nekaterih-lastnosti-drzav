@@ -108,6 +108,7 @@ def oceni(page_content):
     # preverimo, če ima Visitor fiksno ceno
     if bool(re.search(izraz_za_ceno, page_content)):
         cena = soup.find("div", class_= "Overflowreact__OverflowContainer-sc-10mm0lu-0 fqMVjm Price--amount")
+
         slovar['Type'] = 'Buy'
         slovar['Price'] = spremeni_v_stevilko(cena.text)
         return slovar
