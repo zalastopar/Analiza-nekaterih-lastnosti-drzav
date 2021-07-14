@@ -196,10 +196,10 @@ def main(redownload=True, reparse=True):
 
     slovarji = []
 
-    for i in range(1, 10000):
+    for i in range(8940, 10000):
         #time.sleep(0.15)
         # naložimo spletne strani za vsako kategorijo
-        #save_frontpage(link + str(i), directory, ime + str(i))
+        save_frontpage(link + str(i), directory, ime + str(i))
 
         # poiščemo potrebne podatke in jih shranimo v slovar
         html_data = read_file_to_string(directory, ime + str(i))
@@ -229,13 +229,3 @@ def main(redownload=True, reparse=True):
 
 if __name__ == '__main__':
     main()
-
-'''
-
-a = '4,200'
-m = '4,200'
-c = m.replace(',', '')
-spremeni_v_stevilko(a)
-
-print(c)
-'''
