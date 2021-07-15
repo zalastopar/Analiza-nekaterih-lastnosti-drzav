@@ -21,7 +21,8 @@ Zajela bom podatke o:
 Delovne hipoteze:
 
 * Redkejše lastnosti pomenijo višjo ceno
-* Obstaja lastnost, ki jo lastniki NFTjev raje zadržijo zase, kot prodajo
+* Ali obstaja lastnost, ki jo lastniki NFTjev raje zadržijo zase, kot prodajo
+* Ali obstaja lastnost, ki jo lastniki NFTjev raje prodajo
 * Ali lastnost, ki je estetsko bolj privlačna prinese višjo ceno
 
 Pobrani podatki so zbrani v csv tabeli 'immadegen.csv'. Ena vrstica predstavlja enega Visitorja, v stolpcih pa so ime Visitorja, ozadje, obleka, izraz, oči, očala, pokrivalo, usta, vrat, nos, koža, način prodaje, cena.
