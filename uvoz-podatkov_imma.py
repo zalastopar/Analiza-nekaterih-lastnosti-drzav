@@ -199,7 +199,7 @@ def main(redownload=True, reparse=True):
     for i in range(1, 10000):
         #time.sleep(0.15)
         # naložimo spletne strani za vsako kategorijo
-        #save_frontpage(link + str(i), directory, ime + str(i))
+        save_frontpage(link + str(i), directory, ime + str(i))
 
         # poiščemo potrebne podatke in jih shranimo v slovar
         html_data = read_file_to_string(directory, ime + str(i))
